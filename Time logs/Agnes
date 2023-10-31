@@ -13,11 +13,20 @@ Monday
 - Grand Meeting 11:30.
 - Test in lab? Possible to solder another op amp to try double sensors on circuit?
 
+
 Tuesday
 - Group meeting 10:15
+- Got a new soldered LM358 to fit breadboard from Anders!
+- Rebuilt circuit directly through Raspberry Pi (if find low power mode). Getting very strange response compared to multimeter...
+- It seems the IR diode is not possible to power through Raspberry's pins either.
+- Borrowed a MOSFET to build a switch instead to power it in intervals from DC source.
+- Once again tried to simulate a tranceimpedance amplifier but couldn't get high enough gain even with 40MEG feedback resistors.
 
 
 Wednesday
+- Check if both sides of the (dual) op amp works.
+- Need help with Raspberry AC input..
+
 Thursday
 Friday
 Saturday
