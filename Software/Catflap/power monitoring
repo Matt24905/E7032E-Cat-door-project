@@ -1,0 +1,20 @@
+from machine import Pin, Timer, ADC, PWM
+import time
+
+BAT_MON_EN = Pin(22, Pin.OUT)
+
+Warning_lamp = PWM(Pin(4, Pin.OUT))
+
+
+BAT_MON = ADC(Pin(26))
+
+while True:
+    BAT_MON_EN.value(1)
+    print(BAT_MON.read_u16())
+    time.sleep(0.31)
+    if BAT_MON.read_u16() < 29300:
+        print("Low battery!")
+        Warning_lamp.duty_u16(5000)
+        BAT_MON_EN.value(0)
+    else:
+        Warning_lamp.duty_u16(0)
