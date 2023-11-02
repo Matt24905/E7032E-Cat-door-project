@@ -1,30 +1,21 @@
 from machine import Pin, Timer, PWM
 import time
 
-led = Pin(25, Pin.OUT)
-led.value(1)
-
 led1 = PWM(Pin(4, Pin.OUT)) 				  #Red
 led2 = PWM(Pin(3, Pin.OUT))					  #Green
 led3 = PWM(Pin(2, Pin.OUT)) 				  #Blue
 button2 = Pin(0, Pin.IN, Pin.PULL_UP)  #High button
 button1 = Pin(15, Pin.IN, Pin.PULL_UP)  #Low button
+led1.freq(5000)
+led2.freq(5000)
+led3.freq(5000)
 
-#Ugly Y-code by Ma****, will fix later (maybe) 
 def blink(led):
-    led.duty_u16(5000)
-    time.sleep(0.3)
-    led.duty_u16(0)
-    time.sleep(0.3)
-    led.duty_u16(5000)
-    time.sleep(0.3)
-    led.duty_u16(0)
-    time.sleep(0.3)
-    led.duty_u16(5000)
-    time.sleep(0.3)
-    led.duty_u16(0)
-    time.sleep(0.3)
-
+    for i in range(5):
+        led.duty_u16(5000)
+        time.sleep(0.5)
+        led.duty_u16(0)
+        time.sleep(0.5)
  
 #Time sleep defines how long the LED is on
 def static(led):
