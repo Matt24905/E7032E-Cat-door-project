@@ -1,11 +1,59 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                TO DO
+
+- Test original CatFlap diodes on gray objects
+- Simulate switches for powering diodes PSpice
+- Build switches for powering diodes 
+- Learn how to save data to ATTINY85 to then read and make graphs
+- Find 3 test-furballs in different shades of grey xD
+- Check frequency of sensor system and ev. add LPF for reading through microcotrollers.
+- Add condensators to circuit to make response more stable.
+- "Wake up" Raspberry with switch --> Start a LED and read input (OUT/IN)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                WEEK 45
+
+Monday
+- No meeting
+- Other course work.
+
+
+Tuesday
+- Group meeting 10:15
+- Skip the "sleep mode" Raspberry Pi eventuality. Low power micro controller works anyway.
+- Placed order of MOSFETS and better op-amps + for breadboard.
+
+
+Wednesday
+- Laboratory work in other course.
+
+
+Thursday
+- Test IR sensors in original CatFlap (gray object)
+- Check frequency.
+
+
+Friday
+- Train to Sthlm. Bad Wi-Fi.
+
+
+Weekend
+- Simulate and save graphs
+- Ev. build and test switch circuit.
+- Learn how to save data to then read from microcontroller w/o serial port.
+- Write report.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 44
 
 - Build switch circuit to power diodes and start Rasp. Already on PCB?
 - Communicate with Raspberry Pi. What pins on PCB? 
 - New courses.
 - Mid-term presentation when...?
-- Try PIR again if time over... better for gray cats and not as "angle-sensitive"?
+- Try PIR again if time over. better for gray cats and not as "angle-sensitive"?
 
 
 Monday
@@ -27,10 +75,7 @@ Wednesday
 - Check if both sides of the (dual) op amp works.
 - Need help with Raspberry AC input..
 
-Thursday
-Friday
-Saturday
-Sunday
+[Forgot to log more]
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 43
