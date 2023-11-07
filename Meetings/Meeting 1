@@ -1,3 +1,20 @@
+Meeting 10
+Time, date: 7/11
+Attending: Arvid, Agnes, Jakob, Matilda
+
+- Agnes åker hem på fredag. Har ganska mycket rapport att skriva, ska jobba på den när hon är borta
+- Antenngänget har inte gjort så mycket, ska se till så de får iväg beställningen. När de väntar 
+  ska de skriva rapport och kanske börja designa kretsen, lägga in det i nästa PCB-design. 
+- Matilda jobbar hela veckan, men tar med sig raspberryn och ska försöka jobba på den när hon får tid. 
+- Agnes är typ klar med TINY som start, men får konstigt svar. Jakob rekommenderar att sätta ett aktivt
+  lågpassfilter på dem, analog input på raspberryn är inte jättebra. Stabilt på multimetern, men inte 
+  på raspberryn. Referensvärdet blir off när man använder USB. Extern elkälla, svårt att samla värden. 
+  Klipp av power i USB-kabeln så man bara skickar data? Agnes kanske testar! 
+- Vi tror att det är bra med tinyn, så vi fortsätter på det spåret.
+- Anders får fortsätta med signalanalys och se om vi behöver göra om mätningarna. 
+- Agnes får kolla på de sensorer som sitter på luckan och se om de också är dåliga för grå katter.
+
+
 Meeting 9
 Time, date: 31/10, 10:20
 Attending: Everyone!
