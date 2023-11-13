@@ -53,3 +53,4 @@ PCB Design:
 ProxMark3Easy:
  How to install the proxmark. https://forum.dangerousthings.com/t/getting-started-with-the-proxmark3-easy/9050 2023-10-20
  T5577 info: https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/T5577_Guide.md
+ Stand alone version install: https://github.com/RfidResearchGroup/proxmark3/wiki/Standalone-mode
