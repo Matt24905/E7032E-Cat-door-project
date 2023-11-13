@@ -1,0 +1,105 @@
+HF 13.54MhZ:
+
+hf search
+hf mf sim --1k -u 0DAe7D24
+hf 14a sim -t 8 --uid 0DAe7D24
+
+hf mf csetuid -u 0DAE7D24 (CHANGE UID)
+
+hf 14a reader -@
+
+
+
+
+LF 125-134.2KhZ:
+
+lf t55xx dump
+lf t55xx detect
+
+
+lf search 
+
+lf em 410x reader
+lf em 410x demod
+
+
+
+data plot
+data timescale --sr 134 -u ms
+data grid -x 64
+
+lf config --134
+
+lf em 410x reader
+	After trim.
+lf em 410x demod
+data save -f GoodTestEM410x
+
+Inverted Manchester Encoding
+EM 410x ID 0E000A4DE2
+EM410X ( RF/64 )
+DEZ 10         : 0000675298
+VD / ID            : 014 / 0000675298
+
+
+
+111111111		9 bits all 1
+0000	0	0		Even parity bit
+1110	1	E
+
+0000	0	0
+0000	0	0
+0000	0	0
+1010	0	A
+0100	1	4
+1101	1	D
+1110	1	E
+0010	1	2
+
+0001	0	1 stop bit (0)
+
+4 column parity bits.
+
+0E 000A4DE2
+
+Decimal : 0000675298
+HEX: A4DE2
+
+
+
+lf fdxb reader
+	After trim
+lf fdxb demod
+
+
+
+00000000001
+
+12486248 (1 2 4 8 16 32 64 128)
+01010010	74
+01010100	42
+01100001	134
+00010010	72
+11101011	23 111010(11) 	
+10011111	999	11111001(11)	1+2+4+32+64+128+256+512=999	
+00000000	0 (Status flag flase) Data block false
+00000001	1 animal indicator TRUE!
+11101011	74D7	Checksum (87)	
+00101110		Checksum (108)
+00000000	0	Extra Data bits
+00000000	0	Extra Data bits
+00000000	0	Extra Data bits
+
+BINARY: 0111010011010111
+HEX: 74D7
+
+01010010010101000110000100010010111010 In order reading
+
+BINARY: 01011101001000100001100010101001001010	reversed.
+DEC: 100001000010
+HEX: 1748862A4A
+
+
+
+
+
