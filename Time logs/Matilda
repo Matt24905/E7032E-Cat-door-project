@@ -1,3 +1,13 @@
+WEEK 46
+- Created a database from which I can find, add, and delete entries. 
+- Played around more with wifi and servers, can control pins from my phone.
+- Coding in progress, lots of unefined work that's difficult to write down in bullet points. Working on 
+  creating entries in the database when receiving input from the cat flap, as well as figurung out how to 
+  structure the code to ensure best practices. 
+
+WEEK 45
+- Worked all week, received the raspberry pi tuesday, managed to get wifi up and running
+
 WEEK 44
 - Finished the PCB, buttons, LEDs, and motor now works with our code!
 - Meeting with Jan
