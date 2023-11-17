@@ -1,8 +1,8 @@
 Save your sources people!
 
 GPS location och väder API: 
-https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
-https://openweathermap.org/
+https://pub.dev/packages/geolocator
+https://www.weatherapi.com/
 
 
 
