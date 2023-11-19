@@ -51,3 +51,17 @@ customer input to know what could be cool to add as features in the app.
 
 Week 45
 Have started working on the backend using Flask. Trying to understand how to implement functionality to the backend and connecting it to the frontend and database with different APIs'. 
+
+Week 46
+After hours of research (and pain) I have began to develope different functions for the application:
+Weather function,
+Through live GPS location where I collect the latitude and longitude from the user phone, which the app has to 
+ask for permission first. The coordinates are then used to get information about the weather 
+from where the user are in real time. This is handled with an API that is connected to a server that 
+gives live weather updates where the coordinates are the input.
+Connected to local backend server:
+I have successfully created a small project that uses the backend server of Flask. The backend is also 
+connected to a database (SQLite). Now traffic through API can be gathered from the database, handled by 
+the backend and requested from the users frontend. 
+The last part will be continued worked on, as it is the communication between the phyisical catFlap and 
+the app. 
