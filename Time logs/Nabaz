@@ -26,7 +26,7 @@ Because the solution of the switch was to consume less power, the BJT solution w
 be used with a lower gate threshold voltage. 
 
 Week 40
-Been finishing up the final tweeks of the IR sensors part. So I been working on the report writing mostly about the genereal
+Been finishing up my final tweeks of the IR sensors part. So I been working on the report writing mostly about the genereal
 structur and the IR sensors method and theory. Also started focusing more on the programing for the project and more
 specificly the app. Never done an app before so I been researching different frameworks where I can develope the app. Mostly 
 searching for extensions from python, as django, Kivy, Beeware to see what is possible to develope there, can I develope
