@@ -12,16 +12,50 @@
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                WEEK 47   -  Be better at Time Logging
+
+- Sit more in project room (bring sensor system).
+- Do the todo.
+- Report: Gather data, measurements and simulations. Graphs. Circuit diagrams.
+
+
+Monday
+- Grand meeting 11:30
+
+Tuesday
+- Group meeting 14:00 (?) 
+- Pack system. Simulate switch. Need flyback diode? 
+- Write report.
+
+Wednesday
+- Project room  9-12
+
+Thursday
+- Project room  9-12
+
+Friday
+- Project room 10-13
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                WEEK 46 
+- In Sthlm.
+- Rebuilt circuit back to attiny.
+- Started drawing up circuit diagrams. Software?
+- Started on report. 
+- Collecting files. Checking simulations. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 45
 
 Monday
 - No meeting
-- Other course work.
 
 
 Tuesday
 - Group meeting 10:15
-- Skip the "sleep mode" Raspberry Pi eventuality. Low power micro controller works anyway.
+- Skip the "sleep mode" Raspberry Pi eventuality. Low power micro controller works!
 - Placed order of MOSFETS and better op-amps + for breadboard.
 
 
@@ -30,8 +64,8 @@ Wednesday
 
 
 Thursday
-- Test IR sensors in original CatFlap (gray object)
-- Check frequency.
+- Tested IR sensors in original CatFlap (gray object)
+- Added relay to power diode circuit. Was too high voltage relay. Might work with > 5-7 V.
 
 
 Friday
