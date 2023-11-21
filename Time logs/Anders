@@ -1,11 +1,23 @@
+
+WEEK 47:
+  Monday: 
+    Meeting with Jan, and worked on trying to get the raspberrypi-Pico to work in sleep mode.
+  Tuesday:
+  Wednesday:
+  Thursday:
+  Friday:
+
 WEEK 46:
   Monday:
     Wrote some on the report
     Meeting with Jan
     Manage to decode the cat-transponder with the proxmark and understand the protocol and been able to decode the signals for both the FDXB and EM410X cards, ME HAPPY! :D
   Tuesday:
+    Measurement with Johan of two tags (EM410x and FDX-B) from the proxmark3 with a fancy oscilloscope.
   Wednesday:
+    Worked on matlab to be able to detect the tags that where measured.
   Thursday:
+    Kept worked on matlab to be able to detect the tags that where measured.
   Friday:
 
 
