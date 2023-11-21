@@ -27,3 +27,15 @@ Flera möten med Johan, där drivningen av antennen löstes. Jobbade också på 
 Kollat PWM signalen från raspberry pi. Såg ut som förväntant (enligt det vi simulerat).
 Iprincip hela kresten fungerar i simuleringen. Några få saker saknas i simuleringen men är lösta i verkligheten, (stega ned höga spänningen och inducering av spolen/taggen).
 Kollat runt mycket på komponenter och simulerat och checkat att krestsdesignen ser okej ut enligt honom.
+
+44
+Glömde fylla i denna vecka, minns ej exakt vad som gjordes
+
+45
+Gjorde en koll av komponenterna vi hade valt, bytte ut någon och lade sedan beställningen. Gjorde några justeringar av kresten angående stegen efter envelopeföljaren.
+
+46
+Jobbade på med PCBn, fick hjälp av Johan att tillverka den här på skolan. Fick resten av komponenterna så allting löddes på kretskortet på fredagen. Kopplade upp kresten på slutet av dagen och fick den inte att fungera. Hann ej felsöka.
+
+47
+
