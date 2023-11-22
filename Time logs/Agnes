@@ -1,40 +1,54 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 TO DO
 
-- Test original CatFlap diodes on gray objects
-- Simulate switches for powering diodes PSpice
-- Build switches for powering diodes 
+- Update when away for xmas (~23 dec)
 - Learn how to save data to ATTINY85 to then read and make graphs
-- Find 3 test-furballs in different shades of grey xD
 - Check frequency of sensor system and ev. add LPF for reading through microcotrollers.
-- Add condensators to circuit to make response more stable.
-- "Wake up" Raspberry with switch --> Start a LED and read input (OUT/IN)
+- Measure and add capacitors to circuit to make response more stable.
+- Find 3 test-furballs in different shades of grey to test on final flap.
 
+✔ Test original CatFlap diodes on gray objects
+✔ Simulate switches for powering diodes PSpice
+✔ Build switches for powering diodes AND Raspberry Pi
+✔ "Wake up" Raspberry with switch --> Start a LED and read input (OUT/IN)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 47   -  Be better at Time Logging
 
 - Sit more in project room (bring sensor system).
-- Do the todo.
+- Do the todos.
 - Report: Gather data, measurements and simulations. Graphs. Circuit diagrams.
 
 
 Monday
 - Grand meeting 11:30
 
+
 Tuesday
-- Group meeting 14:00 (?) 
-- Pack system. Simulate switch. Need flyback diode? 
-- Write report.
+- Built second part of sensor system, programmed attiny to send signals from both.
+- Simulated switch in PSpice.
+- Built the switch with borrowed MOSFET. Got voltage drop.
+
 
 Wednesday
-- Project room  9-12
+- Group meeting 12:45
+    - How draw circuit diagram, Kicad.
+    - Power source voltage? 3.3 V --> Need to tweak current circuit based on 3.3 instead of 5 V.
+    - How to build switch (Between DC source sensor circuit AND start raspberry pi)
+- Can use switches implemented on PCB.
+- Learn how to save data to then read from microcontroller w/o serial port.
+- Pack system. 
+- Write report.
+
 
 Thursday
 - Project room  9-12
 
+
 Friday
 - Project room 10-13
+
+
 
 
 
@@ -75,8 +89,6 @@ Friday
 Weekend
 - Simulate and save graphs
 - Ev. build and test switch circuit.
-- Learn how to save data to then read from microcontroller w/o serial port.
-- Write report.
 
 
 
