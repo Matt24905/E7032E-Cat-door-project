@@ -1,12 +1,26 @@
 Meeting 11
 Time, date: 22/11 
-Attending:
+Attending: Everyone! 
 
 - Diskussionspunkter:
-  - Sikta på att bli klar innan jul?
-  - Antennkod - IC eller egen kod?
-  - När åker alla hem?
   - Uppdaterad GANTT-chart
+    - Ser bra ut, lägg in saker om ni ser något som saknas. 
+  - Sikta på att bli klar innan jul?
+    - Klart med hela projektet och rapporten, lämna presentationen till efter jul. 
+    - Gemensamma saker ska prioriteras, så kattluckan blir klar. Projekt - rapport - presentation. 
+  - När åker alla hem?
+    - Alla åker hem typ efter 20e. 
+  - Antennkod - IC eller egen kod?
+    Arvid tror inte att det är så svårt, alla andra är rädd. Omvandlig från signal från antenn till 
+    den output vi behöver känns svårt tycker Anders. Kan det finnas bibliotek i Python? Kanske. Hittade inte 
+    finnas när Matilda och Anders googlde igår.
+    - Vem kan klarna upp dimman? Arvid och Jakob kan börja leka lite. 
+- Nebez, presentationer har varit oklara. Jan verkar lite annoyed. Har gjort en cool powerpoint för bättre struktur!
+  Alla tycker det är bra, let's go. Nebez frågade vad han vill ha, presentera det vi jobbat med, förstår någon vad 
+  du pratar om? Försöka förklara som att du förklarar åt dina föräldrar. 
+
+- Nebez behöver lösenord (URI-key) till databas. Matilda löser så fort hon hittar den. 
+
   
 Meeting 10
 Time, date: 7/11
