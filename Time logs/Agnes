@@ -12,6 +12,7 @@
 ✔ Build switches for powering diodes AND Raspberry Pi
 ✔ "Wake up" Raspberry with switch --> Start a LED and read input (OUT/IN)
 
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 47   -  Be better at Time Logging
 
@@ -33,22 +34,19 @@ Tuesday
 Wednesday
 - Group meeting 12:45
     - How draw circuit diagram, Kicad.
-    - Power source voltage? 3.3 V --> Need to tweak current circuit based on 3.3 instead of 5 V.
     - How to build switch (Between DC source sensor circuit AND start raspberry pi)
 - Can use switches implemented on PCB.
 - Learn how to save data to then read from microcontroller w/o serial port.
-- Pack system. 
-- Write report.
+- Rewrote and adjusted circuit to run on 3.3V instead of 5V. ATtiny script stopped working...
 
 
 Thursday
-- Project room  9-12
-
+- Keep working on 3.3V circuit if time over.
+- Pack system. 
 
 Friday
-- Project room 10-13
-
-
+- Project room
+- Test and adjust circuit to CatFlap box.
 
 
 
