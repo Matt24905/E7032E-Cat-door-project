@@ -1,12 +1,14 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 TO DO
 
+
 - Update when away for xmas (~23 dec)
 - Learn how to save data to ATTINY85 to then read and make graphs
 - Check frequency of sensor system and ev. add LPF for reading through microcotrollers.
 - Measure and add capacitors to circuit to make response more stable.
 - Find 3 test-furballs in different shades of grey to test on final flap.
 
+✔ Order new ATtiny85.
 ✔ Test original CatFlap diodes on gray objects
 ✔ Simulate switches for powering diodes PSpice
 ✔ Build switches for powering diodes AND Raspberry Pi
@@ -14,11 +16,30 @@
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                WEEK 48 
+
+- Inform group 10:00-14:00 robotics lab on Tue, 14:00-16:00 Wed - will probably get extended.
+- Ask about I/O for other version of ATtiny85 (reset, Low power DO) to make sure script has correct connections.
+- Continue to write report.
+
+
+Monday
+- Grand meeting 11:30
+
+
+Wednesday
+- Group meeting.
+
+
+Weekend
+- Work time slot! Probably most time over from robotic labs.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 47   -  Be better at Time Logging
 
 - Sit more in project room (bring sensor system).
-- Do the todos.
-- Report: Gather data, measurements and simulations. Graphs. Circuit diagrams.
+- Do Todos.
+- Start on report
 
 
 Monday
@@ -41,12 +62,20 @@ Wednesday
 
 
 Thursday
-- Keep working on 3.3V circuit if time over.
-- Pack system. 
+- Kept working on getting 3.3V circuit to work in the evening.
 
-Friday
-- Project room
-- Test and adjust circuit to CatFlap box.
+Saturday
+- Kept working on getting 3.3V circuit to work.
+- Rechecked all the requirments since it did not work when it should.
+- Apparently have a "special" version of ATtiny85 that requires > 7V to work.
+- Researched components and ordered a regular ATtiny85. Only the microcontroller and no extra module with direct USB connection.
+- Learned how to use Arduino UNO as an ISP (programmer) for ATtiny85 without USB module.
+- Updated code for that pinout. Remeber to use RESET as AC input and see more what it does.
+
+Sunday (if time over from robotics lab)
+- Email Jan about schedule.
+- Finish writing pseudo code for ATtiny, preten having a standard version. 
+- Check datasheets.
 
 
 
