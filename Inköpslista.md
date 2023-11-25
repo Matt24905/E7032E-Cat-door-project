@@ -5,7 +5,7 @@
 | 6/10     |PCB  things from Farnell     |34 items| I send an email with the basket and its also on git as "ShoppingBasket"                | <ul><li>[x] </li></ul>  | <ul><li>[x] </li></ul> | 
 | 30/10     |OP amp rekommenderad    |1 items| https://se.farnell.com/microchip/mcp6l01ut-e-ot/ic-op-amp-1-0mhz-1-8v-sot23-5/dp/1852141?st=mcp6l01                | <ul><li>[x] </li></ul>  | <ul><li>[x] </li></ul> | 
 | 30/10     |OP amp till breadboard     |1 items| https://se.farnell.com/texas-instruments/lm358p/ic-op-amp-dual-dip8-358/dp/3117074?st=lm358  | <ul><li>[x] </li></ul>  | <ul><li>[x] </li></ul> | 
-| 25/11     |ATtiny85     |1 items| [https://se.farnell.com/texas-instruments/lm358p/ic-op-amp-dual-dip8-358/dp/3117074?st=lm358](https://se.farnell.com/microchip/attiny85-20pu/mcu-8bit-attiny-20mhz-dip-8/dp/1455162?st=attiny)  | <ul><li>[x] </li></ul>  | <ul><li>[x] </li></ul> | 
+| 25/11     |ATtiny85     |1 items| [ ATTINY85 Farnell ](https://se.farnell.com/microchip/attiny85-20pu/mcu-8bit-attiny-20mhz-dip-8/dp/1455162?st=attiny)  | <ul><li>[x] </li></ul>  | <ul><li>[x] </li></ul> | 
 
 
 
