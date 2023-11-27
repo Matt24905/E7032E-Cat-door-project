@@ -2,8 +2,8 @@
                                 TO DO
 
 
-- Update when away for xmas (~23 dec)
-- Learn how to save data to ATTINY85 to then read and make graphs
+
+- Learn how to save data to ATtiny85 to then read and make graphs
 - Check frequency of sensor system and ev. add LPF for reading through microcotrollers.
 - Measure and add capacitors to circuit to make response more stable.
 - Find 3 test-furballs in different shades of grey to test on final flap.
@@ -13,13 +13,15 @@
 ✔ Simulate switches for powering diodes PSpice
 ✔ Build switches for powering diodes AND Raspberry Pi
 ✔ "Wake up" Raspberry with switch --> Start a LED and read input (OUT/IN)
+✔ Update when away for xmas (~23 dec)
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 48 
-
+- Write code for 3.3V ATtiny85 (without USB board)
+Adjust backup code for 5V to ATtiny, 3.3V to sensor system.
 - Inform group 10:00-14:00 robotics lab on Tue, 14:00-16:00 Wed - will probably get extended.
-- Ask about I/O for other version of ATtiny85 (reset, Low power DO) to make sure script has correct connections.
+- Lookup I/O for other version of ATtiny85 (reset, Low power DO) to make sure script has correct connections.
 - Continue to write report.
 
 
@@ -74,7 +76,7 @@ Saturday
 
 Sunday (if time over from robotics lab)
 - Email Jan about schedule.
-- Finish writing pseudo code for ATtiny, preten having a standard version. 
+- Finish writing pseudo code for ATtiny, pretens having a standard version. 
 - Check datasheets.
 
 
