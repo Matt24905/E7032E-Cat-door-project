@@ -2,6 +2,10 @@ WEEK 47
 - Meeting with Anders, project management things, updated GANTT-chart and found discussion points for the 
   group meeting. 
 - Tested so I can control the actual catflap from my phone, can control LEDs and the motor. 
+- Meeting with Nebez about integrating the database and the app
+- Meeting with the group
+- Wokred on modularizing the code
+- Kept working on database, created some functions to send relevant data to the database
 
 WEEK 46
 - Created a database from which I can find, add, and delete entries. 
