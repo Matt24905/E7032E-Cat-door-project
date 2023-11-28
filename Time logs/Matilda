@@ -1,9 +1,15 @@
+WEEK 48
+- Meeting with Jan
+- "Finished" modularizing code. Everything that I can test at home works together, will need to check
+  with the cat flap later (as well as wait for antenna and IR sensors) to make sure it works as intended. 
+
 WEEK 47
 - Meeting with Anders, project management things, updated GANTT-chart and found discussion points for the 
   group meeting. 
 - Tested so I can control the actual catflap from my phone, can control LEDs and the motor. 
-- Meeting with Nebez about integrating the database and the app
+- Meeting with Nabaz about integrating the database and the app
 - Meeting with the group
+- Meeting with Jan
 - Wokred on modularizing the code
 - Kept working on database, created some functions to send relevant data to the database
 
