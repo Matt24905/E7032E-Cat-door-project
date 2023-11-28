@@ -1,10 +1,7 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 TO DO
 
-
-
 - Learn how to save data to ATtiny85 to then read and make graphs
-- Check frequency of sensor system and ev. add LPF for reading through microcotrollers.
 - Measure and add capacitors to circuit to make response more stable.
 - Find 3 test-furballs in different shades of grey to test on final flap.
 
@@ -14,27 +11,39 @@
 ✔ Build switches for powering diodes AND Raspberry Pi
 ✔ "Wake up" Raspberry with switch --> Start a LED and read input (OUT/IN)
 ✔ Update when away for xmas (~23 dec)
-
+✔ Check frequency of sensor system and ev. add LPF for reading through microcotrollers.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 48 
 - Write code for 3.3V ATtiny85 (without USB board)
-Adjust backup code for 5V to ATtiny, 3.3V to sensor system.
-- Inform group 10:00-14:00 robotics lab on Tue, 14:00-16:00 Wed - will probably get extended.
+✔ Adjust backup code for 5V to ATtiny, 3.3V to sensor system.
+✔ Inform group 10:00-14:00 robotics lab on Tue, 14:00-16:00 Wed - will probably get extended.
 - Lookup I/O for other version of ATtiny85 (reset, Low power DO) to make sure script has correct connections.
 - Continue to write report.
 
 
 Monday
 - Grand meeting 11:30
+- Prepared PowerPoint but did not have access.
 
 
 Wednesday
-- Group meeting.
+- Built the 5V microcontroller to 3.3V IR circuit
+- Use the (lower) gain from second photosiode. Saturated op amp.
+- Wrote code to send / receive signals between attiny and raspberry.
+- Wrote script to turn off and on IR circuit 10 Hz.
+- Attiny usb connecton stopped working again. solved this time by completely remove from board during code load up.
+
+
+Thursday 
+- Group meeting 10:15
+- Bring things. Adapt gains and levels for original flap.
+- Test raspberry script.
+- Test switch if available.
 
 
 Weekend
-- Work time slot! Probably most time over from robotic labs.
+- Keep writing report.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 47   -  Be better at Time Logging
@@ -72,14 +81,12 @@ Saturday
 - Apparently have a "special" version of ATtiny85 that requires > 7V to work.
 - Researched components and ordered a regular ATtiny85. Only the microcontroller and no extra module with direct USB connection.
 - Learned how to use Arduino UNO as an ISP (programmer) for ATtiny85 without USB module.
-- Updated code for that pinout. Remeber to use RESET as AC input and see more what it does.
+- Updated code for that pinout.
 
 Sunday (if time over from robotics lab)
 - Email Jan about schedule.
-- Finish writing pseudo code for ATtiny, pretens having a standard version. 
+- Finish writing pseudo code for ATtiny, pretend having a standard version. 
 - Check datasheets.
-
-
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 46 
