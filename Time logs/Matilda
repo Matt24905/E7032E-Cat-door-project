@@ -1,7 +1,15 @@
 WEEK 48
 - Meeting with Jan
+- Been on a software mission to clean up the code and merge files. Also adding comments and helpful print statements 
 - "Finished" modularizing code. Everything that I can test at home works together, will need to check
   with the cat flap later (as well as wait for antenna and IR sensors) to make sure it works as intended. 
+- Solved issues with finding items in the database, kept returning true even if things did not exist, but works now. 
+- Realized I could test a lot more at home than I thought. Created some made-up functions to simulate antenna, a LED 
+  to simulate the behavior of the motor, and used a button to simulate input from the IR sensor. Can now replicate the 
+  desired behavior of the cat flap!
+  Made coding progress and am excited to try it out for real next week, solved a lot of bugs in the code and am on the 
+  hunt for more (as well as any missing functionality). Gotten the basics covered, now it's time to make it pretty! 
+- Been sick. Lucky for me, programming in bed is also a viable option :)
 
 WEEK 47
 - Meeting with Anders, project management things, updated GANTT-chart and found discussion points for the 
