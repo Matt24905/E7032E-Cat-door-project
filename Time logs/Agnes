@@ -15,11 +15,11 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 48 
-- Write code for 3.3V ATtiny85 (without USB board)
+✔ Write code for 3.3V ATtiny85 (without USB board)
 ✔ Adjust backup code for 5V to ATtiny, 3.3V to sensor system.
 ✔ Inform group 10:00-14:00 robotics lab on Tue, 14:00-16:00 Wed - will probably get extended.
-- Lookup I/O for other version of ATtiny85 (reset, Low power DO) to make sure script has correct connections.
-- Continue to write report.
+✔ Lookup I/O for other version of ATtiny85 (reset, Low power DO) to make sure script has correct connections.
+✔ Write on report.
 
 
 Monday
@@ -27,23 +27,44 @@ Monday
 - Prepared PowerPoint but did not have access.
 
 
-Wednesday
+Tuesday
 - Built the 5V microcontroller to 3.3V IR circuit
 - Use the (lower) gain from second photosiode. Saturated op amp.
 - Wrote code to send / receive signals between attiny and raspberry.
 - Wrote script to turn off and on IR circuit 10 Hz.
-- Attiny usb connecton stopped working again. solved this time by completely remove from board during code load up.
+- Attiny usb connecton stopped working again. solved by completely remove from board during code load up.
 
+
+Wednesday 
+- Group meeting 10:15
+- Brought the sensor circuit. Adapted gains and levels for original flap.
+- Tested raspberry script (recieve).
+- Got a micro ATtiny85 "standard version" soldered to fit breadboard.
 
 Thursday 
-- Group meeting 10:15
-- Bring things. Adapt gains and levels for original flap.
-- Test raspberry script.
-- Test switch if available.
+- Figured out how to program it via Arduino UNO as ISP.
+- Did tests and hunted out the numbering of pins from Arduino code.
+1 = A0     8 = VCC
+2 = A3     7 = 2
+3 = 4      6 = 1 
+4 = GND    5 = 0
+- Uploaded codes and tested pins.
 
 
-Weekend
-- Keep writing report.
+Friday
+- Not getting contact with pin 6.. 
+- Might also be a component/soldering issue.
+- Discussed to buy a version with more pins or reduce requirements.
+- PCB planning: We'll use the 'breadboard version' to easily reprogram it.
+- Won't need to recieve info from Raspberry when to start again. Check by IR sensors when cat is gone.
+
+
+Sunday / Monday
+- Recheck pins.
+- Is RESET functioning properly?
+- Read data via Arduino (MISO, MOSI).
+- Send circuit diagram for pcb v2.0
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 47   -  Be better at Time Logging
