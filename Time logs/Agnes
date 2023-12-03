@@ -59,7 +59,13 @@ Friday
 - Won't need to recieve info from Raspberry when to start again. Check by IR sensors when cat is gone.
 
 
-Sunday / Monday
+Sunday 
+- Tutorial: Use RESET as I/O pin:
+https://m.youtube.com/watch?time_continue=10&v=yAT_TdD6nL0&embeds_referring_euri=https%3A%2F%2Fforum.arduino.cc%2F&source_ve_path=MTM5MTE3LDI4NjY2&feature=emb_logo
+
+
+
+Monday
 - Recheck pins.
 - Is RESET functioning properly?
 - Read data via Arduino (MISO, MOSI).
