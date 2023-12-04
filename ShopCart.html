@@ -1,0 +1,3278 @@
+<!DOCTYPE html>
+
+<input type="hidden" value="https://se.farnell.com/webapp/wcs/stores/servlet/PFShopCartDownloadPDF?catalogId=15001&currentOrderId=&langId=46&storeId=10177&BASE_URL=BasketPage" name="shippingChargeValue" id="shippingChargeValue" />
+
+
+<html xmlns:wairole="http://www.w3.org/2005/01/wai-rdf/GUIRoleTaxonomy#" xmlns:waistate="http://www.w3.org/2005/07/aaa" lang="sv" xml:lang="sv">
+	<head>
+		<!-- CMS identifier is tag page = OrderItemDisplay -->
+	
+		<title>Farnell Sverige</title>
+		<!--  include omniture tagging -->
+
+<script   type="text/javascript">
+	var digitalData = JSON.parse('{"page":{"pageNode":"Shopping Cart:Shopping Cart","repositoryPath":"ShoppingBasket","cname":"target.farnell.com","bloomreach":{"viewId":"FARNELL_SE"},"section":"Shopping Cart","store":"FARNELL","locale":{"country":"SE","language":"sv","currency":"SEK"},"pageName":"Farnell Sverige"},"cart":{"allItemsTotal":"91.12","line":[{"unitPrice":"23.95","quantity":"2","linePrice":"47.9","discountPrice":"47.9","orderCode":"1455162","manufacturerPartNo":"ATTINY85~20PU","manufacturer":"MICROCHIP"},{"unitPrice":"17.31","quantity":"2","linePrice":"34.62","discountPrice":"34.62","orderCode":"1972172","manufacturerPartNo":"ATTINY84A~PU","manufacturer":"MICROCHIP"},{"unitPrice":"1.72","quantity":"5","linePrice":"8.6","discountPrice":"8.6","orderCode":"1574370","manufacturerPartNo":"2N3904","manufacturer":"MULTICOMP PRO"}]}}');
+	digitalData.page.pageURL = window.location.origin + window.location.pathname;
+	
+	if(typeof digitalData.user == "undefined"){
+		digitalData.user={};	
+	}	
+	
+	var dd_domain = JSON.parse('{"en":"farnell","sv":"farnell"}');
+	if(dd_domain){
+		let domainKey=dd_domain[digitalData.page.locale.language];
+		if(typeof digitalData.page.bloomreach == "undefined"){
+				digitalData.page.bloomreach={};	
+			}	
+		digitalData.page.bloomreach.domain=domainKey;
+	}
+	
+	var regEx = new RegExp("PF_DTM_USER_VISIT=([^;]+)");
+    var userCookieVal = regEx.exec(document.cookie);	
+	if(userCookieVal != undefined) {
+		userCookieVal = JSON.parse(decodeURIComponent(userCookieVal[1]));
+		var currentTimeStamp=new Date();
+		var pageLoadTimeStamp=new Date(userCookieVal.pageLoadTime);
+		var initialTimeStamp=new Date(userCookieVal.initialTime);
+		var userVisitNum=userCookieVal.visitNum;
+		
+		if(diff_hours(currentTimeStamp, initialTimeStamp) <= 12) {
+			if(diff_min(currentTimeStamp, pageLoadTimeStamp) > 30) {
+				userVisitNum+=1;
+			}
+		} else {					
+			initialTimeStamp=currentTimeStamp;
+			userVisitNum+=1;
+		}		
+		digitalData.user.visitNumber = userVisitNum;	
+	} else {
+		digitalData.user.visitNumber = 1;
+	}
+	
+	if("true" == "true") {
+		var pfUserIdCookie = document.cookie.match(/\bPF_VISITOR_ID=([^;]+)/);
+		if(pfUserIdCookie && pfUserIdCookie[1]){
+			digitalData.user.webAccountId = pfUserIdCookie[1];
+			let cur_profile = JSON.parse(localStorage.getItem("user_role_"+pfUserIdCookie[1]));
+			if(cur_profile){
+				digitalData.user.role=cur_profile.role;
+				digitalData.user.usage=cur_profile.usage;
+			}
+		}
+	}
+
+	var deviceTypeDTM = '';
+	if(!digitalData.user && deviceTypeDTM == "") {
+		digitalData.user={};
+		digitalData.user.deviceType = "desktop";
+		digitalData.user.isLoggedIn="no";
+	}
+		
+	function diff_hours(dt2, dt1) {
+		var diff =(dt2.getTime() - dt1.getTime()) / 1000;
+		diff /= (60 * 60);
+		return Math.abs(Math.round(diff));
+	}
+	
+	function diff_min(dt2, dt1) {
+		var diff =(dt2.getTime() - dt1.getTime()) / 1000;
+		diff /= (60);
+		return Math.abs(Math.round(diff));		  
+	}
+</script>
+
+
+	<script type="text/javascript">		
+		var targetPageParams = function() {
+			digitalData.at_property = "f40561ea-63b4-c904-1e13-100075f144d1";
+			return digitalData;
+		}
+	</script>
+
+					<meta name="description" content="Electronic Components Distributor | Farnell Sverige Sverige" />
+			    
+			
+  <!-- #sudo-f - mkOnReady embed -->  <DIV>        <script type="text/javascript">            window.mkOnReady = (function() {                var done = false;                var fnList = [];                var fnPrimary = [];                window.mkOnReadyExec = function() {                    var arr = fnPrimary.concat(fnList);                    for(var s = 0, l = arr.length; s < l; s++){                        try {                            arr[s]();                        } catch (e) {                            if(console)                                console.error(e);                        }                    }                    done = true;                };                return function(fn, label) {                    if(typeof fn === 'function') {                        if (done) {                            try {                                fn();                            } catch (error) {                                console.error(error);                            }                        } else {                            if(label && label === 'primary') {                                fnPrimary.push(fn);                            } else {                                fnList.push(fn);                            }                        }                    }                }            })();        </script>    </DIV>    <script type="text/javascript">  var lpUnit = 'sv_SE';  </script><link type="text/css" rel="stylesheet" href="/wcsstore/ExtendedSitesCatalogAssetStore/cms/asset/css/common/mk-styles-global-overrides.css?mktver1"/><link type="text/css" rel="stylesheet" href="/wcsstore/ExtendedSitesCatalogAssetStore/cms/asset/css/common/mk_merchandising.1.0.2.css?mktver1"/><DIV><link type="text/css" rel="stylesheet" href="/wcsstore/ExtendedSitesCatalogAssetStore/cms/asset/css/common/marketing_stylesheet/mkt.css?mktver2"/></DIV>
+	    
+
+<link rel="preconnect" href="//cdn-ukwest.onetrust.com"> 
+<link rel="dns-prefetch" href="//cdn-ukwest.onetrust.com"> 
+
+
+
+<script>
+	var onetrustEnable = false;
+	var storeImgBaseDir = '/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/';
+</script>
+
+
+
+
+<script>
+	onetrustEnable = true;
+</script>
+
+	<script type="text/javascript" src="https://cdn-ukwest.onetrust.com/consent/0f7149a8-fd22-4c9a-b511-44b316ed99bd/OtAutoBlock.js" ></script>
+	<script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="0f7149a8-fd22-4c9a-b511-44b316ed99bd" ></script>
+	
+	<script type="text/javascript">
+		function OptanonWrapper() {
+			var storeDualLang = 'true';
+			var isNativeLang = false;
+			oneTrustConsentChanged();
+			if(Boolean(storeDualLang)){
+				    function prettify(str) {
+						var words = str.match(/([^-]+)/g) || [];
+						if(words[0] == words[1]) isNativeLang = true;
+						words[1] = words[1].toUpperCase();
+						return words.join('-');
+					}
+					var locale = prettify(dojoConfig.locale);
+					if(!isNativeLang){
+						var moreInfo = document.getElementById("onetrust-policy-text");
+						var moreInfoLink = moreInfo.getElementsByTagName("a")[0];
+						var href = moreInfoLink.getAttribute("href");					
+						moreInfoLink.setAttribute("href", "/"+locale+href);
+					}
+				}
+				function getCookie(name) {
+				    var dc = document.cookie;
+				    var prefix = name + "=";
+				    var begin = dc.indexOf("; " + prefix);
+				    if (begin == -1) {
+				        begin = dc.indexOf(prefix);
+				        if (begin != 0) return null;
+				    }
+				    else
+				    {
+				        begin += 2;
+				        var end = document.cookie.indexOf(";", begin);
+				        if (end == -1) {
+				        	end = dc.length;
+				        }
+				    }
+				    return decodeURI(dc.substring(begin + prefix.length, end));
+				} 
+				
+				function oneTrustConsentChanged() {
+				    var myCookie = getCookie("OptanonAlertBoxClosed");
+				    var eventDispatched = getCookie("eventDispatched");
+				    if (myCookie != null && eventDispatched == "false") {
+			    		const event = new Event('OneTrustConsentChanged');
+						document.dispatchEvent(event);
+						document.cookie = "eventDispatched=true";
+				    } else {
+				    	if(eventDispatched == null){
+				    		document.cookie = "eventDispatched=false";
+				    	}
+				    } 
+				}
+		}
+		
+	</script>
+
+
+<script>
+var _STOP_FRAMEWORK = false;
+var i;
+var cookieBanner_match_val = "34"; 
+</script>
+
+	<script>
+		var mboxCreate = window.mboxCreate || proxyMboxFN('mboxCreate')
+	    var mboxDefine = window.mboxDefine || proxyMboxFN('mboxDefine')
+	    var mboxUpdate = window.mboxUpdate || proxyMboxFN('mboxUpdate')
+    
+	   function proxyMboxFN(label){
+	        return function() {
+	          
+	          var args = [].slice.call(arguments);
+	          args.unshift(label);
+	          executeOnLoaded.apply(null, args)
+	        }
+	    }
+	    function executeOnLoaded() {
+	        var at = {
+	            mboxCreate: mboxCreate,
+	            mboxDefine: mboxDefine,
+	            mboxUpdate: mboxUpdate
+	        }
+	
+	        
+	        var args = [].slice.call(arguments);
+	        var label = args.shift();
+	
+	        document.addEventListener("at-library-loaded", function(event){
+	           
+	           at[label].apply(null, args)
+	        })
+	    }
+	</script>
+
+
+<script>
+    var isVistorApiHardcoded=false;
+    
+	function Preload(preloadURLS) {
+		this.get = preloadURLS;
+	}
+
+	Preload.prototype.go = function() {
+		var keys = Object.keys(this.get);
+		
+		if (window.onetrustEnable && keys.indexOf('cookieBanner') != -1){
+			keys.splice(keys.indexOf('cookieBanner'), 1);
+		}
+		
+		for (var i = 0; keys[i]; i++){
+			var thePreload = this.get[keys[i]];
+			
+			if (thePreload.url && (thePreload.out == undefined)) {
+				thePreload.out = new XMLHttpRequest();
+				thePreload.out.open('GET', thePreload.url);
+				thePreload.out.onload = thePreload.out.onerror = thePreload.out.ontimeout = function(thePreload){
+					return function() {
+						thePreload.xhr = thePreload.out;
+						
+						if (thePreload.callback) thePreload.callback(thePreload.xhr);
+					}
+				}(thePreload);
+				thePreload.out.send();
+		}	}
+	};
+
+	Preload.prototype.use = function(name, fn) {
+		var thePreload = this.get[name];
+		
+		if (!thePreload) return;
+
+		if (thePreload.xhr) {
+			fn(thePreload.xhr)
+		} else if (typeof thePreload.callback == 'function') {
+			thePreload.callback = (function(xhr) {
+				var cached_function = thePreload.callback;
+				return function(xhr) {
+					var existing = cached_function.apply(this, arguments);
+					fn(xhr);
+					return existing;
+				};
+			})();
+		} else {
+			thePreload.callback = fn;
+		}
+	};
+</script>
+
+<script>
+
+
+var preloadPaths = {};
+var isPunchoutUserVal = 'false';
+if(document.cookie.match('PF_HEADER_INFO') != undefined ) {
+ 	var cookieNme = 'PF_HEADER_INFO';
+ 	var headerInfoFlag = document.cookie.match(RegExp('(?:^|;\\s*)' + escape(cookieNme) + '=([^;]*)'));
+ 	//STM5-1609 
+ 	var sessionEmail = sessionStorage.getItem('loginClick');
+ 	if(headerInfoFlag != null && headerInfoFlag[1] == 'Y' ){
+ 		if(sessionEmail){
+	 		preloadPaths.header = {url:'/HeaderInfo?preload&userdata=all&storeId=10177&catalogId=15001&langId=46&pageName=ShoppingBasket&ddata=Y'};
+	 		sessionStorage.removeItem('loginClick');
+ 		}
+ 		else{
+ 			 preloadPaths.header = {url:'/HeaderInfo?preload&userdata=all&storeId=10177&catalogId=15001&langId=46&pageName=ShoppingBasket'};
+ 		}
+ 	}	
+
+
+}
+
+
+	preloadPaths.informationBannerContent = {url:'/AjaxGetCMSContent?catalogId=15001&langId=46&storeId=10177&contentName=pf_banner_homepage_espot'};
+
+
+var preloads = new Preload(preloadPaths);
+preloads.go();
+</script>
+
+<script>
+function quikskript(url) {
+	var s = document.createElement('script');
+	s.setAttribute('src',url);
+	s.loaded = false;
+	s.onload = function() { console.log("-- loaded %s",s.getAttribute('src'));
+		s.loaded = true;
+		for(var i=0;s.afterLoad[i];i++) { s.afterLoad[i](); }
+	};
+	s.afterLoad = [];
+	s.run = function (f) {
+		if (s.loaded) {f()} else {s.afterLoad.push(f)};
+	};
+	document.head.appendChild(s);
+	return s;
+}
+
+
+var globalPageName = "ShoppingBasket";
+var storeId = '10177';
+var catalogId = '15001';
+var langId = '46';
+
+window.Adoro = {};
+window.pfCheckoutHelperJS = {};
+window.PFCommonHelperJS = {};
+var isIE = false || !!document.documentMode;
+
+
+var vnJsonVData;
+var vnErrData;
+
+</script>
+
+
+
+
+<link rel="preconnect" href="//target.farnell.com"> 
+<link rel="dns-prefetch" href="//target.farnell.com"> 
+
+
+	<link rel="preconnect" href="//cdn.decibelinsight.net"> 
+	<link rel="dns-prefetch" href="//cdn.decibelinsight.net"> 
+
+				<script>
+				if ( null != (document.cookie.match(/^(?:.*;)?\s*OptanonAlertBoxClosed\s*=\s*([^;]+)(?:.*)?$/)||[,null])[1])
+				{
+					;(function(win, doc, style, timeout) {
+					var STYLE_ID = 'at-body-style';
+					
+						function getParent() {
+							return doc.getElementsByTagName('head')[0];
+						}
+						
+						function addStyle(parent, id, def) {
+							if (!parent) {
+							return;
+							}
+						
+							var style = doc.createElement('style');
+							style.id = id;
+							style.innerHTML = def;
+							parent.appendChild(style);
+						}
+						
+						function removeStyle(parent, id) {
+							if (!parent) {
+							return;
+							}
+						
+							var style = doc.getElementById(id);
+						
+							if (!style) {
+							return;
+							}
+						
+							parent.removeChild(style);
+						}
+						
+						addStyle(getParent(), STYLE_ID, style);
+						setTimeout(function() {
+							removeStyle(getParent(), STYLE_ID);
+						}, timeout);
+					}(window, document, "body {opacity: 0 !important}", 3000));
+				}
+				</script>
+						
+						<script src="/wcsstore/ExtendedSitesCatalogAssetStore/cms/asset/js/europe/launch/launch-EN0ce986abb6a242a284958671cd113fe0.min.js?v=1" async></script>
+					
+<script>
+window.lazySizesConfig = window.lazySizesConfig || {};
+
+lazySizesConfig.init = false;
+
+lazySizesConfig.expand = 100;
+</script>
+
+
+<script id="dojo-config" type="text/javascript">
+
+
+window.dojoConfig || (window.dojoConfig = {});
+dojoConfig.async = true;
+dojoConfig.parseOnLoad = false;
+dojoConfig.isDebug = false;
+dojoConfig.basePath = '../';
+
+
+
+var packageObj = [
+ {
+	name: 'dojo',
+	location: '/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/js/dist/dojo'
+}, {
+	name: 'dijit',
+	location: '/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/js/dist/dijit'
+}, {
+	name: 'dojox',
+	location: '/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/js/dist/dojox'
+}, {
+	name: 'pf',
+	location: '/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/js/dist/pf'
+}, {
+	name: 'jquery',
+	location: '/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/js/dist/jquery'
+}, {
+	name: 'lazysizes',
+	location: '/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/js/dist/lazysizes',
+	main: 'lazysizes-umd'
+}
+
+];
+
+dojoConfig.packages = packageObj;
+dojoConfig.baseUrl = '/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/js/dist/';
+dojoConfig.locale = 'sv-se';
+dojoConfig.cacheBust = "chupsVersion";
+dojoConfig.deps = isIE ? ['pf/priority/Promise', 'pf/priority'] : ['pf/priority'];
+</script>
+
+
+
+
+		<script src="/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/js/dist/dojo/dojo.js"></script>
+
+	
+
+<script>
+
+
+
+require(['pf/priority/switches', 'pf/priority/appVals'], function(switches, appVals) {
+	switches.set = { 'isTestEnv': 'FALSE' };
+	
+	appVals.set = { cmsRegion: 'europe', locale: 'sv_SE', cookieBanner_match_val: cookieBanner_match_val };
+});
+
+</script>
+
+
+<script>
+if (window.NodeList && !NodeList.prototype.forEach) {
+   NodeList.prototype.forEach = Array.prototype.forEach;
+}
+</script>
+<script>
+
+var prevPurchSerFlag = false;
+
+prevPurchSerFlag = true;
+
+var pfUsernewCookie = document.cookie.match(/\bPF_VISITOR_ID=([^;]+)/);
+</script>
+
+
+
+<script>
+if (!_STOP_FRAMEWORK) { 
+	console.log("js framework start");
+	performance.mark('framework-start');
+
+	require(['pf/common'], function() {
+		require(['pf/ShoppingBasket'], function() {
+			console.log('js framework loaded');
+			performance.mark('framework-loaded');
+			performance.measure('framework loaded', 'framework-start', 'framework-loaded');
+		})
+	});
+}
+</script>
+
+<script>
+	if (!window.document.documentMode) {
+		if (window.performance && window.performance.getEntriesByType('navigation').length > 0) {
+			var nav = window.performance.getEntriesByType('navigation');
+			if(nav){
+				if(nav[0].serverTiming){
+					nav[0].serverTiming.forEach(function(metric) {
+						if (metric.name === 'FromEdge') window.servedFromEdge = metric.description;
+					});
+				}
+			}
+		}
+	}
+</script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+	/* Fix for  SD-3569*/
+	const currentURL = window.location.href;
+	const parentDivLangSelect = document.querySelector('.lang-selector');
+	const deCHClassElement = parentDivLangSelect.querySelector('.flags.de_CH');
+	if (currentURL.includes('gross_price=true') && document.documentElement.lang !== 'en' && deCHClassElement) {
+		const prodDescWrapper = document.querySelector('.product-overview.pdpProductContent');
+		if (prodDescWrapper) {
+		  prodDescWrapper.style.display = 'none';
+		}
+	}
+	/* Fix for  SD-3569*/
+	const lsHeadless = localStorage.getItem('HeadlessDesign');
+	if(lsHeadless){
+		const targetHostHlCpc = 'cpc';
+		const targetHost = ['cpc', 'onecall', 'newark', 'element14'];
+		const sourceHostHl = window.location.hostname;
+		const bodyDesktop = document.body;
+		const vatSwitchBoxBlock = document.getElementById('vatToggleWrapper');
+		const fontUrls = [
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Regular-Web.eot',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Regular-Web-New.woff2',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Regular-Web.woff',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Regular-Web.ttf',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Regular-Web.svg',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Light-Web.eot',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Light-Web-New.woff2',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Light-Web.woff',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Light-Web.ttf',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Light-Web.svg',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Bold-Web.eot',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Bold-Web-New.woff2',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Bold-Web.woff',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Bold-Web.ttf',
+		'/wcsstore/AuroraB2BStorefrontAssetStore/font/headless/ApercuPro-Bold-Web.svg'
+		];
+
+		const headTagHeadless = document.head;
+
+		for (const fontUrl of fontUrls) {
+			const linkCustomFont = document.createElement('link');
+
+			linkCustomFont.rel = 'preload';
+			linkCustomFont.href = fontUrl + '?' + 20230308;
+			linkCustomFont.as = 'font';
+			linkCustomFont.type = 'font/' + fontUrl.split('.').pop();
+
+			linkCustomFont.crossOrigin = 'anonymous';
+			headTagHeadless.appendChild(linkCustomFont);
+		}
+
+		let headlessDesktopStyle = document.createElement('link');
+		headlessDesktopStyle.rel = 'stylesheet';
+		headlessDesktopStyle.href = '/wcsstore/AuroraB2BStorefrontAssetStore/css/headlessDesktopStyle.css?20230308';
+		document.head.appendChild(headlessDesktopStyle);
+
+		if (vatSwitchBoxBlock !== null) {
+			if (vatSwitchBoxBlock.classList.contains('displayNone')) {
+				bodyDesktop.classList.remove('vatSwitchBoxBlock');
+			} else {
+				bodyDesktop.classList.add('vatSwitchBoxBlock');
+			}
+		}
+		for (let i = 0; i < targetHost.length; i++) {
+			let targetHostCurrent = targetHost[i];
+			if (sourceHostHl.toLowerCase().includes(targetHostCurrent)) {
+				bodyDesktop.classList.add("host_" + targetHostCurrent);
+				break;
+			}
+		}
+		if (bodyDesktop !== null) {
+			bodyDesktop.id = 'headlessDesignDesktop';
+			if (sourceHostHl.toLowerCase().includes(targetHostHlCpc)) {
+				bodyDesktop.classList.add(targetHostHlCpc + '_headlessDesignDesktop');
+			} else {
+				bodyDesktop.classList.add('non_' + targetHostHlCpc + '_headlessDesignDesktop');
+			}
+		}
+
+		const quickLinkHeadingHl = document.getElementsByClassName("quick-link-heading");
+		for (let i = 0; i < quickLinkHeadingHl.length; i++) {
+			if(quickLinkHeadingHl[i].innerHTML.length >42){
+				quickLinkHeadingHl[i].classList.add('long-heading-footer')
+			}
+		}
+	}
+	const hoverBuyingTool = document.getElementById('ad_pf_megamenu_espot_04_defer');
+		hoverBuyingTool.addEventListener('mouseover', function() {
+			if (globaluserType === "reg" || globaluserType === 'registered') {
+				const resellersLinkWrapper = document.getElementById('openModalResellers');
+				if(resellersLinkWrapper !== null){
+					resellersLinkWrapper.removeAttribute('onclick');
+					resellersLinkWrapper.setAttribute('href', 'webapp/wcs/stores/servlet/ResellerView');
+				}
+			}
+	      });
+});
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+if (self !== top) {
+	try {
+	
+	if(window.location.hostname != top.location.hostname){
+		
+		top.location = self.location;
+	}
+	} catch (e) {
+		
+		top.location = self.location;
+	}
+}
+
+if(!window.globalPageName) {
+	var globalPageName = "ShoppingBasket";
+	var storeId = '10177';
+	var catalogId = '15001';
+	var langId = '46';
+}
+
+
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+	var userIdCookie = "100863582038";
+ 	var prevPurchSerFlag = false;
+ 	
+ 		 prevPurchSerFlag = true;
+ 	
+		cnameValue = 'target.farnell.com';
+	
+</script>
+
+<link rel="stylesheet" type="text/css" media="all" href="/wcsstore8.04.58.97.64/jawr/jawrTmp/text/bundles/global20.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/wcsstore8.04.58.97.64/jawr/jawrTmp/text/bundles/other20.css" />
+
+
+<link rel="stylesheet" href="/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/print.css" type="text/css" media="print"/>
+
+
+
+	<link rel="stylesheet" href="http://se.farnell.com/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/reset.css" media="all"/>
+	<link rel="stylesheet" href="http://se.farnell.com/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/core.css" media="all"/>
+	<link rel="stylesheet" href="http://se.farnell.com/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/dojo.css" media="all"/>
+	<link rel="stylesheet" href="http://se.farnell.com/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/header.css" media="all"/>
+	<link rel="stylesheet" href="http://se.farnell.com/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/meganav.css" media="all"/>
+	<link rel="stylesheet" href="http://se.farnell.com/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/forms.css" media="all"/>
+	<link rel="stylesheet" href="http://se.farnell.com/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/buttons.css" media="all"/>
+	<link rel="stylesheet" href="http://se.farnell.com/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/shippingStyles.css" media="all"/>
+	<link rel="stylesheet" href="http://se.farnell.com/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/packagingOptions.css" media="all"/>
+	<link rel="stylesheet" href="http://se.farnell.com/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/revoHeader.css" media="all"/>
+	<link rel="stylesheet" href="http://se.farnell.com/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/mk-styles-global-overrides.css" media="all"/>
+	<link rel="stylesheet" href="http://se.farnell.com/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/css/merchandising.css" media="all"/>
+
+
+<script type="text/javascript">
+
+	var headerLanguageLink = 'Y';
+	var seoURLPrefix = '';
+
+(function () {
+	'use strict';
+
+	if (window.pf == null) window.pf = {};
+	if(!pf.inlineScripts) pf.inlineScripts = [];
+	if(!pf.postInlineScripts) pf.postInlineScripts = [];
+	pf.inlineScripts.push(function(){
+		window.storeId == null? window.storeId = '10177' : 1;
+		pf.base.pageName = 'ShoppingBasket'; 
+		pf.base.scriptLocation = '/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/js';
+		pf.tagging.data.omniture.loginTimeout = '1800';
+		
+			pf.base.equoteFlag = true;
+		
+		pf.base.packageVariation = 'true';
+		
+		pf.jsonData.getDigitalData ='';
+		pf.base.timerStep = '1800000';
+		pf.tagging.decibelDomainId =  "685933";
+		pf.base.headerLanguageLink = 'Y';
+		pf.base.campaignCheck = '^(?!.*(%3[cC]|%3[eE]|%28|%29|%22|%27|%3[bB]|%5[bB]|%5[dD]|%40|%2[aA]|%23|%7[bB]|%7[dD]|%60|<|>|\\(|\\)|"|\'|;|\\[|\\]|@|\\*|#|\\{|\\}|`)).*$';
+	});
+}());
+</script>
+
+
+	
+	<script type="text/javascript">	
+		pf.postInlineScripts.push(function(){
+		if(pf && pf.validate){
+		
+			pf.validate.refactorValidation='y';
+						
+					var actions=[];var fields=[];var validators=[];var actionData={};var action=[{}];
+									
+						pf.validate.validateActions=action;		
+						pf.validate.extendedRuleMsg = 'Du har angivit ett värde med ogiltiga tecken i de markerade fälten nedan. Granska ditt val och ange endast <a href="https://se.farnell.com/webapp/wcs/stores/servlet/PFCMSContentRequest?catalogId=15001&requestURI=faqs-my-account#formvalidchars&langId=46&storeId=10177" target="_blank" class="errorMessageLink" >giltiga tecken</a>.';										
+		
+	}
+});					
+</script>
+
+	
+	    <script type="text/javascript">
+             pf.canonical = {};
+             pf.canonical.data = {type: 'DYNAMIC'};
+        </script>
+				        
+
+	
+			<script src='https://www.google.com/recaptcha/api.js?render=6Lfl27oZAAAAAOaJEayeomGlsfujkrVfyGT6ihzL' async defer></script>
+			
+		
+			<script type="text/javascript" src="/wcsstore8.04.58.97.64/AuroraB2BStorefrontAssetStore/js/pfPackagingOptions.js"></script>
+		
+		
+		<script type="text/javascript">
+			//set max lines to add ******BE to make this number configurable
+			
+			pf.inlineScripts.push(function(){
+			    
+				pf.validate.reCaptchaEnabled = false;
+				
+					pf.validate.reCaptchaEnabled = true;
+		            pf.validate.reCaptchaloginKey = '6Lfl27oZAAAAAOaJEayeomGlsfujkrVfyGT6ihzL';
+	            
+				pf.base.maxLines = 1000;
+				//add single items url
+				pf.base.singleItemAddUrl = 'https://se.farnell.com/webapp/wcs/stores/servlet/OrderCodeView?buy=to_replace';
+				pf.base.singleItemAddUrlProd = 'https://se.farnell.com/webapp/wcs/stores/servlet/OrderItemAdd?catalogId=15001&catEntryId_1=to_replace&langId=46&storeId=10177&quantity_1=1&URL=AjaxOrderItemDisplayView';
+				
+				//success text
+				pf.requisitionList.m1 = 'Artiklarna har lagts till i din favoritlista.';
+				
+				pf.validate.placeholderText = {
+						'enterLineNote':'Mata in kommentarer',
+						'enterPartNumber':'Orderkod'
+				}
+				
+				//standard obj
+				pf.validate.rules.updateShopCartDetailsForm = {};
+				
+				//main rules	
+				pf.validate.rules.main = {};		
+				pf.validate.rules.main.errors = 	{
+													'requiredString': 'Ange all nödvändig information. Följande angavs inte:', // This line is required on all for validation
+													'errorTitle': 'Korrigera följande fält:', // This line is required on all for validation,
+													'required': {
+																	'error': 'Inget har valts. Välj något av följande:',// This line is required on all for validation
+																	'quantity': 'Ogiltigt antal för artikeln {0}&#44; ange ett tal.',
+																	'ibuy': "Fältet &#39;{0}&#39; för produkten {1} är obligatoriskt."
+																}
+												}
+												
+				//addlines obj
+				pf.validate.rules.addLines = {};
+				pf.validate.rules.addLines.errors = 	{
+													'requiredString': 'Ange all nödvändig information. Följande angavs inte:', // This line is required on all for validation
+													'errorTitle': 'Korrigera följande fält:', // This line is required on all for validation,
+													'blankLines': 'Ange ett giltigt antal om du vill lägga till fler tomma rader i varukorgen.',	// awaiting feedback on this storetext key											
+													'required': {
+																	'error': 'Inget har valts. Välj något av följande:',// This line is required on all for validation
+																	'blankLines': 'Ange ett giltigt antal om du vill lägga till fler tomma rader i varukorgen.' // awaiting feedback on this storetext key
+																}
+												}
+				pf.validate.rules.addLines['blankLines'] = { 
+																	'required': '',
+																	'type': 'BlankLines',
+																	'mask': ''
+																}
+																
+				//assign main rules to standard obj	
+				pf.validate.rules.updateShopCartDetailsForm = pf.validate.rules.main;	
+				
+				//promo form rules
+				//addlines obj
+				pf.validate.rules.updatePromotionDetailsForm = {};
+				pf.validate.rules.updatePromotionDetailsForm.errors = 	{
+													'requiredString': 'Ange all nödvändig information. Följande angavs inte:', // This line is required on all for validation
+													'errorTitle': 'Korrigera följande fält:', // This line is required on all for validation,
+													'required': {
+																	'error': 'Inget har valts. Välj något av följande:',// This line is required on all for validation
+																	'add_Promotion': 'Ogiltigt antal för artikeln {0}&#44; ange ett tal.' // awaiting feedback on this storetext key
+																}
+												}
+				pf.validate.rules.updatePromotionDetailsForm['add_Promotion'] = { 
+																	'required': '',
+																	'type': 'BlankLines',
+																	'mask': ''
+																}
+																
+				//Rules for validating basket name.			
+				pf.validate.rules.saveShoppingBasketDetailsForm = {};
+				pf.validate.rules.saveShoppingBasketDetailsForm.errors = 	{
+													'requiredString': 'Ange all nödvändig information. Följande angavs inte:', // This line is required on all for validation
+													'errorTitle': 'Korrigera följande fält:', // This line is required on all for validation,
+													'required': {
+																	'savedBasketName': 'Ange ett korgnamn.' // awaiting feedback on this storetext key
+																}
+												}
+				pf.validate.rules.saveShoppingBasketDetailsForm['savedBasketName'] = { 
+																	'required': 'true',
+																	'type': '',
+																	'mask': ''
+																}	
+				pf.validate.rules.Logon = {};
+				pf.validate.rules.Logon.errors =    {
+				                                    'requiredString': 'Ange all nödvändig information. Följande angavs inte:', 
+				                                    'errorTitle': 'Korrigera följande fält:', 
+				                                    'required': {
+				                                                    'error': 'Ange all nödvändig information. Följande angavs inte:',
+				                                                    'logonId': 'Användarnamn',
+				                                                    'logonPassword': 'Lösenord'
+				                                                }
+				                                }                               
+				pf.validate.rules.Logon['logonId'] = { 
+														'required': 'true',
+														'type': '',
+														'mask': ''
+													}
+	
+				pf.validate.rules.Logon['logonPassword'] = { 
+														'required': 'true',
+														'type': '',
+														'mask': ''
+													}
+			});
+		</script> 
+	</head>
+
+  <body class="checkoutPages"> 
+               
+       <div id="page">
+			
+
+
+<script>
+require(['pf/priority/cookieBanner'], function(cookieBanner) {
+	window.preloads.use('cookieBanner',cookieBanner.show);
+});
+</script>
+<div id="wrap" class="revoHeader show-responsive-menus"> 
+
+	
+		    	<div id="dualLangListItem" class="displayNone">
+			
+			    <li>
+			    	<a id="headerDualLanguageLink" href="https://se.farnell.com/webapp/wcs/stores/servlet/PFShopCartExport?catalogId=15001&documentType=HTML&currentOrderId=31114514370239&storeId=10177&langId=75" onclick="javascript:pf.base.setAjaxUserLanguage('75','https://se.farnell.com/webapp/wcs/stores/servlet/PFShopCartExport?catalogId=15001&documentType=HTML&currentOrderId=31114514370239&storeId=10177&langId=75')" data-lang-id='75'>
+			    		in English
+		    		</a>
+				</li>
+			
+			</div>
+		 	<script>
+					var elem = document.getElementById("dualLangListItem");
+					if(elem){
+						var target = document.querySelector('#pf_header_topbar .flag');						
+						while(elem.children.length){
+							target.before(elem.children[0]);
+						}
+					}
+			</script>
+		
+
+<div id="bodyContainer" class="layoutFive " data-orientation="Left">
+<div class="popupContent" id="eQuoteOkOverlay" dojoType="dijit.Dialog" aria-describedby="addTocart1" style="display:none">
+	<div class="top_left"></div>
+	<div class="top_right" ></div>
+	<div class="header" id="popupHeader"> 
+		<div class="close">
+		    <a id="closeLinkeQuoteOverlay" href="#" title="Stäng">
+				<span class="icon">
+					x				
+				</span>					
+   			 </a>
+		</div>
+	</div>
+	<div class="bodyarea">
+		<div class="bodycontent">
+			<div class="popBody">
+			<h2>Please note:</h2><br/>
+				<p>
+				Please note: you already have a quotation in your basket related to another account. You may only checkout a basket for a single account at any one time. Should you require a new quote for a different account please contact our sales team on [INSERT TEL OR EMAIL]
+				</p>				
+			</div>
+		</div>	
+		<div class="footer">
+			<a id="okEquote">OK</a>
+		</div>		
+	</div>
+</div>
+
+<div class="popupContent" id="eQuoteOverlay" dojoType="dijit.Dialog" aria-describedby="addTocart" style="display:none">
+	<div class="top_left"></div>
+	<div class="top_right" ></div>
+	<div class="header" id="popupHeader"> 
+		<div class="close">
+		    <a id="closeLinkeQuoteOverlay" href="#" title="Stäng">
+				<span class="icon">
+					x				
+				</span>					
+   			 </a>
+		</div>
+	</div>
+	<div class="bodyarea">
+		<div class="bodycontent">
+			<div class="popBody">
+			<h2>Notera:</h2><br/>
+				<p>
+				Du har en offert i din varukorg som är kopplad till ett annat konto än de artiklar du nu försöker lägga till.Slutför köpet (eller ta bort denna offert ─ oroa dig inte, den finns fortfarande kvar i Mitt konto) innan du lägger till ytterligare produkter.Om du fortsätter kommer den aktuella varukorgen att skrivas över. 
+				</p>				
+			</div>
+		</div>	
+		<div class="popFooter">
+			<a id="closeEquote" class="cancel">Avbryt</a>
+			<a id="addEquote" class="continue">Fortsätt</a>
+		</div>		
+	</div>
+</div>
+
+<div class="popupContent" id="eQuoteDetailsOverlay" dojoType="dijit.Dialog" aria-describedby="addTocart" style="display:none">
+	<div class="top_left"></div>
+	<div class="top_right" ></div>
+	<div class="header" id="popupHeader"> 
+		<div class="close">
+		    <a id="closeLinkeQuoteDetailsOverlay" href="#" title="Stäng">
+				<span class="icon">
+					x				
+				</span>					
+   			 </a>
+		</div>
+	</div>
+	<div class="bodyarea">
+		<div class="bodycontent">
+			<div class="popBody">
+			<h2>Notera:</h2><br/>
+				<p>
+				Din offert kan endast betalas mot det specifika länkade faktureringskontot.Artiklarna i din varukorg är kopplade till ett annat konto.  Spara den aktuella varukorgen eller slutför köpet innan du lägger till ytterligare offertprodukter.Om du fortsätter kommer den aktuella varukorgen att skrivas över.
+				</p>				
+			</div>
+		</div>	
+		<div class="popFooter">
+			<a id="closeEquoteDetails" class="cancel">Avbryt</a>
+			<a id="addEquote" class="continueEqt">Fortsätt</a>
+		</div>		
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+</script>
+
+        
+			<div id="article" class="layoutOne_margin" role="main">	
+				<div class="section">			
+					<!-- BEGIN ShopCartDisplay.jsp -->
+
+<div class="basket-main-column">
+
+	<div class="breadCrumbWrap">
+		
+				<h1>
+					Kundkorg
+				</h1>
+	        
+        		
+		<div class="top-side-actions">
+			<!-- BEGIN: sendBasketDetail.jspf -->
+
+<div id="coShareLinks" class="coShareLinks">
+	<div class="bomUploadContainer">
+	    <a id="bomUploadBtn" class="btn btnTertiary btnSmall omTagEvt bomUploadBtn mkt " href="https://se.farnell.com/webapp/wcs/stores/servlet/BOMDisplayView?catalogId=15001&storeId=10177&langId=46">
+	     	<span class="icon-download-alt"></span>
+	       Materiallisteöverföring 
+	    </a>
+    </div>
+    
+            <ul class="inactive displayNone">
+                <li id="printPageBtn"  class="btn btnTertiary btnSmall btnDisabled">
+                    <span class="icon-print">&nbsp;</span>
+                    Skriv ut sida
+                </li>
+                
+			<li class="btn btnTertiary btnSmall btnDisabled">
+				<span class="icon-file-pdf">&nbsp;</span>
+				Ladda ner som PDF
+			</li>
+		
+            </ul>
+            <div class="active">
+                <a href="#" id="printPage" class="btn btnTertiary btnSmall omTagEvt arsalan" data-prop="eVar27|prop21" data-om="Printer Version Click">
+                    <span class="icon-print">&nbsp;</span>
+                    Skriv ut sida
+                </a>
+                
+			<a href="#" 
+				id="pdfDownload" 
+				class="btn btnTertiary btnSmall ddDispatchEvt"
+				data-dd-action="Cart: Download as PDF: Guest"
+				data-dd-elementDetail="Download as PDF"
+				data-dd-type="click"
+				data-dd-linkType="button"
+				data-dd-pageSection="Cart: CoShareLinks">
+				<span class="icon-file-pdf">&nbsp;</span>
+				Ladda ner som PDF
+			</a>
+		
+            </div>
+        
+</div>
+<!-- END: sendBasketDetail.jspf -->
+		</div>
+		
+		<div id="formErrors" class="displayNone"></div>		
+	
+	<div id="MessageArea" class="displayNone" style="clear:both;"> 
+		<div id="ErrorMessageText">&nbsp;</div>		
+		<div id="SuccessMessageText">&nbsp;</div>
+	</div>
+
+
+	</div>
+	
+	<!-- displaySpotTopBasket : N - locale : sv_SE - isGuestUser:true - isAllowedLocale : false - isPunchoutUser : false--><!--  PuchoutCondition : true
+		isGuestUserCondition : true -->
+	
+
+	<input type="hidden" id="OrderFirstItemId" value="100260694579" />
+	<input type="hidden" id="LoginTimeoutBasketFlag" name="LoginTimeoutBasketFlag" value=""/>
+	
+	
+	<div id="ShopCartPagingDisplay">
+		<!-- BEGIN OrderItemDetail.jsp -->  
+
+<div id="basketErrors">
+	
+</div>
+
+  
+
+<script type="text/javascript">
+function getPackageQuantities(value){        
+	document.getElementById("hiddenPackageNameCO").value = value;
+	var splitValues = "";
+	var displayString = "";       
+	   
+	if(value.contains("#")){
+		splitValues = value.split("#");
+		displayString = splitValues[0] + "<br>" + splitValues[1];
+		var pkgEleList = document.getElementsByName("packageNameCO")
+		for(i=0;i<pkgEleList.length;i++)
+		{
+			pkgEleList[i].innerHTML = displayString;
+		}
+		
+		
+	}
+	else{
+	 	//document.getElementById("packageNameCO").innerHTML = value;   
+	 	var pkgEleList = document.getElementsByName("packageNameCO")
+		for(i=0;i<pkgEleList.length;i++)
+		{
+			pkgEleList[i].innerHTML = value;
+		}
+		
+		}
+}
+		   
+</script>
+
+<div id="uomWarningMsg" style="display:none">
+ Equote-kvantiteter kan inte minskas, vi har automatiskt gått tillbaka till ursprunglig kvantitet.
+</div>
+
+<form name="updateShopCartDetailsForm"   method="post"  id="updateShopCartDetailsForm" action="ProcessBasket">
+	<!-- BEGIN tableSortByDropdown.jsp -->
+
+<div class="sort-by enhanceCartSortBy">
+	<div class="enhanceSortWraper">
+		  <label for="sort-by-select">
+		    <span>
+		      Sortera efter
+		    </span>
+		  </label>
+			<select id="sort-by-select" class="dropdown" dojotype="NavigationalDropdown" >
+
+    			
+	
+					    <option value="-1" data-target="#">
+					      --
+					    </option>
+	
+       					
+
+			<option data-target="https://se.farnell.com/webapp/wcs/stores/servlet/OrderCalculate?qntyItemsBasket=0&calculationUsageId=-1&catalogId=15001&updatePrices=1&orderId=.&langId=46&storeId=10177&errorViewName=AjaxOrderItemDisplayView&lazyLoad=N&URL=AjaxOrderItemDisplayView&sortBy=description&sortOrder=true" >
+		      Tillverkare / Beskrivning 
+		      (stigande)
+		    </option>
+		    <option data-target="https://se.farnell.com/webapp/wcs/stores/servlet/OrderCalculate?qntyItemsBasket=0&calculationUsageId=-1&catalogId=15001&updatePrices=1&orderId=.&langId=46&storeId=10177&errorViewName=AjaxOrderItemDisplayView&lazyLoad=N&URL=AjaxOrderItemDisplayView&sortBy=description&sortOrder=false" >
+		      Tillverkare / Beskrivning 
+		      (fallande)
+		    </option> 
+		
+				<option data-target="https://se.farnell.com/webapp/wcs/stores/servlet/OrderCalculate?qntyItemsBasket=0&calculationUsageId=-1&catalogId=15001&updatePrices=1&orderId=.&langId=46&storeId=10177&errorViewName=AjaxOrderItemDisplayView&lazyLoad=N&URL=AjaxOrderItemDisplayView&sortBy=availability&sortOrder=true" >
+		      Tillgänglighet 
+		      (stigande)
+		    </option>
+		    <option data-target="https://se.farnell.com/webapp/wcs/stores/servlet/OrderCalculate?qntyItemsBasket=0&calculationUsageId=-1&catalogId=15001&updatePrices=1&orderId=.&langId=46&storeId=10177&errorViewName=AjaxOrderItemDisplayView&lazyLoad=N&URL=AjaxOrderItemDisplayView&sortBy=availability&sortOrder=false" >
+		      Tillgänglighet 
+		      (fallande)
+		    </option>
+		
+		    <option data-target="https://se.farnell.com/webapp/wcs/stores/servlet/OrderCalculate?qntyItemsBasket=0&calculationUsageId=-1&catalogId=15001&updatePrices=1&orderId=.&langId=46&storeId=10177&errorViewName=AjaxOrderItemDisplayView&lazyLoad=N&URL=AjaxOrderItemDisplayView&sortBy=orderCode&sortOrder=true" >
+		      Orderkod 
+		      (stigande)
+		    </option>
+		    <option data-target="https://se.farnell.com/webapp/wcs/stores/servlet/OrderCalculate?qntyItemsBasket=0&calculationUsageId=-1&catalogId=15001&updatePrices=1&orderId=.&langId=46&storeId=10177&errorViewName=AjaxOrderItemDisplayView&lazyLoad=N&URL=AjaxOrderItemDisplayView&sortBy=orderCode&sortOrder=false" >
+		      Orderkod 
+		      (fallande)
+		    </option>
+		
+		    <option data-target="https://se.farnell.com/webapp/wcs/stores/servlet/OrderCalculate?qntyItemsBasket=0&calculationUsageId=-1&catalogId=15001&updatePrices=1&orderId=.&langId=46&storeId=10177&errorViewName=AjaxOrderItemDisplayView&lazyLoad=N&URL=AjaxOrderItemDisplayView&sortBy=mfPartNumber&sortOrder=true" >
+		      Tillverkare artikelnummer 
+		      (stigande)
+		    </option>
+		    <option data-target="https://se.farnell.com/webapp/wcs/stores/servlet/OrderCalculate?qntyItemsBasket=0&calculationUsageId=-1&catalogId=15001&updatePrices=1&orderId=.&langId=46&storeId=10177&errorViewName=AjaxOrderItemDisplayView&lazyLoad=N&URL=AjaxOrderItemDisplayView&sortBy=mfPartNumber&sortOrder=false" >
+		      Tillverkare artikelnummer 
+		      (fallande)
+		    </option>		    
+			</select>
+		</div>
+		<div class="enhanceRemoveWraper">
+			<div class="enhanceRemoveContainer">
+				<div class="enhRemoveWraper">	
+					<a  href="javascript:void(0)">
+						<span class="enhanceRemoveIcon"></span>
+					</a>				
+					<a href="javascript:void(0)" class="removeClearLink removeXItems isDisabled" id="removeItems"> 
+						<p class="linkText" id="checkCount">
+							<span>
+								Radera <span id="checkBoxCount">0</span> markerade
+							</span>
+						</p>
+					</a>
+					<div class="popupContent confirmationModalOverlay" id="removeItemsOverlay" dojoType="dijit.Dialog" aria-describedby="intro" style="display:none">
+						<div class="bodyarea">
+							<span class="confirmationModalCloseBtn" id="removeItemsCloseBtn"></span>
+							<div class="bodycontent">
+								<div class="popBody">
+									<p class="popupText">???PF_CONFIRM_DELETE_ITEMS_MESSAGE???</p>
+								</div>
+							</div>			
+						</div>
+						<div class="confirmationModalOverlayFooter">
+							<a href="javascript:void(0)" class="confirmationModalCancel" id="removeItemsCancel">Avbryt</a>
+							<a href="javascript:void(0)" class="confirmationModalConfirm" id="removeItemsConfirm">Bekräfta</a>
+						</div>
+					</div>
+					<input type="hidden" name="boxes_checked" id="boxes_checked" value="" />
+				</div>
+				<div class="enhSelectAllWraper">
+					<a href="javascript:void(0)" class="selectAllLink " id="selectAll" >
+						<p class="linkText">Välj alla</p>
+					</a>
+					<a href="javascript:void(0)" class="selectAllLink displayNone " id="deselectAll" >
+						<p class="linkText">Avmarkera alla</p>
+					</a>
+				</div>
+			</div>		
+		</div>
+		<div id="emptyTable" class="displayNone">
+			<span class="emptyTableText"><strong>Varukorgen är tom</strong></span>
+		</div>
+</div>
+
+<!-- END tableSortByDropdown.jsp -->
+	
+	<div data-group="hidden-inputs">
+		<input type="hidden" name="langId" value="46" />
+		<input type="hidden" name="orderId" value="31114514370239" />
+		<input type="hidden" name="catalogId" value="15001" />
+		<input type="hidden" name="BASE_URL" value="BasketPage" />
+		<input type="hidden" name="errorViewName" value="BasketErrorAjaxResponse" />
+		<input type="hidden" id="storeId" name="storeId" value="10177" />
+		<input type="hidden" name="URL" value="BasketDataAjaxResponse" />
+		<input type="hidden" id="punchoutTimeoutUrl" value="https://se.farnell.com/webapp/wcs/stores/servlet/PunchoutTimeoutView?catalogId=15001&langId=46&storeId=10177" /> 
+		<input type="hidden" id="normalTimeoutUrl" value="https://se.farnell.com/webapp/wcs/stores/servlet/AjaxOrderItemDisplayView?catalogId=15001&LoginTimeout=true&langId=46&storeId=10177" />
+		<input type="hidden" id="calcRequired" name="calcRequired" value="false" />
+		<input type="hidden" id="prevOrdsShipAddrId" name="prevOrdsShipAddrId" value="" />
+		<input type="hidden" id="prevOrdsShipModeId" name="prevOrdsShipModeId" value="" />
+		<input type="hidden" id="cartPage" name="cartPage" value="true" />
+		<input type="hidden" id="eqtChk" name="eqtChk" value="false" />
+		<input type="hidden" id="eqtAdd" name="eqtAdd" value="false" />
+		<input type="hidden" id="isTaxEnhancementBasketAndCheckoutParam" name="isTaxEnhancementBasketAndCheckoutParam" value="N" />
+		<input type="hidden" id="lazyLoadBasket" name="lazyLoadBasket" value="N" />
+		<input type="hidden" id="sortBy" name="sortBy" value="" />
+		<input type="hidden" id="sortOrder" name="sortOrder" value="" />
+
+		
+				<input type="hidden" id="abTestAboveTheFoldShopBasket" name="abTestAboveTheFoldShopBasket" value="false" />
+			
+		
+		</div>
+ 
+	<div id="basketContent">
+		
+
+<table id="order_details" class="modern-table enhanceCartTable ">
+   
+	
+    <tbody>
+        
+
+                <input type="hidden" value="100260694579" 
+                       name="orderItemId_1" id="orderItem_1" />
+
+                
+                
+                <tr id="orderItemLine" class="" data-item-index="1" >
+               <td colspan="9">
+               
+                <div class="enhanceCartWrapper" id="cartErrorMsgLink_100260694579">
+                
+					<div class="enhanceChkboxWrapper pf_col-1" data-order-code-id="1455162">
+						<div>
+							<label for="del_cb_1" class="checkbox selectCheckbox">
+								<input type="checkbox" class="bomCartItemCheckBox" data-enhancedBomCartPartNumber="1455162" name="orderItemDelete" id="del_cb_1" value="100260694579" >
+								<span>&nbsp;</span>
+							</label>
+						</div>
+					</div>
+                	
+    	<div class="enhanceHeaderRowWrapper enhanceHeaderRowInstock">
+			
+
+<div class="abTestAboveTheFoldManufacturer">
+ 	    
+</div>
+
+			<div class="enhanceHeaderStatus">
+				<span class="enhanceHeaderStatusTxt enhanceInStkTxt">
+				
+    
+        <input type="hidden" class="hVal" value="000023598" />
+        
+	<div class="iconWraper">
+		<span class="enhanceInstockIcon"></span>
+	</div>
+	  <p class="enhanceInStkTxt stockAvailability enhanceInStkChanges">
+        
+        <strong><span class="inStockBold">
+        	23 598
+        </span>
+  I lager</strong>
+     
+	       </span>
+	    	</div>
+	    	</div>
+    				
+				<div class="enhanceDescriptionRowWrapper pf_row" data-order-code-id="1455162">
+					<div class="enhanceImageWrapper pf_col-1">
+							 
+								<div class="shpthmbimg">  						
+									<a href="https://se.farnell.com/microchip/attiny85-20pu/mcu-8bit-attiny-20mhz-dip-8/dp/1455162" target="_blank"><img class="product-image" src="https://se.farnell.com/productimages/thumbnail/en_GB/42268235.jpg" /></a>
+								</div>
+							
+					</div>
+					
+							
+                    
+                    
+					
+				<div class="enhanceProdDescriptionWrapper pf_col-3">
+					<div class="cartProdHeader">
+						
+								<a href="https://se.farnell.com/microchip/attiny85-20pu/mcu-8bit-attiny-20mhz-dip-8/dp/1455162" target="_blank">
+									<p class="title">
+										ATTINY85-20PU - MCU, 8BIT, ATTINY, 20MHZ, DIP-8
+									</p>
+								</a>
+							
+					</div>
+				<div class="enhanceProdCodeWrapper">
+					<ul class="productProdCodeList">
+						
+						
+							<li><label>Tillverkare:</label> 
+								<span class="manufacturer">MICROCHIP</span>
+							</li>
+							<li><label>Beställningskod:</label>
+								
+	                                	<span>1455162</span>
+	                            	
+							</li>						
+						
+						
+
+						<li>
+						
+						<!-- rohs -->
+	<a href="javascript:void(0);" class="prodDetailsAttachment"
+		onclick="pf.base.openRoHSOverlay('65174504',this)" data-dtm-eventinfo="RoHS">
+
+		
+				<div class="pfIcon pfRohsCompliance phthalatesIcon" title="RoHS-kompatibelt inklusive ftalater">
+					 <span class="plusIcon">&#43;</span>
+				</div>
+			<div class="rohs_tooltip rohs_tooltip_auto">RoHS-kompatibelt inklusive ftalater</div>
+		<span class="attachmentText rohsText"  title="" >RoHS</span>
+		<div class='rohsText_tooltip rohs_tooltip_auto'>Hämta certifikat för produktefterlevnad</div>
+	</a>
+
+	                              <a href="javascript:void(0)" class="tooltipLink" id="productTraceToolTip_1455162">
+	                                  <span class="pfIcon pfDateLot"></span>
+	                                  <div class="dlcTooltip">Date/Lot Code</div>
+	                              </a>
+				        	  
+						</li> 
+						
+						                 
+					</ul>		
+				</div>
+				<table id="enhanceProdDescriptionTable">
+					<tr>
+						<td>
+							<div class="enhanceSimilarProdWrapper">
+							  <div class="enhanceCartSimilarLink">
+								
+								   <div class="accSubs">
+								     <a href="https://se.farnell.com/microchip/attiny85-20pu/mcu-8bit-attiny-20mhz-dip-8/dp/1455162#pdpSection_PFProdAccessor" class="associatedProductsAvailable">
+								       <span class="similarLinktxt underlineLink">
+								         Tillhörande produkter tillgängliga
+								       </span>
+								     </a>
+								   </div>
+								 
+							  </div>
+							</div>
+						</td>
+							
+					</tr>
+				</table>
+								
+			  </div>
+			
+				
+					<div class="enhanceCutTapeDespcription pf_col-3">
+					<div class="partDesclinks">
+	
+              	<div class="line-note collapsable" data-dojo-type="Collapsable" dojotype="Collapsable">
+				<a class="trigger" href="javascript:void(0);" data-dojo-attach-point="trigger">
+                      	Lägg till artikelnummer / Radkommentar
+                      </a>
+                  	<div class="lineNote collapsable-content">
+	  	
+						        <div class="formFields">
+				                	<strong>
+				                    	<label for="customerPartNumber_1">
+				                        	Dittt artikelnummer
+				                          	<span id="partNoTooltip_1" class="icon icon-info-circled iconColor partNoTooltip"></span>
+				                      	</label>
+				                  	</strong>
+						          	<input type="text"  maxlength="30" name="customerPartNumber_1" class="placeHolder placeHolderStyle fieldWidth partNoInput" id="customerPartNumber_1" placeholder="Ange ditt delnummer" />
+						       	</div>
+				        		<div class="formFields">
+						        	<strong>
+						            	<label for="lineNote_1">
+								      		Radkommentar
+								       		<span id="lineNoteTooltip_1" class="icon icon-info-circled iconColor lineNoteTooltip"></span>
+								     	</label>
+								  	</strong>
+					           		<input type="text"  maxlength="30" name="comment_1" class="placeHolder placeHolderStyle fieldWidth lineNoteInput" id="lineNote_1" placeholder="Mata in kommentarer" />
+					       		</div>
+	       						<span style="display: none;" connectid="partNoTooltip_1" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_partNoTooltip_1" widgetid="wc_widget_Tooltip_partNoTooltip_1" class="dijitTooltipData">
+									<div class="tooltip_popup">
+										<div class="header"> </div>
+										<div class="bodyarea">
+								  			Lägg till ditt eget artikelnummer/referens för varje produkt. Det här numret läggs till i beställningsbekräftelsen, fakturan, försändelseavin, e-postmeddelandet med webbekräftelse och produktetiketten
+										</div>
+										<div class="footer"> </div>
+							   		</div>
+								</span>
+								<span style="display: none;" connectid="lineNoteTooltip_1" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_lineNoteTooltip_1" widgetid="wc_widget_Tooltip_lineNoteTooltip_1" class="dijitTooltipData">
+									<div class="tooltip_popup">
+										<div class="header"> </div>
+											<div class="bodyarea">
+												Radkommentarer är kommentarer som du kan lägga till på varje rad i din beställning. Din radkommentar visas bredvid den produkten i beställningsbekräftelsen, fakturan och försändelseavin. Din radkommentar finns endast kvar så länge beställningen är aktiv.
+											</div>
+										<div class="footer"> </div>
+									</div>
+							   </span>
+	         				
+</div>
+					</div>
+					</div>
+					
+					
+					</div>
+			  		
+			
+		<div class="enhanceQtyDescriptionWrapper pf_col-2">
+			<div>
+					
+                        
+                        <div class="formFields coInput coQty ">
+                            
+                            <label class="displayNone" for="quantity_1">
+                                Antal
+                            </label>
+
+                            
+                                            
+                                    <input class="qtyRule quantityInput" data-index="1" data-rel="1455162" type="text" id="quantity_1" name="quantity_1" value="2" />
+                                     
+                                    
+                                     
+                            
+                            <br/>
+                             
+                            
+                        </div>
+
+                        <div class="quantity-actions enhanceQtyUpdate">
+                            <a class="quantity-update similarLinktxt" href="javascript:void(0);">
+                                Uppdatera
+                            </a>
+                        </div>
+			</div>
+		</div>
+
+		
+
+		<div class="enhancePriceDescriptionWrapper pf_col-2 ">
+			<div class="enhanceUnitPrice">
+				<span>Enhetspris:</span>
+				   
+                        <span class="price">
+                            <span >
+                                23,95 kr
+                            </span>
+                            
+                        </span>
+                        
+			</div>
+			<div class="enhanceProdPrice enhanceInStkTxt">
+				<span><label for="lineNote_1">
+	               Radpris:</label></span>
+				
+		               <span> 47,90 kr</span>
+		                 
+				</div>
+				<div class="enhanceProdVoucherPrice">
+					
+				</div>
+				
+				
+                              
+                    <div class="more-pricing-order-item">
+                    	<svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.47632 13.5C2.85913 13.5 0.66748 12.2426 0.100098 10.5552V8V7.5V7.05521V7V3.09525C0.585938 1.33273 2.82935 0 5.52368 0C8.21802 0 10.4614 1.33273 10.9458 3.09525H10.9526L10.95 3.11026L10.9614 3.15475H10.9817V3.24161L10.9941 3.30252L11 3.33334H10.9817V6.84525H10.9141C10.8574 7.07092 10.7722 7.28979 10.6606 7.5H10.9817V10.3452H10.9141C10.4646 12.1372 8.20093 13.5 5.47632 13.5ZM9.29224 8.94272C8.30103 9.59766 6.95679 10 5.47632 10C4.03809 10 2.72827 9.62021 1.74585 8.99799V10.3171C1.88379 10.528 2.10181 10.7581 2.43604 10.9888C3.14331 11.477 4.21362 11.8333 5.47632 11.8333C6.73901 11.8333 7.80933 11.477 8.5166 10.9888C8.93066 10.703 9.1665 10.4182 9.29224 10.1697V8.94272ZM2.43604 7.48877C2.10181 7.25806 1.88379 7.02795 1.74585 6.81708V5.42654C2.72827 6.04877 4.03809 6.42856 5.47632 6.42856C6.95679 6.42856 8.30103 6.02621 9.29224 5.37128V6.66971C9.1665 6.91824 8.93066 7.20303 8.5166 7.48877C7.80933 7.97696 6.73901 8.33334 5.47632 8.33334C4.21362 8.33334 3.14331 7.97696 2.43604 7.48877ZM1.75024 3.25232C1.88818 3.46136 2.10522 3.68906 2.43604 3.91733C3.14331 4.40552 4.21362 4.7619 5.47632 4.7619C6.73901 4.7619 7.80933 4.40552 8.5166 3.91733C8.88794 3.66107 9.11597 3.40552 9.24976 3.17624C9.11182 2.96719 8.89478 2.7395 8.56396 2.51123C7.85669 2.02304 6.78638 1.66666 5.52368 1.66666C4.26099 1.66666 3.19067 2.02304 2.4834 2.51123C2.11206 2.76752 1.88403 3.02304 1.75024 3.25232Z" fill="#979797"/></svg>
+						<svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.2749 3.52257V7.34524H11.2643C10.8146 9.13719 8.55108 10.5 5.82644 10.5C3.01199 10.5 0.689587 9.04586 0.350098 7.16667H0.406426V3.84119L0.404254 3.83333H0.397407L0.400168 3.8183C0.380378 3.74466 0.363656 3.67029 0.350098 3.59524H0.451564C0.935935 1.83272 3.17937 0.5 5.87375 0.5C8.53098 0.5 10.7496 1.79621 11.2749 3.52257ZM2.7861 7.98877C2.45187 7.75806 2.23377 7.52797 2.09593 7.31709V5.92655C3.07825 6.54878 4.38809 6.92857 5.82644 6.92857C7.3069 6.92857 8.65121 6.52622 9.64238 5.87129V7.16972C9.51655 7.41823 9.28073 7.70304 8.86678 7.98877C8.15951 8.47696 7.08904 8.83333 5.82644 8.83333C4.56384 8.83333 3.49338 8.47696 2.7861 7.98877ZM2.10031 3.75232C2.23837 3.96138 2.45539 4.18906 2.7861 4.41734C3.49338 4.90553 4.56384 5.2619 5.82644 5.2619C7.08904 5.2619 8.15951 4.90553 8.86678 4.41734C9.23806 4.16106 9.46605 3.90552 9.59989 3.67625C9.46182 3.46719 9.24481 3.23951 8.91409 3.01123C8.20682 2.52304 7.13635 2.16667 5.87375 2.16667C4.61115 2.16667 3.54069 2.52304 2.83341 3.01123C2.46213 3.26751 2.23415 3.52305 2.10031 3.75232Z" fill="#979797"/></svg>
+                       	<a href="javascript:void(0);"  class="priceBreaksTooltip" id="priceBreaksTooltip_1455162"
+                          onclick="pf.base.showTooltip('1455162','https://se.farnell.com/webapp/wcs/stores/servlet/PFPackagePriceBreaksCmd?prodReelCharge=&amp;catalogId=15001&amp;productId=65174504&amp;isBasketPage=true&amp;minOrderQty=1&amp;partNumber=1455162&amp;langId=46&amp;storeId=10177&amp;mfPartNumber=ATTINY85-20PU');">Fler priser</a>
+					</div>
+				
+			</div>
+			<a class="quantity-remove similarLinktxt" id="removeItem" href="javascript:void(0);">
+                <span class="enhanceRemoveIcon" id="removeItemTooltip_1455162"></span>
+				<span style="display: none;" connectid="removeItemTooltip_1455162" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_removeItemTooltip_1455162" widgetid="wc_widget_Tooltip_removeItemTooltip_1455162" class="dijitTooltipData">
+					<span class="tooltip_popup">
+							Ta bort produkt
+					</span>
+				</span>
+            </a>
+	  	   </div>
+	  	  <div class="enhanceAdvisoryContainer pf_row">
+	  	  	<div class="pf_col-1"></div>
+	  	  	<div class="pf_col-10">
+	  	  		<div class="enhanceAdvisoryMsgWrapper">
+						 
+                            <div class="stockTd cutOffTimesText">
+                                
+								<p id="cutOffTimesTooltip_65174504_65065512" class="linkLook">se stängningstider</p>
+							<!-- 
+Sup total :		<p>
+Avail total : 23598
+ -->
+ 
+
+	 
+<div style="block" class="toolTipSection">
+	<span style="display: none;" connectid="cutOffTimesTooltip_65174504_65065512" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_65174504_65065512" widgetid="wc_widget_Tooltip_65174504_65065512" class="dijitTooltipData">
+		<div class="tooltip_popup">
+			<div class="header"> </div>
+			<div class="bodyarea">
+			
+			
+				
+				<p>
+					<strong>23 598</strong> i lager för leverans nästa dag (UK stock)
+				</p>
+					
+			
+
+			</div>
+			<div class="footer">&nbsp;</div>
+		</div>
+	</span>
+</div>
+                 
+                            </div>
+		 					
+				</div>
+				
+	  	  	</div> 	  
+	  	  
+	  	  </div>
+	  	  
+	  	  
+			
+	  	  <div class="enhanceMsgWrapper enhanceOutStkTxt pf_row">
+	  	  		<div class="pf_col-1"></div>
+				<div class="pf_col-10">
+					<label for="" class="">
+                   		
+               		</label>
+				</div>
+				<div class="pf_col-1"></div>
+			</div>
+		  </div>
+		  </td>
+		</tr>           
+            
+                </tr>
+            
+
+                <input type="hidden" value="100260694581" 
+                       name="orderItemId_2" id="orderItem_2" />
+
+                
+                
+                <tr id="orderItemLine" class="altRow" data-item-index="2" >
+               <td colspan="9">
+               
+                <div class="enhanceCartWrapper" id="cartErrorMsgLink_100260694581">
+                
+					<div class="enhanceChkboxWrapper pf_col-1" data-order-code-id="1972172">
+						<div>
+							<label for="del_cb_2" class="checkbox selectCheckbox">
+								<input type="checkbox" class="bomCartItemCheckBox" data-enhancedBomCartPartNumber="1972172" name="orderItemDelete" id="del_cb_2" value="100260694581" >
+								<span>&nbsp;</span>
+							</label>
+						</div>
+					</div>
+                	
+    	<div class="enhanceHeaderRowWrapper enhanceHeaderRowInstock">
+			
+
+<div class="abTestAboveTheFoldManufacturer">
+ 	    
+</div>
+
+			<div class="enhanceHeaderStatus">
+				<span class="enhanceHeaderStatusTxt enhanceInStkTxt">
+				
+    
+        <input type="hidden" class="hVal" value="000002788" />
+        
+	<div class="iconWraper">
+		<span class="enhanceInstockIcon"></span>
+	</div>
+	  <p class="enhanceInStkTxt stockAvailability enhanceInStkChanges">
+        
+        <strong><span class="inStockBold">
+        	2 788
+        </span>
+  I lager</strong>
+     
+	       </span>
+	    	</div>
+	    	</div>
+    				
+				<div class="enhanceDescriptionRowWrapper pf_row" data-order-code-id="1972172">
+					<div class="enhanceImageWrapper pf_col-1">
+							 
+								<div class="shpthmbimg">  						
+									<a href="https://se.farnell.com/microchip/attiny84a-pu/mcu-8bit-attiny-20mhz-dip-14/dp/1972172" target="_blank"><img class="product-image" src="https://se.farnell.com/productimages/thumbnail/en_GB/GE14DIP-40.jpg" /></a>
+								</div>
+							
+					</div>
+					
+							
+                    
+                    
+					
+				<div class="enhanceProdDescriptionWrapper pf_col-3">
+					<div class="cartProdHeader">
+						
+								<a href="https://se.farnell.com/microchip/attiny84a-pu/mcu-8bit-attiny-20mhz-dip-14/dp/1972172" target="_blank">
+									<p class="title">
+										ATTINY84A-PU - MCU, 8BIT, ATTINY, 20MHZ, DIP-14
+									</p>
+								</a>
+							
+					</div>
+				<div class="enhanceProdCodeWrapper">
+					<ul class="productProdCodeList">
+						
+						
+							<li><label>Tillverkare:</label> 
+								<span class="manufacturer">MICROCHIP</span>
+							</li>
+							<li><label>Beställningskod:</label>
+								
+	                                	<span>1972172</span>
+	                            	
+							</li>						
+						
+						
+
+						<li>
+						
+						<!-- rohs -->
+	<a href="javascript:void(0);" class="prodDetailsAttachment"
+		onclick="pf.base.openRoHSOverlay('64582126',this)" data-dtm-eventinfo="RoHS">
+
+		
+				<div class="pfIcon pfRohsCompliance phthalatesIcon" title="RoHS-kompatibelt inklusive ftalater">
+					 <span class="plusIcon">&#43;</span>
+				</div>
+			<div class="rohs_tooltip rohs_tooltip_auto">RoHS-kompatibelt inklusive ftalater</div>
+		<span class="attachmentText rohsText"  title="" >RoHS</span>
+		<div class='rohsText_tooltip rohs_tooltip_auto'>Hämta certifikat för produktefterlevnad</div>
+	</a>
+  
+						</li> 
+						
+						                 
+					</ul>		
+				</div>
+				<table id="enhanceProdDescriptionTable">
+					<tr>
+						<td>
+							<div class="enhanceSimilarProdWrapper">
+							  <div class="enhanceCartSimilarLink">
+								
+								   <div class="accSubs">
+								     <a href="https://se.farnell.com/microchip/attiny84a-pu/mcu-8bit-attiny-20mhz-dip-14/dp/1972172#pdpSection_PFProdAccessor" class="associatedProductsAvailable">
+								       <span class="similarLinktxt underlineLink">
+								         Tillhörande produkter tillgängliga
+								       </span>
+								     </a>
+								   </div>
+								 
+							  </div>
+							</div>
+						</td>
+							
+					</tr>
+				</table>
+								
+			  </div>
+			
+				
+					<div class="enhanceCutTapeDespcription pf_col-3">
+					<div class="partDesclinks">
+	
+              	<div class="line-note collapsable" data-dojo-type="Collapsable" dojotype="Collapsable">
+				<a class="trigger" href="javascript:void(0);" data-dojo-attach-point="trigger">
+                      	Lägg till artikelnummer / Radkommentar
+                      </a>
+                  	<div class="lineNote collapsable-content">
+	  	
+						        <div class="formFields">
+				                	<strong>
+				                    	<label for="customerPartNumber_2">
+				                        	Dittt artikelnummer
+				                          	<span id="partNoTooltip_2" class="icon icon-info-circled iconColor partNoTooltip"></span>
+				                      	</label>
+				                  	</strong>
+						          	<input type="text"  maxlength="30" name="customerPartNumber_2" class="placeHolder placeHolderStyle fieldWidth partNoInput" id="customerPartNumber_2" placeholder="Ange ditt delnummer" />
+						       	</div>
+				        		<div class="formFields">
+						        	<strong>
+						            	<label for="lineNote_2">
+								      		Radkommentar
+								       		<span id="lineNoteTooltip_2" class="icon icon-info-circled iconColor lineNoteTooltip"></span>
+								     	</label>
+								  	</strong>
+					           		<input type="text"  maxlength="30" name="comment_2" class="placeHolder placeHolderStyle fieldWidth lineNoteInput" id="lineNote_2" placeholder="Mata in kommentarer" />
+					       		</div>
+	       						<span style="display: none;" connectid="partNoTooltip_2" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_partNoTooltip_2" widgetid="wc_widget_Tooltip_partNoTooltip_2" class="dijitTooltipData">
+									<div class="tooltip_popup">
+										<div class="header"> </div>
+										<div class="bodyarea">
+								  			Lägg till ditt eget artikelnummer/referens för varje produkt. Det här numret läggs till i beställningsbekräftelsen, fakturan, försändelseavin, e-postmeddelandet med webbekräftelse och produktetiketten
+										</div>
+										<div class="footer"> </div>
+							   		</div>
+								</span>
+								<span style="display: none;" connectid="lineNoteTooltip_2" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_lineNoteTooltip_2" widgetid="wc_widget_Tooltip_lineNoteTooltip_2" class="dijitTooltipData">
+									<div class="tooltip_popup">
+										<div class="header"> </div>
+											<div class="bodyarea">
+												Radkommentarer är kommentarer som du kan lägga till på varje rad i din beställning. Din radkommentar visas bredvid den produkten i beställningsbekräftelsen, fakturan och försändelseavin. Din radkommentar finns endast kvar så länge beställningen är aktiv.
+											</div>
+										<div class="footer"> </div>
+									</div>
+							   </span>
+	         				
+</div>
+					</div>
+					</div>
+					
+					
+					</div>
+			  		
+			
+		<div class="enhanceQtyDescriptionWrapper pf_col-2">
+			<div>
+					
+                        
+                        <div class="formFields coInput coQty ">
+                            
+                            <label class="displayNone" for="quantity_2">
+                                Antal
+                            </label>
+
+                            
+                                            
+                                    <input class="qtyRule quantityInput" data-index="2" data-rel="1972172" type="text" id="quantity_2" name="quantity_2" value="2" />
+                                     
+                                    
+                                     
+                            
+                            <br/>
+                             
+                            
+                        </div>
+
+                        <div class="quantity-actions enhanceQtyUpdate">
+                            <a class="quantity-update similarLinktxt" href="javascript:void(0);">
+                                Uppdatera
+                            </a>
+                        </div>
+			</div>
+		</div>
+
+		
+
+		<div class="enhancePriceDescriptionWrapper pf_col-2 ">
+			<div class="enhanceUnitPrice">
+				<span>Enhetspris:</span>
+				   
+                        <span class="price">
+                            <span >
+                                17,31 kr
+                            </span>
+                            
+                        </span>
+                        
+			</div>
+			<div class="enhanceProdPrice enhanceInStkTxt">
+				<span><label for="lineNote_2">
+	               Radpris:</label></span>
+				
+		               <span> 34,62 kr</span>
+		                 
+				</div>
+				<div class="enhanceProdVoucherPrice">
+					
+				</div>
+				
+				
+                              
+                    <div class="more-pricing-order-item">
+                    	<svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.47632 13.5C2.85913 13.5 0.66748 12.2426 0.100098 10.5552V8V7.5V7.05521V7V3.09525C0.585938 1.33273 2.82935 0 5.52368 0C8.21802 0 10.4614 1.33273 10.9458 3.09525H10.9526L10.95 3.11026L10.9614 3.15475H10.9817V3.24161L10.9941 3.30252L11 3.33334H10.9817V6.84525H10.9141C10.8574 7.07092 10.7722 7.28979 10.6606 7.5H10.9817V10.3452H10.9141C10.4646 12.1372 8.20093 13.5 5.47632 13.5ZM9.29224 8.94272C8.30103 9.59766 6.95679 10 5.47632 10C4.03809 10 2.72827 9.62021 1.74585 8.99799V10.3171C1.88379 10.528 2.10181 10.7581 2.43604 10.9888C3.14331 11.477 4.21362 11.8333 5.47632 11.8333C6.73901 11.8333 7.80933 11.477 8.5166 10.9888C8.93066 10.703 9.1665 10.4182 9.29224 10.1697V8.94272ZM2.43604 7.48877C2.10181 7.25806 1.88379 7.02795 1.74585 6.81708V5.42654C2.72827 6.04877 4.03809 6.42856 5.47632 6.42856C6.95679 6.42856 8.30103 6.02621 9.29224 5.37128V6.66971C9.1665 6.91824 8.93066 7.20303 8.5166 7.48877C7.80933 7.97696 6.73901 8.33334 5.47632 8.33334C4.21362 8.33334 3.14331 7.97696 2.43604 7.48877ZM1.75024 3.25232C1.88818 3.46136 2.10522 3.68906 2.43604 3.91733C3.14331 4.40552 4.21362 4.7619 5.47632 4.7619C6.73901 4.7619 7.80933 4.40552 8.5166 3.91733C8.88794 3.66107 9.11597 3.40552 9.24976 3.17624C9.11182 2.96719 8.89478 2.7395 8.56396 2.51123C7.85669 2.02304 6.78638 1.66666 5.52368 1.66666C4.26099 1.66666 3.19067 2.02304 2.4834 2.51123C2.11206 2.76752 1.88403 3.02304 1.75024 3.25232Z" fill="#979797"/></svg>
+						<svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.2749 3.52257V7.34524H11.2643C10.8146 9.13719 8.55108 10.5 5.82644 10.5C3.01199 10.5 0.689587 9.04586 0.350098 7.16667H0.406426V3.84119L0.404254 3.83333H0.397407L0.400168 3.8183C0.380378 3.74466 0.363656 3.67029 0.350098 3.59524H0.451564C0.935935 1.83272 3.17937 0.5 5.87375 0.5C8.53098 0.5 10.7496 1.79621 11.2749 3.52257ZM2.7861 7.98877C2.45187 7.75806 2.23377 7.52797 2.09593 7.31709V5.92655C3.07825 6.54878 4.38809 6.92857 5.82644 6.92857C7.3069 6.92857 8.65121 6.52622 9.64238 5.87129V7.16972C9.51655 7.41823 9.28073 7.70304 8.86678 7.98877C8.15951 8.47696 7.08904 8.83333 5.82644 8.83333C4.56384 8.83333 3.49338 8.47696 2.7861 7.98877ZM2.10031 3.75232C2.23837 3.96138 2.45539 4.18906 2.7861 4.41734C3.49338 4.90553 4.56384 5.2619 5.82644 5.2619C7.08904 5.2619 8.15951 4.90553 8.86678 4.41734C9.23806 4.16106 9.46605 3.90552 9.59989 3.67625C9.46182 3.46719 9.24481 3.23951 8.91409 3.01123C8.20682 2.52304 7.13635 2.16667 5.87375 2.16667C4.61115 2.16667 3.54069 2.52304 2.83341 3.01123C2.46213 3.26751 2.23415 3.52305 2.10031 3.75232Z" fill="#979797"/></svg>
+                       	<a href="javascript:void(0);"  class="priceBreaksTooltip" id="priceBreaksTooltip_1972172"
+                          onclick="pf.base.showTooltip('1972172','https://se.farnell.com/webapp/wcs/stores/servlet/PFPackagePriceBreaksCmd?prodReelCharge=&amp;catalogId=15001&amp;productId=64582126&amp;isBasketPage=true&amp;minOrderQty=1&amp;partNumber=1972172&amp;langId=46&amp;storeId=10177&amp;mfPartNumber=ATTINY84A-PU');">Fler priser</a>
+					</div>
+				
+			</div>
+			<a class="quantity-remove similarLinktxt" id="removeItem" href="javascript:void(0);">
+                <span class="enhanceRemoveIcon" id="removeItemTooltip_1972172"></span>
+				<span style="display: none;" connectid="removeItemTooltip_1972172" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_removeItemTooltip_1972172" widgetid="wc_widget_Tooltip_removeItemTooltip_1972172" class="dijitTooltipData">
+					<span class="tooltip_popup">
+							Ta bort produkt
+					</span>
+				</span>
+            </a>
+	  	   </div>
+	  	  <div class="enhanceAdvisoryContainer pf_row">
+	  	  	<div class="pf_col-1"></div>
+	  	  	<div class="pf_col-10">
+	  	  		<div class="enhanceAdvisoryMsgWrapper">
+						 
+                            <div class="stockTd cutOffTimesText">
+                                
+								<p id="cutOffTimesTooltip_64582126_4003406" class="linkLook">se stängningstider</p>
+							<!-- 
+Sup total :		<p>
+Avail total : 2788
+ -->
+ 
+
+	 
+<div style="block" class="toolTipSection">
+	<span style="display: none;" connectid="cutOffTimesTooltip_64582126_4003406" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_64582126_4003406" widgetid="wc_widget_Tooltip_64582126_4003406" class="dijitTooltipData">
+		<div class="tooltip_popup">
+			<div class="header"> </div>
+			<div class="bodyarea">
+			
+			
+				
+				<p>
+					<strong>2 788</strong> i lager för leverans nästa dag (UK stock)
+				</p>
+					
+			
+
+			</div>
+			<div class="footer">&nbsp;</div>
+		</div>
+	</span>
+</div>
+                 
+                            </div>
+		 					
+				</div>
+				
+	  	  	</div> 	  
+	  	  
+	  	  </div>
+	  	  
+	  	  
+			
+	  	  <div class="enhanceMsgWrapper enhanceOutStkTxt pf_row">
+	  	  		<div class="pf_col-1"></div>
+				<div class="pf_col-10">
+					<label for="" class="">
+                   		
+               		</label>
+				</div>
+				<div class="pf_col-1"></div>
+			</div>
+		  </div>
+		  </td>
+		</tr>           
+            
+                </tr>
+            
+
+                <input type="hidden" value="100260694591" 
+                       name="orderItemId_3" id="orderItem_3" />
+
+                
+                
+                <tr id="orderItemLine" class="" data-item-index="3" >
+               <td colspan="9">
+               
+                <div class="enhanceCartWrapper" id="cartErrorMsgLink_100260694591">
+                
+					<div class="enhanceChkboxWrapper pf_col-1" data-order-code-id="1574370">
+						<div>
+							<label for="del_cb_3" class="checkbox selectCheckbox">
+								<input type="checkbox" class="bomCartItemCheckBox" data-enhancedBomCartPartNumber="1574370" name="orderItemDelete" id="del_cb_3" value="100260694591" >
+								<span>&nbsp;</span>
+							</label>
+						</div>
+					</div>
+                	
+    	<div class="enhanceHeaderRowWrapper enhanceHeaderRowInstock">
+			
+
+<div class="abTestAboveTheFoldManufacturer">
+ 	    
+</div>
+
+			<div class="enhanceHeaderStatus">
+				<span class="enhanceHeaderStatusTxt enhanceInStkTxt">
+				
+    
+        <input type="hidden" class="hVal" value="000346010" />
+        
+	<div class="iconWraper">
+		<span class="enhanceInstockIcon"></span>
+	</div>
+	  <p class="enhanceInStkTxt stockAvailability enhanceInStkChanges">
+        
+        <strong><span class="inStockBold">
+        	346 010
+        </span>
+  I lager</strong>
+     
+	       </span>
+	    	</div>
+	    	</div>
+    				
+				<div class="enhanceDescriptionRowWrapper pf_row" data-order-code-id="1574370">
+					<div class="enhanceImageWrapper pf_col-1">
+							 
+								<div class="shpthmbimg">  						
+									<a href="https://se.farnell.com/multicomp-pro/2n3904/transistor-npn-to-92/dp/1574370" target="_blank"><img class="product-image" src="https://se.farnell.com/productimages/thumbnail/en_GB/GE3TO92-40.jpg" /></a>
+								</div>
+							
+					</div>
+					
+							
+                    
+                    
+					
+				<div class="enhanceProdDescriptionWrapper pf_col-3">
+					<div class="cartProdHeader">
+						
+								<a href="https://se.farnell.com/multicomp-pro/2n3904/transistor-npn-to-92/dp/1574370" target="_blank">
+									<p class="title">
+										2N3904 - TRANSISTOR, NPN, TO-92
+									</p>
+								</a>
+							
+					</div>
+				<div class="enhanceProdCodeWrapper">
+					<ul class="productProdCodeList">
+						
+						
+							<li><label>Tillverkare:</label> 
+								<span class="manufacturer">MULTICOMP PRO</span>
+							</li>
+							<li><label>Beställningskod:</label>
+								
+	                                	<span>1574370</span>
+	                            	
+							</li>						
+						
+						
+
+						<li>
+						
+						<!-- rohs -->
+	<a href="javascript:void(0);" class="prodDetailsAttachment"
+		onclick="pf.base.openRoHSOverlay('65050555',this)" data-dtm-eventinfo="RoHS">
+
+		
+				<div class="pfIcon pfRohsCompliance phthalatesIcon" title="RoHS-kompatibelt inklusive ftalater">
+					 <span class="plusIcon">&#43;</span>
+				</div>
+			<div class="rohs_tooltip rohs_tooltip_auto">RoHS-kompatibelt inklusive ftalater</div>
+		<span class="attachmentText rohsText"  title="" >RoHS</span>
+		<div class='rohsText_tooltip rohs_tooltip_auto'>Hämta certifikat för produktefterlevnad</div>
+	</a>
+  
+						</li> 
+						
+						                 
+					</ul>		
+				</div>
+				<table id="enhanceProdDescriptionTable">
+					<tr>
+						<td>
+							<div class="enhanceSimilarProdWrapper">
+							  <div class="enhanceCartSimilarLink">
+								
+								   <div class="accSubs">
+								     <a href="https://se.farnell.com/multicomp-pro/2n3904/transistor-npn-to-92/dp/1574370#pdpSection_PFProdAccessor" class="associatedProductsAvailable">
+								       <span class="similarLinktxt underlineLink">
+								         Tillhörande produkter tillgängliga
+								       </span>
+								     </a>
+								   </div>
+								 
+							  </div>
+							</div>
+						</td>
+							
+					</tr>
+				</table>
+								
+			  </div>
+			
+				
+					<div class="enhanceCutTapeDespcription pf_col-3">
+					<div class="partDesclinks">
+	
+              	<div class="line-note collapsable" data-dojo-type="Collapsable" dojotype="Collapsable">
+				<a class="trigger" href="javascript:void(0);" data-dojo-attach-point="trigger">
+                      	Lägg till artikelnummer / Radkommentar
+                      </a>
+                  	<div class="lineNote collapsable-content">
+	  	
+						        <div class="formFields">
+				                	<strong>
+				                    	<label for="customerPartNumber_3">
+				                        	Dittt artikelnummer
+				                          	<span id="partNoTooltip_3" class="icon icon-info-circled iconColor partNoTooltip"></span>
+				                      	</label>
+				                  	</strong>
+						          	<input type="text"  maxlength="30" name="customerPartNumber_3" class="placeHolder placeHolderStyle fieldWidth partNoInput" id="customerPartNumber_3" placeholder="Ange ditt delnummer" />
+						       	</div>
+				        		<div class="formFields">
+						        	<strong>
+						            	<label for="lineNote_3">
+								      		Radkommentar
+								       		<span id="lineNoteTooltip_3" class="icon icon-info-circled iconColor lineNoteTooltip"></span>
+								     	</label>
+								  	</strong>
+					           		<input type="text"  maxlength="30" name="comment_3" class="placeHolder placeHolderStyle fieldWidth lineNoteInput" id="lineNote_3" placeholder="Mata in kommentarer" />
+					       		</div>
+	       						<span style="display: none;" connectid="partNoTooltip_3" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_partNoTooltip_3" widgetid="wc_widget_Tooltip_partNoTooltip_3" class="dijitTooltipData">
+									<div class="tooltip_popup">
+										<div class="header"> </div>
+										<div class="bodyarea">
+								  			Lägg till ditt eget artikelnummer/referens för varje produkt. Det här numret läggs till i beställningsbekräftelsen, fakturan, försändelseavin, e-postmeddelandet med webbekräftelse och produktetiketten
+										</div>
+										<div class="footer"> </div>
+							   		</div>
+								</span>
+								<span style="display: none;" connectid="lineNoteTooltip_3" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_lineNoteTooltip_3" widgetid="wc_widget_Tooltip_lineNoteTooltip_3" class="dijitTooltipData">
+									<div class="tooltip_popup">
+										<div class="header"> </div>
+											<div class="bodyarea">
+												Radkommentarer är kommentarer som du kan lägga till på varje rad i din beställning. Din radkommentar visas bredvid den produkten i beställningsbekräftelsen, fakturan och försändelseavin. Din radkommentar finns endast kvar så länge beställningen är aktiv.
+											</div>
+										<div class="footer"> </div>
+									</div>
+							   </span>
+	         				
+</div>
+					</div>
+					</div>
+					
+					
+					</div>
+			  		
+			
+		<div class="enhanceQtyDescriptionWrapper pf_col-2">
+			<div>
+					
+                        
+                        <div class="formFields coInput coQty ">
+                            
+                            <label class="displayNone" for="quantity_3">
+                                Antal
+                            </label>
+
+                            
+                                            
+                                    <input class="qtyRule quantityInput" data-index="3" data-rel="1574370" type="text" id="quantity_3" name="quantity_3" value="5" />
+                                     
+                                    
+                                     
+                            
+                            <br/>
+                             
+                            
+                        </div>
+
+                        <div class="quantity-actions enhanceQtyUpdate">
+                            <a class="quantity-update similarLinktxt" href="javascript:void(0);">
+                                Uppdatera
+                            </a>
+                        </div>
+			</div>
+		</div>
+
+		
+
+		<div class="enhancePriceDescriptionWrapper pf_col-2 ">
+			<div class="enhanceUnitPrice">
+				<span>Enhetspris:</span>
+				   
+                        <span class="price">
+                            <span >
+                                1,72 kr
+                            </span>
+                            
+                        </span>
+                        
+			</div>
+			<div class="enhanceProdPrice enhanceInStkTxt">
+				<span><label for="lineNote_3">
+	               Radpris:</label></span>
+				
+		               <span> 8,60 kr</span>
+		                 
+				</div>
+				<div class="enhanceProdVoucherPrice">
+					
+				</div>
+				
+				
+                              
+                    <div class="more-pricing-order-item">
+                    	<svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5.47632 13.5C2.85913 13.5 0.66748 12.2426 0.100098 10.5552V8V7.5V7.05521V7V3.09525C0.585938 1.33273 2.82935 0 5.52368 0C8.21802 0 10.4614 1.33273 10.9458 3.09525H10.9526L10.95 3.11026L10.9614 3.15475H10.9817V3.24161L10.9941 3.30252L11 3.33334H10.9817V6.84525H10.9141C10.8574 7.07092 10.7722 7.28979 10.6606 7.5H10.9817V10.3452H10.9141C10.4646 12.1372 8.20093 13.5 5.47632 13.5ZM9.29224 8.94272C8.30103 9.59766 6.95679 10 5.47632 10C4.03809 10 2.72827 9.62021 1.74585 8.99799V10.3171C1.88379 10.528 2.10181 10.7581 2.43604 10.9888C3.14331 11.477 4.21362 11.8333 5.47632 11.8333C6.73901 11.8333 7.80933 11.477 8.5166 10.9888C8.93066 10.703 9.1665 10.4182 9.29224 10.1697V8.94272ZM2.43604 7.48877C2.10181 7.25806 1.88379 7.02795 1.74585 6.81708V5.42654C2.72827 6.04877 4.03809 6.42856 5.47632 6.42856C6.95679 6.42856 8.30103 6.02621 9.29224 5.37128V6.66971C9.1665 6.91824 8.93066 7.20303 8.5166 7.48877C7.80933 7.97696 6.73901 8.33334 5.47632 8.33334C4.21362 8.33334 3.14331 7.97696 2.43604 7.48877ZM1.75024 3.25232C1.88818 3.46136 2.10522 3.68906 2.43604 3.91733C3.14331 4.40552 4.21362 4.7619 5.47632 4.7619C6.73901 4.7619 7.80933 4.40552 8.5166 3.91733C8.88794 3.66107 9.11597 3.40552 9.24976 3.17624C9.11182 2.96719 8.89478 2.7395 8.56396 2.51123C7.85669 2.02304 6.78638 1.66666 5.52368 1.66666C4.26099 1.66666 3.19067 2.02304 2.4834 2.51123C2.11206 2.76752 1.88403 3.02304 1.75024 3.25232Z" fill="#979797"/></svg>
+						<svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.2749 3.52257V7.34524H11.2643C10.8146 9.13719 8.55108 10.5 5.82644 10.5C3.01199 10.5 0.689587 9.04586 0.350098 7.16667H0.406426V3.84119L0.404254 3.83333H0.397407L0.400168 3.8183C0.380378 3.74466 0.363656 3.67029 0.350098 3.59524H0.451564C0.935935 1.83272 3.17937 0.5 5.87375 0.5C8.53098 0.5 10.7496 1.79621 11.2749 3.52257ZM2.7861 7.98877C2.45187 7.75806 2.23377 7.52797 2.09593 7.31709V5.92655C3.07825 6.54878 4.38809 6.92857 5.82644 6.92857C7.3069 6.92857 8.65121 6.52622 9.64238 5.87129V7.16972C9.51655 7.41823 9.28073 7.70304 8.86678 7.98877C8.15951 8.47696 7.08904 8.83333 5.82644 8.83333C4.56384 8.83333 3.49338 8.47696 2.7861 7.98877ZM2.10031 3.75232C2.23837 3.96138 2.45539 4.18906 2.7861 4.41734C3.49338 4.90553 4.56384 5.2619 5.82644 5.2619C7.08904 5.2619 8.15951 4.90553 8.86678 4.41734C9.23806 4.16106 9.46605 3.90552 9.59989 3.67625C9.46182 3.46719 9.24481 3.23951 8.91409 3.01123C8.20682 2.52304 7.13635 2.16667 5.87375 2.16667C4.61115 2.16667 3.54069 2.52304 2.83341 3.01123C2.46213 3.26751 2.23415 3.52305 2.10031 3.75232Z" fill="#979797"/></svg>
+                       	<a href="javascript:void(0);"  class="priceBreaksTooltip" id="priceBreaksTooltip_1574370"
+                          onclick="pf.base.showTooltip('1574370','https://se.farnell.com/webapp/wcs/stores/servlet/PFPackagePriceBreaksCmd?prodReelCharge=&amp;catalogId=15001&amp;productId=65050555&amp;isBasketPage=true&amp;minOrderQty=5&amp;partNumber=1574370&amp;langId=46&amp;storeId=10177&amp;mfPartNumber=2N3904');">Fler priser</a>
+					</div>
+				
+			</div>
+			<a class="quantity-remove similarLinktxt" id="removeItem" href="javascript:void(0);">
+                <span class="enhanceRemoveIcon" id="removeItemTooltip_1574370"></span>
+				<span style="display: none;" connectid="removeItemTooltip_1574370" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_removeItemTooltip_1574370" widgetid="wc_widget_Tooltip_removeItemTooltip_1574370" class="dijitTooltipData">
+					<span class="tooltip_popup">
+							Ta bort produkt
+					</span>
+				</span>
+            </a>
+	  	   </div>
+	  	  <div class="enhanceAdvisoryContainer pf_row">
+	  	  	<div class="pf_col-1"></div>
+	  	  	<div class="pf_col-10">
+	  	  		<div class="enhanceAdvisoryMsgWrapper">
+						 
+                            <div class="stockTd cutOffTimesText">
+                                
+								<p id="cutOffTimesTooltip_65050555_68254320" class="linkLook">se stängningstider</p>
+							<!-- 
+Sup total :		<p>
+Avail total : 346010
+ -->
+ 
+
+	 
+<div style="block" class="toolTipSection">
+	<span style="display: none;" connectid="cutOffTimesTooltip_65050555_68254320" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_65050555_68254320" widgetid="wc_widget_Tooltip_65050555_68254320" class="dijitTooltipData">
+		<div class="tooltip_popup">
+			<div class="header"> </div>
+			<div class="bodyarea">
+			
+			
+				
+				<p>
+					<strong>346 010</strong> i lager för leverans nästa dag (UK stock)
+				</p>
+					
+			
+
+			</div>
+			<div class="footer">&nbsp;</div>
+		</div>
+	</span>
+</div>
+                 
+                            </div>
+		 					
+				</div>
+				
+	  	  	</div> 	  
+	  	  
+	  	  </div>
+	  	  
+	  	  
+			
+	  	  <div class="enhanceMsgWrapper enhanceOutStkTxt pf_row">
+	  	  		<div class="pf_col-1"></div>
+				<div class="pf_col-10">
+					<label for="" class="">
+                   		
+               		</label>
+				</div>
+				<div class="pf_col-1"></div>
+			</div>
+		  </div>
+		  </td>
+		</tr>           
+            
+                </tr>
+            
+		
+			
+        
+	        <input type="hidden" value="" data-dtmCart="[1455162-2-47.9-23.95-MICROCHIP-ATTINY85~20PU-47.9, 1972172-2-34.62-17.31-MICROCHIP-ATTINY84A~PU-34.62, 1574370-5-8.6-1.72-MULTICOMP PRO-2N3904-8.6]" class="dtmCartItem" name="dtmCartItem"/>       
+	        <input type="hidden" value="91.12" class="dtmTotalPriceVal" />
+	        <input type="hidden" name="currentOrderId" value="31114514370239" id="currentOrderId"/>
+	        <input type="hidden" name="itemsArray" value="1455162,1972172,1574370" id="itemsArray"/>
+	        <input type="hidden" name="packageArray" value=",," id="packageArray"/>
+	        
+	        	<tr id="cloned" class="clonedRow inlineAddOrderQty">
+		            
+					<td class="continuous-column">4</td>
+		            <td colspan="8">
+		                <div class="inlineAddPart">
+		                    <label for="partNumber_Add_4">
+		                        <span>
+		                            Orderkod
+		                        </span>
+		                         
+		                       	 	<input id="partNumber_Add_4" name="partNumber_Add" type="text" class="placeHolder placeHolderStyle" value=""/>
+		                        
+		                    </label>
+		                </div>
+		                <div class="coQty inlineAddPart">
+		                    <label for="partNumber_Add">
+		                        <span>
+		                            Antal
+		                        </span>
+								 
+									<input id="quantity_Add" name="quantity_Add" type="text" value="1"/>
+								
+		                    </label>
+		                </div>
+						
+						<span class="explanation">
+							Ange beställningskod och antal, och tryck sedan på Uppdatera varukorgen.
+						</span>
+		            </td>
+		        </tr>
+		        
+		      
+			  
+		        
+		        <tr id="addMoreLines" class="addMoreLines">
+		            <td class="continuous-column"><!-- Keep --></td>
+		            <td colspan="7">
+		                <span>
+		                    <span class="icon-plus"></span>
+		                    <span>
+		                        Lägg till fler artiklar efter beställningskod
+		                    </span>
+		                </span>
+		                
+						<input type="text" id="blankLines" name="blankLines" value="1" />
+						<a href="javascipt:void(0);" id="addLines" class="btn btnTertiary omTagEvt" data-prop="eVar27|prop21" data-om="Add Lines">
+		                    Lägg till
+						</a>
+		
+						<a href="#" id="clearLines" class="btn btnTertiary disabled omTagEvt" data-prop="eVar27|prop21" data-om="Clear Lines">
+		                    Rensa tomma rader
+		                </a>
+		            </td>
+		        </tr>
+		        
+    	</tbody>
+	</table>
+	 
+	<div style="display: none;" id="toolTipSection">
+	    
+	</div>
+	
+	<div style="display: none;" id="rohsToolTips">
+	    
+	        <span style="display: none;" connectid="RoHS_1455162" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_RoHS_1455162" widgetid="wc_widget_Tooltip_RoHS_1455162" class="dijitTooltipData">
+	            <div class="tooltip_popup">
+	                <div class="header">&nbsp;</div>
+	                <div class="bodyarea">
+	                    RoHS-kompatibelt Baserat på information från våra leverantörer innehåller denna produkt INTE de substanser som är begränsade av RoHS-lagstiftningen vid nivåer över de maximala koncentrationsvärdena.
+	                </div>
+	                <div class="footer">&nbsp;</div>
+	            </div>
+	        </span>
+	        <span style="display: none;" connectid="RoHSex_1455162" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_RoHSex_1455162" widgetid="wc_widget_Tooltip_RoHSex_1455162" class="dijitTooltipData">
+	            <div class="tooltip_popup">
+	                <div class="header">&nbsp;</div>
+	                <div class="bodyarea">
+	                    RoHS-kompatibelt via undantagProdukter där din leverantör har bekräftat att produkten kvalificerar sig för ett av de specifika undantagen som anges i bilagan till RoHS-direktivet.
+	                </div>
+	                <div class="footer">&nbsp;</div>
+	            </div>
+	        </span>
+	        <span style="display: none;" connectid="RoHSnot_1455162" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_RoHSnot_1455162" widgetid="wc_widget_Tooltip_RoHSnot_1455162" class="dijitTooltipData">
+	            <div class="tooltip_popup">
+	                <div class="header">&nbsp;</div>
+	                <div class="bodyarea">
+	                    Ej RoHS-kompatibelBaserat på information från våra leverantörer innehåller denna produkt substanserna som är begränsade av RoHS-lagstiftningen vid nivåer över de maximala koncentrationsvärdena.
+	                </div>
+	                <div class="footer">&nbsp;</div>
+	            </div>
+	        </span>
+	        
+			        <span style="display: none;"
+			              connectid="productTraceToolTip_1455162"
+			              dojotype="dijit.Tooltip"
+			              id="wc_widget_Tooltip_productTraceToolTip_1455162"
+			              widgetid="wc_widget_Tooltip_productTraceToolTip_1455162"
+			              class="dijitTooltipData">
+			
+			            <div class="tooltip_popup">
+			
+			                <div class="header">&nbsp;</div>
+			
+			                <div class="bodyarea">
+			                
+			                    <p style="margin-bottom:0px;">
+										Information om datum och/eller partikod kommer automatiskt att skrivas ut på både produktetiketten och fraktsedeln som tillhandahålls av tillverkaren – <a href=https://SE.farnell.com/date-and-lot-code target=&#34;_blank&#34;>Läs mer</a></p>
+			                </div>
+			
+			                <div class="footer">&nbsp;</div>
+			            </div>
+			        </span>
+			    
+	        <span style="display: none;" connectid="RoHS_1972172" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_RoHS_1972172" widgetid="wc_widget_Tooltip_RoHS_1972172" class="dijitTooltipData">
+	            <div class="tooltip_popup">
+	                <div class="header">&nbsp;</div>
+	                <div class="bodyarea">
+	                    RoHS-kompatibelt Baserat på information från våra leverantörer innehåller denna produkt INTE de substanser som är begränsade av RoHS-lagstiftningen vid nivåer över de maximala koncentrationsvärdena.
+	                </div>
+	                <div class="footer">&nbsp;</div>
+	            </div>
+	        </span>
+	        <span style="display: none;" connectid="RoHSex_1972172" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_RoHSex_1972172" widgetid="wc_widget_Tooltip_RoHSex_1972172" class="dijitTooltipData">
+	            <div class="tooltip_popup">
+	                <div class="header">&nbsp;</div>
+	                <div class="bodyarea">
+	                    RoHS-kompatibelt via undantagProdukter där din leverantör har bekräftat att produkten kvalificerar sig för ett av de specifika undantagen som anges i bilagan till RoHS-direktivet.
+	                </div>
+	                <div class="footer">&nbsp;</div>
+	            </div>
+	        </span>
+	        <span style="display: none;" connectid="RoHSnot_1972172" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_RoHSnot_1972172" widgetid="wc_widget_Tooltip_RoHSnot_1972172" class="dijitTooltipData">
+	            <div class="tooltip_popup">
+	                <div class="header">&nbsp;</div>
+	                <div class="bodyarea">
+	                    Ej RoHS-kompatibelBaserat på information från våra leverantörer innehåller denna produkt substanserna som är begränsade av RoHS-lagstiftningen vid nivåer över de maximala koncentrationsvärdena.
+	                </div>
+	                <div class="footer">&nbsp;</div>
+	            </div>
+	        </span>
+	        
+			        <span style="display: none;"
+			              connectid="productTraceToolTip_1972172"
+			              dojotype="dijit.Tooltip"
+			              id="wc_widget_Tooltip_productTraceToolTip_1972172"
+			              widgetid="wc_widget_Tooltip_productTraceToolTip_1972172"
+			              class="dijitTooltipData">
+			
+			            <div class="tooltip_popup">
+			
+			                <div class="header">&nbsp;</div>
+			
+			                <div class="bodyarea">
+			                
+			                    <p style="margin-bottom:0px;">
+										Information om datum och/eller partikod kommer automatiskt att skrivas ut på både produktetiketten och fraktsedeln som tillhandahålls av tillverkaren – <a href=https://SE.farnell.com/date-and-lot-code target=&#34;_blank&#34;>Läs mer</a></p>
+			                </div>
+			
+			                <div class="footer">&nbsp;</div>
+			            </div>
+			        </span>
+			    
+	        <span style="display: none;" connectid="RoHS_1574370" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_RoHS_1574370" widgetid="wc_widget_Tooltip_RoHS_1574370" class="dijitTooltipData">
+	            <div class="tooltip_popup">
+	                <div class="header">&nbsp;</div>
+	                <div class="bodyarea">
+	                    RoHS-kompatibelt Baserat på information från våra leverantörer innehåller denna produkt INTE de substanser som är begränsade av RoHS-lagstiftningen vid nivåer över de maximala koncentrationsvärdena.
+	                </div>
+	                <div class="footer">&nbsp;</div>
+	            </div>
+	        </span>
+	        <span style="display: none;" connectid="RoHSex_1574370" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_RoHSex_1574370" widgetid="wc_widget_Tooltip_RoHSex_1574370" class="dijitTooltipData">
+	            <div class="tooltip_popup">
+	                <div class="header">&nbsp;</div>
+	                <div class="bodyarea">
+	                    RoHS-kompatibelt via undantagProdukter där din leverantör har bekräftat att produkten kvalificerar sig för ett av de specifika undantagen som anges i bilagan till RoHS-direktivet.
+	                </div>
+	                <div class="footer">&nbsp;</div>
+	            </div>
+	        </span>
+	        <span style="display: none;" connectid="RoHSnot_1574370" dojotype="dijit.Tooltip" id="wc_widget_Tooltip_RoHSnot_1574370" widgetid="wc_widget_Tooltip_RoHSnot_1574370" class="dijitTooltipData">
+	            <div class="tooltip_popup">
+	                <div class="header">&nbsp;</div>
+	                <div class="bodyarea">
+	                    Ej RoHS-kompatibelBaserat på information från våra leverantörer innehåller denna produkt substanserna som är begränsade av RoHS-lagstiftningen vid nivåer över de maximala koncentrationsvärdena.
+	                </div>
+	                <div class="footer">&nbsp;</div>
+	            </div>
+	        </span>
+	        
+			        <span style="display: none;"
+			              connectid="productTraceToolTip_1574370"
+			              dojotype="dijit.Tooltip"
+			              id="wc_widget_Tooltip_productTraceToolTip_1574370"
+			              widgetid="wc_widget_Tooltip_productTraceToolTip_1574370"
+			              class="dijitTooltipData">
+			
+			            <div class="tooltip_popup">
+			
+			                <div class="header">&nbsp;</div>
+			
+			                <div class="bodyarea">
+			                
+			                    <p style="margin-bottom:0px;">
+										Information om datum och/eller partikod kommer automatiskt att skrivas ut på både produktetiketten och fraktsedeln som tillhandahålls av tillverkaren – <a href=https://SE.farnell.com/date-and-lot-code target=&#34;_blank&#34;>Läs mer</a></p>
+			                </div>
+			
+			                <div class="footer">&nbsp;</div>
+			            </div>
+			        </span>
+			    
+	</div>
+	</div>
+	
+	<!-- Update Basket button -->
+	<div class="update-basket-button">
+		<input type="submit" id="toolTipHook1"  class="btn btnSecondary addBasketAjaxLoader  " name="update" value="Uppdatera varukorg"/>
+		<input type="submit" value="save" disabled="disabled" class="displayNone" id="hiddenSubmit">
+	</div>
+
+</form>
+
+
+<div class="popupContent confirmationModalOverlay" id="removeItemOverlay" dojoType="dijit.Dialog" aria-describedby="intro" style="display:none">
+	<div class="bodyarea">
+		<span class="confirmationModalCloseBtn" id="removeItemCloseBtn"></span>
+		<div class="bodycontent">
+			<div class="popBody">
+				<p class="popupText">???PF_CONFIRM_DELETE_ITEM_MESSAGE???</p>			
+			</div>
+		</div>			
+	</div>
+	<div class="confirmationModalOverlayFooter">
+		<a href="javascript:void(0)" class="confirmationModalCancel" id="removeItemCancel">Avbryt</a>
+		<a href="javascript:void(0)" class="confirmationModalConfirm" id="removeItemConfirm">Bekräfta</a>
+	</div>
+</div>
+
+<div class="bottom-actions group">
+	
+		<div class="load-save-basket collapsable action-tooltip-parent" data-dojo-type="Collapsable" dojotype="Collapsable">
+			<div class="action-tooltip-trigger btn btnTertiary" data-dojo-attach-point="trigger">
+				<span class="icon-folder"></span>
+				Läs in/spara kundkorg
+			</div>
+			<div class="collapsable-content action-tooltip">
+				<ul>
+					<li class="">
+						
+						<form name="saveShoppingBasketDetailsForm" method="post" action="PFSaveBasketDetails" id="saveShoppingBasketDetailsForm">
+							<div data-group="hidden-inputs">
+								<input type="hidden" name="errorViewName" value="AjaxOrderItemDisplayView" id="errorViewName" />
+								<input type="hidden" id="URL" name="URL" value="AjaxOrderItemDisplayView" />
+								<input type="hidden" id="catalogId" name="catalogId" value="15001" />
+								<input type="hidden" id="langId" name="langId" value="46" />
+								<input type="hidden" id="storeId" name="storeId" value="10177" />
+								<input type="hidden" id="orderId" name="orderId" value="31114514370239" />
+								<input type="hidden" id="omSelection" name="omSelection" value="saveBasket" />
+							</div>
+							
+							<input type="text" name="savedBasketName" id="savedBasketName" value="" placeholder="Namn"  />
+							<button id="saveCartAndUpdateBasket" class="btn btnTertiary omTagEvt saveCartAndUpdateBasket  addBasketAjaxLoader" data-prop="eVar27|prop21" data-om="Save Basket" >
+								Spara
+							</button>
+						</form>
+					</li>				
+					<li>
+				<script type="text/javascript">
+                      pf.inlineScripts.push(function(){
+                 
+                          
+                         
+                      });       
+       
+                </script>
+						
+					</li>
+					<li class="last">
+	                    
+                    <a href="https://se.farnell.com/webapp/wcs/stores/servlet/NonAjaxSavedBasketsView?catalogId=15001&currentSelection=savedBasketsSlct&storeId=10177&langId=46" class="btn btnSecondary omTagEvt tempAjaxLoader" data-prop="eVar27|prop21" data-om="View Saved Baskets">
+	                        Visa alla sparade varukorgar
+	                    </a>    
+	                </li>
+				</ul>
+			</div>
+		</div>
+	
+	<form name="exportShopCartDetailsForm" method="post" action="https://se.farnell.com/webapp/wcs/stores/servlet/PFShopCartExport?catalogId=15001&currentOrderId=31114514370239&langId=46&storeId=10177" id="exportShopCartDetailsForm">
+		<div class="download-basket-html collapsable action-tooltip-parent" data-dojo-type="Collapsable" dojotype="Collapsable">
+			<div id="downloadBasketBtn" data-dojo-attach-point="trigger" class="action-tooltip-trigger btn btnTertiary ">
+				<span class="icon-download-alt"></span>
+				Hämta kundkorg
+			</div>
+			<div class="collapsable-content action-tooltip">
+				<ul>
+					<li class="group">
+						<select name="documentType"	id="documentType" >
+							<option value="CSV">
+								CSV
+							</option>
+							<option value="HTML">
+								HTML
+							</option>
+						</select>
+						<button type="submit" id="downloadBasketSubmit" class="btn btnTertiary  tempAjaxLoader" >
+							Hämta
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</form>
+
+
+	
+
+</div>
+<div id="recPurWidget"></div>
+
+
+<div class="popupContent" id="confOverlay" dojoType="dijit.Dialog" aria-describedby="intro" style="display:none">
+	<div class="header">
+		<div class="close closeOverlay closeOverlayWrap">
+		    <a class="closeIconWrap" href="javascript:void(0)"><span class="pfIcon pfClose">&nbsp;</span></a>
+			<a class="closeTextWrap" href="javascript:void(0)">Stäng</a>
+		</div>
+	</div>
+
+	<!-- Start - JSP File Name:  CheckoutLogon.jsp -->
+
+	<div class="bodyarea" id="wrap">
+		<div class="bodycontent">
+			<div class="popBody">
+
+                <dl class="registerAccordion">
+                    <dt class="show">
+                        <label class="radio inlineRadios">
+                            <input type="radio" name="checkoutLogon" id="checkoutLogin" value="false" checked="checked" />
+                            <span><h2>Återkommande kund</h2></span>
+                        </label>
+                        
+                        <p>Logga in för att använda din sparade information och dra nytta av fördelarna med ditt konto.</p>
+
+                    </dt>
+                    <dd class="show">
+                        <form id="Logon" action="Logon" name="Logon" method="post">
+                        <input type="hidden" value="10177" name="storeId">
+                        <input type="hidden" value="15001" name="catalogId">
+                        <input type="hidden" value="46" name="langId">
+                        <input type="hidden" value="LogonForm" name="reLogonURL">
+                        <input type="hidden" value="LogonForm" name="errorViewName">
+                        <input type="hidden" value="" id="taggingReferrer" name="taggingReferrer">
+                        <input type="hidden" value="1" name="myAcctMain">
+                        <input type="hidden" value="OrderCalculate?URL=https://se.farnell.com/webapp/wcs/stores/servlet/CheckoutFlow?catalogId=15001&orderId=.&viaLogin=true&langId=46&storeId=10177&BASE_URL=BasketPage" name="URL">
+
+                        <div class="displayNone formErrors" id="formErrorsPopupLogon"></div>
+                        
+                        <div id="login-tooltip" class="login-tooltip" style="visibility: hidden">
+					  		<div class="container">
+					    		<div class="left-box">
+						      		<svg class="letter-icon" width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+						        		<path d="M27.75 0.041687H2.25C1.68641 0.041687 1.14591 0.26557 0.747398 0.664085C0.348883 1.0626 0.125 1.6031 0.125 2.16669V19.1667C0.125 19.7303 0.348883 20.2708 0.747398 20.6693C1.14591 21.0678 1.68641 21.2917 2.25 21.2917H27.75C28.3136 21.2917 28.8541 21.0678 29.2526 20.6693C29.6511 20.2708 29.875 19.7303 29.875 19.1667V2.16669C29.875 1.6031 29.6511 1.0626 29.2526 0.664085C28.8541 0.26557 28.3136 0.041687 27.75 0.041687ZM25.4125 2.16669L15 9.37044L4.5875 2.16669H25.4125ZM2.25 19.1667V3.13356L14.3944 11.5379C14.5722 11.6613 14.7835 11.7274 15 11.7274C15.2165 11.7274 15.4278 11.6613 15.6056 11.5379L27.75 3.13356V19.1667H2.25Z" fill="#6F6F6F"></path>
+						      		</svg>
+					
+					      			<svg class="check-icon" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+					        			<path d="M8.66691 0.833374C7.0517 0.833374 5.47276 1.31234 4.12976 2.20971C2.78676 3.10707 1.74001 4.38253 1.1219 5.87479C0.503783 7.36706 0.342055 9.0091 0.657168 10.5933C0.972281 12.1775 1.75008 13.6326 2.89221 14.7747C4.03434 15.9169 5.4895 16.6947 7.07368 17.0098C8.65786 17.3249 10.2999 17.1632 11.7922 16.5451C13.2844 15.9269 14.5599 14.8802 15.4572 13.5372C16.3546 12.1942 16.8336 10.6153 16.8336 9.00004C16.8336 6.83411 15.9732 4.75688 14.4416 3.22534C12.9101 1.69379 10.8328 0.833374 8.66691 0.833374ZM7.50025 12.2613L4.58358 9.34467L5.51143 8.41671L7.50025 10.4054L11.8227 6.08337L12.7536 7.00848L7.50025 12.2613Z" fill="#41C363"></path>
+					      			</svg>
+					    		</div>
+					    		<div class="right-box">
+					      			<h1>Logga bara in med din e-postadress</h1>
+					      			<p>Du kan nu använda din e-postadress för att logga in. Om du har flera användarnamn kopplade till din e-postadress, använd ett användarnamn istället.</p>
+					    		</div>
+					  		</div>
+						</div>
+
+                        <div class="formFields labelLeft logonUser">
+                            <label for="logonId" class="logonIdLabel">
+                                <span class="ft_red">*</span>E-post eller användarnamn
+                            </label>
+                            <div>
+                                <input type="text" value="" id="logonId" name="logonId" autocomplete="off" size="35">
+                            </div>
+                        </div>
+                        
+                        <div class="formFields labelLeft">
+                            <label for="logonPassword">
+                                <span class="ft_red">*</span>Lösenord
+                            </label>
+                            <div>
+                                <input type="password" autocomplete="off" value="" id="logonPassword" name="logonPassword" size="35">
+								<!-- Start  .../include/showHidePassword.jspf--> 
+
+<span id="showHideEyeIcons">
+    <span class="visibilityEyeIcon">
+        <svg
+        width="22"
+        height="16"
+        viewBox="0 0 22 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        >
+        <path
+            d="M11 5C10.2044 5 9.44129 5.31607 8.87868 5.87868C8.31607 6.44129 8 7.20435 8 8C8 8.79565 8.31607 9.55871 8.87868 10.1213C9.44129 10.6839 10.2044 11 11 11C11.7956 11 12.5587 10.6839 13.1213 10.1213C13.6839 9.55871 14 8.79565 14 8C14 7.20435 13.6839 6.44129 13.1213 5.87868C12.5587 5.31607 11.7956 5 11 5ZM11 13C9.67392 13 8.40215 12.4732 7.46447 11.5355C6.52678 10.5979 6 9.32608 6 8C6 6.67392 6.52678 5.40215 7.46447 4.46447C8.40215 3.52678 9.67392 3 11 3C12.3261 3 13.5979 3.52678 14.5355 4.46447C15.4732 5.40215 16 6.67392 16 8C16 9.32608 15.4732 10.5979 14.5355 11.5355C13.5979 12.4732 12.3261 13 11 13ZM11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5Z"
+            fill="#6F6F6F"
+        />
+        </svg>
+    </span>
+    <span class="invisibilityEyeIcon displayNone">
+        <svg
+        width="22"
+        height="19"
+        viewBox="0 0 22 19"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        >
+        <path
+            d="M11 4C13.76 4 16 6.24 16 9C16 9.65 15.87 10.26 15.64 10.83L18.56 13.75C20.07 12.49 21.26 10.86 21.99 9C20.26 4.61 15.99 1.5 10.99 1.5C9.59 1.5 8.25 1.75 7.01 2.2L9.17 4.36C9.74 4.13 10.35 4 11 4ZM1 1.27L3.28 3.55L3.74 4.01C2.08 5.3 0.78 7.02 0 9C1.73 13.39 6 16.5 11 16.5C12.55 16.5 14.03 16.2 15.38 15.66L15.8 16.08L18.73 19L20 17.73L2.27 0L1 1.27ZM6.53 6.8L8.08 8.35C8.03 8.56 8 8.78 8 9C8 10.66 9.34 12 11 12C11.22 12 11.44 11.97 11.65 11.92L13.2 13.47C12.53 13.8 11.79 14 11 14C8.24 14 6 11.76 6 9C6 8.21 6.2 7.47 6.53 6.8V6.8ZM10.84 6.02L13.99 9.17L14.01 9.01C14.01 7.35 12.67 6.01 11.01 6.01L10.84 6.02Z"
+            fill="#697077"
+        />
+        </svg>
+    </span>
+</span>
+
+<!-- Ends  .../include/showHidePassword.jspf-->
+                            </div>
+                        </div>
+
+                        
+                        <input type="hidden" value="true" name="rememberMe"/>
+						<div class="loadingControlLoginOrRegister">
+                        	<input type="submit" id="submitLogin" value="Logga in" class="btn btnPrimary disAfterSub" />
+                        </div>
+                        
+                        <a href="https://se.farnell.com/webapp/wcs/stores/servlet/PFUserNameRetrieveView?catalogId=15001&langId=46&storeId=10177" id="forgotUsername" class="updated-forgot-username-link">Glömt ditt användarnamn?</a>
+                        <span class="forgotUsernameDivider">|</span>
+                        <a href="https://se.farnell.com/webapp/wcs/stores/servlet/ResetPasswordGuestErrorView?catalogId=15001&state=forgetpassword&langId=46&storeId=10177" id="forgotPassword">Glömt ditt lösenord?</a>
+                    </form>
+
+                    </dd>
+
+                    <dt>
+                        <label class="radio inlineRadios">
+                            <input type="radio" name="checkoutLogon" id="checkoutRegister" value="false" />
+                            <span><h2>Ny kund</h2></span>
+                        </label>
+                        <p>Få personlig prisinformation, se din orderstatus och spårning, snabbare utcheckning vid framtida beställningar</p>
+                    </dt>
+                    <dd>
+                        <div class="sectOverlayLogin">
+                            <div class="contPopAction">
+                                <a class="btn btnPrimary" id="registerButton" href="https://se.farnell.com/webapp/wcs/stores/servlet/UserRegistrationForm?myAcctMain=&new=Y&catalogId=15001&langId=46&storeId=10177&URL=https%3A%2F%2Fse.farnell.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FCheckoutFlow%3FcatalogId%3D15001%26orderId%3D.%26viaLogin%3Dtrue%26langId%3D46%26storeId%3D10177%26BASE_URL%3DBasketPage">Registrera dig</a>
+                            </div>
+                        </div>
+
+                    </dd>
+                    
+                     
+                    
+                </dl>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+	   	<div class="bot_left"></div>
+    	<div class="bot_right"></div>
+	</div>
+</div>  
+
+
+
+<div id="RoHSCertificatePopup" dojoType="dijit.Dialog" parseOnLoad="true" class="popupContent" style="display:none">
+	<div class="top_left"></div>
+	<div class="top_right"></div>
+	<div class="header" id="popupHeader">
+		<div class="close closeOverlay closeOverlayWrap">
+		    <a class="closeIconWrap closeLinkRoHS" href="javascript:void(0)" data-dtm-eventinfo="Close"><span class="pfIcon pfClose">&nbsp;</span></a>
+			<a class="closeTextWrap closeLinkRoHS" href="javascript:void(0)" data-dtm-eventinfo="Close">Stäng</a>
+		</div>
+	</div>
+	<div class="bodycontent rohsWrap">
+		<h2 class="rohsHead">Certifikat för produktefterlevnad</h2>
+		<p>Hämta och spara ett certifikat för den här produkten, komplett med dina unika kunddetaljer.</p>
+		<p>Välj från en PDF eller utskrivbart HTML-format.</p>
+
+		<div class="certLink">
+			<form target="_blank" action="https://se.farnell.com/webapp/wcs/stores/servlet/GenerateRoHSCertificate?catalogId=15001&amp;storeId=10177&amp;langId=46" id="pdfRoHSCertificateForm" name="pdfRoHSCertificateForm" method="post">
+				<input type="hidden" name="format" id="format" value="PDF" />
+				<input type="hidden" name="productId" id="productId_pdfRoHSCertificateForm" value="" />
+				<a href="javascript:void(0);" data-dtm-eventinfo="PDF certificate" onclick="document.forms.pdfRoHSCertificateForm.submit();dijit.byId('RoHSCertificatePopup').hide();">
+					<span class="pfIcon pfPdf"></span>
+					PDF-certifikat
+				</a>
+				<input type="hidden" name="authToken" value="100863582038%2CsfAHE2bL8XJ7%2Fr5ZDJguwYWkxG2SJkkzdq%2FRXtBiYSw%3D"/>
+			</form>
+		</div>
+		<div class="certLink">	
+			<form action="https://se.farnell.com/webapp/wcs/stores/servlet/GenerateRoHSCertificate?catalogId=15001&amp;storeId=10177&amp;langId=46" id="htmlRoHSCertificateForm" target="_blank" name="htmlRoHSCertificateForm" method="post" target="_blank">
+				<input type="hidden" name="format" id="format" value="HTML" />
+				<input type="hidden" name="productId" id="productId_htmlRoHSCertificateForm" value="" />
+				<a href="javascript:void(0);" data-dtm-eventinfo="Printable HTML certificate" onclick="document.forms.htmlRoHSCertificateForm.submit();dijit.byId('RoHSCertificatePopup').hide();">
+					<span class="pfIcon pfBrowser"></span>
+					Utskrivbart HTML-certifikat
+				</a>
+				<input type="hidden" name="authToken" value="100863582038%2CsfAHE2bL8XJ7%2Fr5ZDJguwYWkxG2SJkkzdq%2FRXtBiYSw%3D"/>
+			</form>
+		</div>
+
+		<div class="continueShopping">
+			<a class="btn btnTertiary closeLinkRoHS" href="javascript:void(0)" data-dtm-eventinfo="Continue Shopping">
+				Fortsätt handla
+			</a>
+		</div>	
+	</div>
+	<div class="footer">
+		<div class="bot_left"></div>
+		<div class="bot_right"></div>
+	</div>
+</div>
+
+
+<!-- END OrderItemDetail.jsp -->
+	</div>
+
+	<div class="espotPanel"> 
+		
+
+
+<section class="genericESpot" id="pf_sb_mzone_01" role="region" aria-label="Marknadsföringsinnehåll">
+<!-- content/common/espots/pf-sb-mzone-01.html --><!--CONTENT FOR EUROPE-->        <DIV><!-- content/europe/common/espots/informational/pf-sb-mzone-01-eu.html --><!-- WF1568093 --><DIV><!-- content/common/mer/js_embeds/at-cart-mbox-prod.html --><!-- WF1834651 MKT / AT --><div id="mktCartMbox1ID"></div><script>mkOnReady(function(){    require(        {            cacheBust: "mktver1a"        },        ["/wcsstore/ExtendedSitesCatalogAssetStore/cms/asset/js/common/mkt_widgets/mer/adobe_target/at-cart-mbox.js"],        function (atMbox) {            try {                var mktPageContext = {};                var mktAt = atMbox(mktPageContext);                console.log("mktAt",mktAt);            } catch(err) {                console.log(err);                return false;            }        }    );});</script></DIV></DIV>
+</section>
+
+	</div>
+
+ 	<div class="espotPanel">
+ 		<div class="merchDisplay">
+			
+		</div>
+	</div>
+
+</div>
+
+<!-- BEGIN BasketSidebar.jsp -->
+
+
+<div class="checkout-sidebar" data-dojo-type="Sticky" dojotype="Sticky">
+  <div class="stickySidebar enhanceCartStickySidebar">
+  	<h1>
+		Beställning totalt
+	</h1>
+	<div id="summarySection">
+		<!-- BEGIN SingleShipmentOrderTotalsSummary.jsp -->
+
+<input type="hidden" value="calcFailed >>> N" />
+<input type="hidden" value="basicShippingUnknown >>> false" />
+<input type="hidden" value="basicShippingCharge >>> 175" />
+<input type="hidden" value="taxUnknown >>> false" />
+<input type="hidden" value="taxOrVAT >>> 22.78" />
+<input type="hidden" value="pfcaRereeledDisplay >>> " />
+<input type="hidden" value="defaultShipmode >>> true" />
+<input type="hidden" value="orderHasShippingAddress >>> false" />
+
+<input type="hidden" id="shippingChargeException" value="N" />
+<input type="hidden" id="taxesException" value="N" />
+
+
+    <input type="hidden" value="isSelfAddr >>> true" />
+    
+    <input type="hidden" value="isAnyItemContainsWeight >>> true" />
+
+    
+    <form name="deletePromotionCode" method="post" action="ProcessBasket" id="deletePromotionDetailsForm">
+        <input type="hidden" name="langId" value="46"/>
+        <input type="hidden" name="orderId" value="31114514370239" />
+        <input type="hidden" name="catalogId" value="15001"/>
+        <input type="hidden" id="storeId" name="storeId" value="10177" />
+        <input type="hidden" name="URL" value="BasketDataAjaxResponse"/>
+        <input type="hidden" id="deletePromotionCode" name="deletePromotionCode" value=""/>
+        <input type="hidden" name="lazyLoadBasket" id="lazyLoadBasket" value="N"/>
+        
+
+<table class="standard summaryTable " id="summaryTotals" data-currency-symbol="kr" data-perf="1" data-feature="1" >
+				<div id="vouchersRemove">
+				
+						
+			</div>		
+						
+			
+                <script>
+                   pf.inlineScripts.push(function(){
+                       if(pf.checkoutInfo && pf.checkoutInfo.summaryData){
+                           pf.checkoutInfo.summaryData.goodsTotal = 91.12;
+                       }
+                   });                         
+                </script>
+            
+				 	<tr class="strong" id="allItemTotal">
+				    <td class="title">
+					Delsumma varor
+                        
+					</td>
+					<td class="rightAlign">
+                        <span id="allItemTotal_price" data-currency-symbol="kr"  data-amt="91.12" data-minFractionDigits="2" data-maxFractionDigits="2">
+						91,12 kr 	
+                        </span>          					 
+					</td>
+				</tr>
+				 
+ 	<tr class="strong" id="basicShippingCharge">
+	    <td class="title">
+			Leverans  
+		</td>
+		<td class="rightAlign">
+	        <span id="basicShippingCharge_price" data-currency-symbol="kr"  data-amt="175" data-minFractionDigits="2" data-maxFractionDigits="2">
+			175,00 kr	
+	        </span>          					 
+		</td>
+	</tr>
+<!-- [Is IS_TAX_DISPLAYED turned on] - Including content due to 'Y' --><!-- featureEnabled 1 --><!-- isKoreanStore  --><!-- taxOrVAT 66.53 --><!-- isAnyItemContainsWeight true --><!-- taxUnknown false --><!-- skipTaxUnknown false --><!-- active  --><!-- displayShippingCharges false --><!-- isTaxCalculationOnBasketEnabled true --><!-- isSelfAddr true --><!-- 111 gtAmount 66.53 -->
+ 	<tr class="strong" id="tax">
+	    <td class="title">
+			Moms  
+		</td>
+		<td class="rightAlign">
+	        <span id="tax_price" data-currency-symbol="kr"  data-amt="66.53" data-minFractionDigits="2" data-maxFractionDigits="2">
+			66,53 kr	
+	        </span>          					 
+		</td>
+	</tr>
+<!-- [Is TARIFF_CHARGE_ENABLED turned on] - Excluding content due to 'N' -->
+ 	<tr class="strong" id="Total">
+	    <td class="title">
+			Totalsumma  
+		</td>
+		<td class="rightAlign">
+	        <span id="Total_price" data-currency-symbol="kr"  data-amt="332.65" data-minFractionDigits="2" data-maxFractionDigits="2">
+			332,65 kr	
+	        </span>          					 
+		</td>
+	</tr>
+
+</table>
+
+        
+    <div class="freeDeliveryCont drop">
+        <div class="freeDeliveryMsgInfo"></div>
+        <p>Om du handlar för ytterligare <strong>759,00 kr</strong>, så får du fri frakt*</p>
+    </div>
+
+        </form>
+    <!-- END SingleShipmentOrderTotalsSummary.jsp -->
+	</div>
+
+	<div class="vouchers" >
+
+	<form name="applyPromotionCode" method="post" action="ProcessBasketApplyVoucher" id="updatePromotionDetailsForm">
+		<div data-group="hidden-inputs">
+			<input type="hidden" name="langId" value="46"/>
+			
+					<input type="hidden" name="orderId" value="[Ljava.lang.String;@cc54aaf5"/>
+				 
+			<input type="hidden" name="catalogId" value="15001"/>
+			<input type="hidden" id="storeId" name="storeId" value="10177" />
+			<input type="hidden" name="URL" value="BasketDataAjaxResponse"/>
+			<input type="hidden" name="errorViewName" value="BasketErrorAjaxResponse" />
+			<input type="hidden" name="lazyLoadBasket" id="lazyLoadBasket" value="N"/>
+            			
+		</div>
+		<div class="collapsable promo-code-container" data-dojo-type="Collapsable" dojotype="Collapsable">
+			<label for="promotionCode" class="voucherLabel" data-dojo-attach-point="trigger">
+				Lägg till rabattkod
+				<span class="icon icon-right-open"></span>
+			</label>
+			<div class="collapsable-content">
+                
+                        <input type="text" name="promotionCode" id="promotionCode"  placeholder="Rabattkod" />
+                        <input type="submit" class="btn btnSecondary omTagEvt  " data-prop="eVar27|prop21" data-om="Apply Voucher Code" name="applyVoucherCode" id="applyVoucherCode" value="Tillämpa"  />
+                    
+			</div>
+		</div>
+	</form>
+</div>	
+	<div class="checkout-button">
+		
+				<a class="btn btnPrimary checkoutContinue notLogged coEnabled omTagEv addBasketAjaxLoader v2" data-prop="eVar27|prop21" data-om="Checkout - Top" href="https://se.farnell.com/webapp/wcs/stores/servlet/CheckoutFlow?default=true&amp;catalogId=15001&amp;langId=46&amp;storeId=10177&amp;BASE_URL=BasketPage&amp;shipmentType=single" onClick="pf.checkout.updateBomLSPartNo()">
+					
+					<span class="pfPadLockIcon"></span><div class="title">Till kassan</div>
+				</a>
+			
+	</div>
+	
+			<div><p class="">*Räknas ut på grundval av dina preferenser eller valda fraktsätt</p></div>
+			
+	        <div class="orderTotalEspot">
+	        	<!-- Start /Snippets/Marketing/ContentAreaESpot.jsp -->
+		<section class="genericESpot hideContent" id="pf_shipbill_espot_03"  role="region" aria-label="Marknadsföringsinnehåll">
+	
+            <div class="ad" id="ad_pf_shipbill_espot_03">
+        <span class="mkt-cms-source" style="display:none;"><!-- content/common/espots/pf-shipbill-espot-03.html--></span><!--CONTENT FOR EUROPE--></>
+            </div>
+        
+		</section>
+	<!-- End /Snippets/Marketing/ContentAreaESpot.jsp -->
+			</div>
+	    
+		<a class="printPageImg displayNone" href="javascript:window.print()">
+		<span>Skriv ut sida</span></a>
+	
+		
+		
+	<div class="clearfix"></div>
+	</div>
+	
+	
+<div class="popupContent" widgetid="deleteSchedulePopup" id="deleteSchedulePopup" role="dialog" dojoType="dijit.Dialog" aria-describedby="intro" style="display:none">
+   <div class="header" id="popupHeader1">
+      <a id="closeSchedulingPopup" href="javascript:void(0);" onclick="dijit.byId('deleteSchedulePopup').hide();">
+      	<span class="icon">
+        	<span class="pfIcon pfClose">&#10005;</span>
+		</span>					
+      </a>
+    </div>
+     <div class="bodyarea">
+       <div class="loading"></div>
+       <div class="deleteSchedulingOverlay">
+           	<h3>Ta bort leveransbokning</h3>    	
+		<p class="actionText">
+		   Är det säkert att du vill ta bort leveransbokningen som du skapat för den här beställningen?
+		</p>
+		<p class="actionButtons">
+           <button type="button" class="btn btnPrimary cancelBtn" onclick="dijit.byId('deleteSchedulePopup').hide();"> 
+	           Nej, ta inte bort den här leveransbokningen       
+           </button>                         
+            
+           		<button type="button" class="btn btnPrimary continueBtn deleteScheduleConf">Bekräfta</button>
+           	
+        </p>
+       </div>
+   </div>
+</div>
+
+
+<div class="popupContent popupContentV2" widgetid="apacScheduleCreatePopup" id="apacScheduleCreatePopup" role="dialog" dojoType="dijit.Dialog" aria-describedby="intro" style="display:none">
+     <div class="header" id="popupHeader">
+         <div class="close">
+            <a id="closeLinkAvnetpopup" href="javascript:void(0);" onclick="dijit.byId('apacScheduleCreatePopup').hide();">
+            <span class="icon">
+            <span class="pfIcon pfClose">&#10005;</span>
+            </span>					
+            </a>
+         </div>
+      </div>
+      <div class="bodyarea">
+         <div class="loading"></div>
+          <div class="schedulingOverlay">
+          <p class="schedulingOverLayTitle boldFont">???BASKET_SCHEDULE_CONSOLIDATE???</p>
+            <p class="instructionText">???BASKET_CONSOLIDATE_ORDER_Q???</p>
+            <form name="schedulingConsolidation" method="post" action="#">
+               <p class="radioOption">
+                  <input id="consolidate" name="apacSchedulingOption" value="consolidateByLine" type="radio"><span class="boldFont">???BASKET_CONSOLIDATE_BY_LINE???</span><br>
+                  <span class="radioOptionDesc">???BASKET_CONSOLIDATE_BY_LINE_TT???</span>
+               </p>
+               <p class="radioOption">
+                  <input id="scheduleCreate" name="apacSchedulingOption" value="createSchedule" type="radio"><span class="boldFont">???BASKET_SCHEDULE_CREATE???</span><br>
+                  <span class="radioOptionDesc">???BASKET_SCHEDULE_CREATE_DESC???</span>
+               </p>
+               <p class="actionButtons">
+                  <button type="button" class="btn btnPrimary cancelBtn" onclick="dijit.byId('apacScheduleCreatePopup').hide();">Avbryt</button>
+                  <button type="button" class="btn btnPrimary continueBtn apacCreateSchedule">OK</button>
+               </p>
+               
+            </form>
+          </div>
+      </div>
+      
+      <div class="footer">
+      </div>
+</div>
+<div class="stickySidebar stickySidebar--schedule">
+	
+		<div class="schedulerBox guestScheduling">
+		  <span class="createScheduleIcon"></span>
+		  <h1 class="createScheduleTitle">Schemalägg din beställning</h1>
+		  <div class="clearfix"></div>
+		  <p>För att skapa en schemalagd beställning måste du vara inloggad. Denna funktion är inte tillgänglig för gästanvändare.</p>
+		  <div>
+		   <a href="https://se.farnell.com/webapp/wcs/stores/servlet/LogonForm?myAcctMain=1&catalogId=15001&langId=46&storeId=10177&URL=https%3A%2F%2Fse.farnell.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FAjaxOrderItemDisplayView%3FcatalogId%3D15001%26orderId%3D%26langId%3D46%26storeId%3D10177">Logga in</a>
+		   <a href="https://se.farnell.com/webapp/wcs/stores/servlet/UserRegistrationForm?myAcctMain=&new=Y&catalogId=15001&storeId=10177&langId=46&URL=https%3A%2F%2Fse.farnell.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FAjaxOrderItemDisplayView%3FcatalogId%3D15001%26orderId%3D%26langId%3D46%26storeId%3D10177" class="regLink">Registrera dig nu</a> 
+		 </div>
+		</div>
+	
+</div>
+<!-- Start /Snippets/Marketing/ContentAreaESpot.jsp -->
+		<section class="genericESpot hideContent" id="pf_sb_espot_03"  role="region" aria-label="Marknadsföringsinnehåll">
+	
+            <div class="ad" id="ad_pf_sb_espot_03">
+        <!--update--><span class="mkt-cms-source" style="display:none;"><!-- content/common/espots/pf-sb-espot-03.html--></span><!--CONTENT FOR EUROPE--></>
+            </div>
+        
+		</section>
+	<!-- End /Snippets/Marketing/ContentAreaESpot.jsp -->
+  
+</div>
+
+
+<!-- END BasketSidebar.jsp --><!-- END ShopCartDisplay.jsp -->					
+				</div>                 
+			</div>  
+			
+</div>
+</main>
+   
+       </div>
+       
+
+<div class="popupContent" id="priceBreaks" dojoType="dijit.Dialog" aria-describedby="intro" style="display:none">
+	<div class="top_left"></div>
+	<div class="top_right" ></div>
+	<div class="header">
+		
+		<div class="close closeOverlay closeOverlayWrap " style="display:none">
+		    <a class="closeIconWrap" href="javascript:void(0)" >
+		    	<span class="pfIcon pfClose pfCloseIcon">&nbsp;</span>
+		    </a>	
+	    	
+			<a class="closeTextWrap" href="javascript:void(0)">				
+				Stäng							
+   			</a>
+		</div>
+		
+	</div>
+	<div class="bodyarea">
+		<div class="bodycontent">
+			<div class="popBody">
+				
+				
+				<input type="hidden" value="https://se.farnell.com/webapp/wcs/stores/servlet/PFPackagePriceBreaksCmd?catalogId=15001&productId=&minOrderQty=&partNumber=&langId=46&storeId=10177&mfPartNumber=" class="hiddenSrc" />
+								
+			</div>
+		</div>			
+	</div>
+	<div class="footerOverlay">
+    	<div class="bot_left"></div>
+    	<div class="bot_right"></div>
+   <!-- <a href="javascript:void(0)" class="btn btnTertiary spottedErrorCancel cancelBut" onclick="dijit.byId('priceBreaks').hide();dojo.query('.popIframe')[0].src=dojo.query('.popIframe')[0].src;dojo.query('a.requisitionList[data-running]').removeAttr('data-running');event.preventDefault();">Avbryt</a> -->	
+	</div>
+</div>
+
+
+<div class="popupContent" id="contactMeOverlay" dojoType="dijit.Dialog" aria-describedby="intro" style="display:none">
+	<div class="top_left"></div>
+	<div class="top_right" ></div>
+	<div class="header">
+		
+		<div class="close closeOverlay closeOverlayWrap " style="display:">
+		    <a class="closeIconWrap" href="javascript:void(0)" >
+		    	<span class="pfIcon pfClose pfCloseIcon">&nbsp;</span>
+		    </a>	
+	    	
+			<a class="closeTextWrap" href="javascript:void(0)">				
+				Stäng							
+   			</a>
+		</div>
+		
+	</div>
+	<div class="bodyarea">
+		<div class="bodycontent">
+			<div class="popBody">
+				
+				
+				<input type="hidden" value="PFContactMeEmail?storeId=10177&catalogId=15001&uniqueID=" class="hiddenSrc" />
+								
+			</div>
+		</div>			
+	</div>
+	<div class="footerOverlay">
+    	<div class="bot_left"></div>
+    	<div class="bot_right"></div>
+   <!-- <a href="javascript:void(0)" class="btn btnTertiary spottedErrorCancel cancelBut" onclick="dijit.byId('contactMeOverlay').hide();dojo.query('.popIframe')[0].src=dojo.query('.popIframe')[0].src;dojo.query('a.requisitionList[data-running]').removeAttr('data-running');event.preventDefault();">Avbryt</a> -->	
+	</div>
+</div>
+
+
+<div class="popupContent" id="packageOptionsOverLay" dojoType="dijit.Dialog" aria-describedby="intro" style="display:none">
+	<div class="top_left"></div>
+	<div class="top_right" ></div>
+	<div class="header">
+		
+		<div>
+			<span class="packoptions">
+			<strong>Förpackningsalternativ:</strong>
+			</span>
+		</div>
+		
+		<div class="close closeOverlay closeOverlayWrap closeOverlayCustom" style="display:">
+		    <a class="closeIconWrap" href="javascript:void(0)" >
+		    	<span class="pfIcon pfClose pfCloseIcon">&nbsp;</span>
+		    </a>	
+	    	
+			<a class="closeTextWrap" href="javascript:void(0)">				
+				Stäng							
+   			</a>
+		</div>
+		
+	</div>
+	<div class="bodyarea">
+		<div class="bodycontent">
+			<div class="popBody">
+				
+				
+				<input type="hidden" value="https://se.farnell.com/webapp/wcs/stores/servlet/AjaxGetPackageOptions?catalogId=15001&quantity=&productId=&langId=46&storeId=10177&pageFrom=&preselectedPkgCode=" class="hiddenSrc" />
+								
+			</div>
+		</div>			
+	</div>
+	<div class="footerOverlay">
+    	<div class="bot_left"></div>
+    	<div class="bot_right"></div>
+   <!-- <a href="javascript:void(0)" class="btn btnTertiary spottedErrorCancel cancelBut" onclick="dijit.byId('packageOptionsOverLay').hide();dojo.query('.popIframe')[0].src=dojo.query('.popIframe')[0].src;dojo.query('a.requisitionList[data-running]').removeAttr('data-running');event.preventDefault();">Avbryt</a> -->	
+	</div>
+</div>
+
+        <input type="hidden" id="normalTimeoutUrl" value="https://se.farnell.com/webapp/wcs/stores/servlet/LogonForm?catalogId=15001&langId=46&storeId=10177&returnToURL=https%3A%2F%2Fse.farnell.com%2Fwebapp%2Fwcs%2Fstores%2Fservlet%2FAjaxOrderItemDisplayView%3FcatalogId%3D15001%26storeId%3D10177%26langId%3D46"/>
+        
+        <script type="text/javascript">
+pf.inlineScripts.push(function(){
+pf.tagging.tog.omniture = true;
+pf.tagging.data.omniture.flag = true;
+pf.tagging.data.omniture.pageName = "Shopping Cart:Shopping Cart";
+pf.tagging.data.omniture.server = "se.farnell.com";
+pf.tagging.data.omniture.channel = "Shopping Cart";
+pf.tagging.data.omniture.pageType = "";
+var urlVars = pf.base.getURLvars(window.location.href); 
+if (urlVars['CMP']) { 
+   dataCMP = urlVars['CMP']; 
+   pf.tagging.data.omniture.campaign = dataCMP; 
+} else if (urlVars['cmp']) { 
+   dataCMP = urlVars['cmp']; 
+   pf.tagging.data.omniture.campaign = dataCMP; 
+} 
+pf.tagging.data.omniture.eVar2 = "sv_SE";
+pf.tagging.data.omniture.prop2 = "sv_SE";
+pf.tagging.data.omniture.currencyCode = "GBP";
+if (urlVars['COM']) { 
+   dataCOM = urlVars['COM']; 
+   pf.tagging.data.omniture.eVar6 = dataCOM; 
+} else if (urlVars['com']) { 
+   dataCOM = urlVars['com']; 
+   pf.tagging.data.omniture.eVar6 = dataCOM; 
+} 
+if (urlVars['ICID']) { 
+   dataICID = urlVars['ICID']; 
+   pf.tagging.data.omniture.eVar7 = dataICID; 
+} else if (urlVars['icid']) { 
+   dataICID = urlVars['icid']; 
+   pf.tagging.data.omniture.eVar7 = dataICID; 
+} 
+if (urlVars['MER']) { 
+   dataMER = urlVars['MER']; 
+   pf.tagging.data.omniture.eVar8 = dataMER; 
+} else if (urlVars['mer']) { 
+   dataMER = urlVars['mer']; 
+   pf.tagging.data.omniture.eVar8 = dataMER; 
+} 
+if (urlVars['ost']) { 
+   dataSearchTerm = urlVars['ost']; 
+   pf.tagging.data.omniture.eVar14 = dataSearchTerm; 
+   pf.tagging.data.omniture.prop8 = dataSearchTerm; 
+   pf.tagging.data.omniture.eVar13 = 1; 
+   pf.tagging.data.omniture.prop7 = 1; 
+} else if (urlVars['OST']) { 
+   dataSearchTerm = urlVars['OST']; 
+   pf.tagging.data.omniture.eVar14 = dataSearchTerm; 
+   pf.tagging.data.omniture.prop8 = dataSearchTerm; 
+   pf.tagging.data.omniture.eVar13 = 1; 
+   pf.tagging.data.omniture.prop7 = 1; 
+} 
+if (urlVars['MCKV']) { 
+   dataMCKV = urlVars['MCKV']; 
+   pf.tagging.data.omniture.eVar49 = dataMCKV; 
+} else if (urlVars['mckv']) { 
+   dataMCKV = urlVars['mckv']; 
+   pf.tagging.data.omniture.eVar49 = dataMCKV; 
+} 
+if (urlVars['PFFREF']) { 
+   dataPffref = urlVars['PFFREF']; 
+   pf.tagging.data.omniture.referrer = dataPffref; 
+} else if (urlVars['pffref']) { 
+   dataPffref = urlVars['pffref']; 
+   pf.tagging.data.omniture.referrer = dataPffref; 
+} 
+if (urlVars['PFFTID']) { 
+   dataPfftid = urlVars['PFFTID']; 
+   pf.tagging.data.omniture.eVar28 = dataPfftid; 
+} else if (urlVars['pfftid']) { 
+   dataPfftid = urlVars['pfftid']; 
+   pf.tagging.data.omniture.eVar28 = dataPfftid; 
+} 
+pf.tagging.data.omniture.events="scView";
+
+ pf.tagging.data.omniture.reportSuiteId = "pf-e14-se, pf-e14-euro";
+let searchTrackVal=localStorage.getItem('SEARCHBOX_TRACKING'); 
+if(searchTrackVal){ 
+	let searchTermVal=localStorage.getItem('SEARCHBOX_SEARCHTERM')||'NoSearchTerm'; 
+	pf.tagging.data.omniture.eVar15 = '$SA:'+searchTrackVal+'|$ST:'+searchTermVal; 
+	pf.tagging.data.omniture.eVar55 = '$SA:'+searchTrackVal+'|$ST:'+searchTermVal; 
+	if(pf.tagging.data.omniture.events){ 
+		pf.tagging.data.omniture.events += ',event490' 
+	}else{
+		pf.tagging.data.omniture.events = 'event490' 
+	}
+	localStorage.removeItem('SEARCHBOX_SEARCHTERM'); 
+	localStorage.removeItem('SEARCHBOX_TRACKING'); 
+} 
+});</script><noscript>   <a href="https://www.omniture.com" title="WebAnalytics">    <img src="https://premierfarnell.112.2O7.net/b/ss/pf-e14-se, pf-e14-euro/1/H.24.3--NS/0" height="1" width="1" border="0" alt="" />   </a></noscript>
+
+<script>
+    
+    
+    if (window.addEventListener) {
+      window.addEventListener('load', function(){
+        loadDemand();     
+      }, false);
+    }
+    else if (window.attachEvent) {
+      window.attachEvent('onload', function(){
+        loadDemand();
+      });
+    }
+    function loadDemand() {
+        pf.inlineScripts.push(function(){
+            if(pf.tagging.data.demandBase.scriptUrl0 && pf.tagging.tog.demandBase) {
+                var dbJs = location.protocol + '//leads.demandbase.com/'
+                        + pf.tagging.data.demandBase.scriptUrl0 + '.js';                
+                    dojo.create('script', {
+                        type : 'text/javascript',
+                        src : dbJs
+                    }, dojo.body());
+            }
+        });
+    }
+    
+</script>
+
+
+<!-- Start /Snippets/Marketing/ContentAreaESpot.jsp -->
+		<section class="genericESpot hideContent" id="pf_custom_js"  role="region" aria-label="Marknadsföringsinnehåll">
+	
+            <div class="ad" id="ad_pf_custom_js">
+        <span class="mkt-cms-source" style="display:none;"><!-- content/common/espots/pf-custom-js.html--></span><script type="text/javascript" src="https://se.farnell.com/wcsstore/ExtendedSitesCatalogAssetStore/cms/asset/js/common/mkpflib.1.1.min.js?mktver1"></script><DIV><span class="mkt-cms-source" style="display:none;"><!-- content/common/sudo/embeds/sudo_tag_fragments.html JUN 17 10:22 --></span>    <script>        try {            if(window.location.search.indexOf('pfoverride') === -1) {                                                window.mkOnReady(function() {                    var wcsRootPath;                    try {                        var baseURLAsArray = pf.base.scriptLocation ? pf.base.scriptLocation.substring(1).split('/') : [];                        wcsRootPath = baseURLAsArray.length ? baseURLAsArray[0] : 'wcsstore';                    } catch(e) {                        wcsRootPath = 'wcsstore';                    }                                        require({                        cacheBust: '2023-04-11',                        packages: [                            { name: "dojo", location: "/" + wcsRootPath + "/AuroraB2BStorefrontAssetStore/js/dist/dojo" },                            { name: "dijit", location: "/" + wcsRootPath + "/AuroraB2BStorefrontAssetStore/js/dist/dijit" },                            { name: "dojox", location: "/" + wcsRootPath + "/AuroraB2BStorefrontAssetStore/js/dist/dojox" },                            { name: "sudo", location: "/" + wcsRootPath + "/ExtendedSitesCatalogAssetStore/cms/asset/js/common/sudo/releases/2020_36_2"}],                    }, ['sudo/main'], function(pfsudo){                        window.mk =  new pfsudo();                        mk.init(pf, dojo);                    });                }, 'primary');            }        } catch(e) {            console.error('SUDO: mkOnReady is not defined', e);        }                </script>    <form id="sudoFragments" style="display:none">                        <!--  keyvalue start -->                                            <!-- sudo-f: persistent features all regions -->                        <fieldset name="persistent_flag"><input type="hidden" name="active" value="true"/></fieldset>                                                <!--  keyvalue start -->                        <fieldset name="liveagent"><input type="hidden" name="lAgentInit" value="https://d.la1-c2-lon.salesforceliveagent.com/chat"><input type="hidden" name="lAgentDeploy" value="https://c.la1-c2-lon.salesforceliveagent.com/content/g/js/38.0/deployment.js"><input type="hidden" name="lAgentInitIdA" value="572w00000008QNH"><input type="hidden" name="lAgentInitIdB" value="00D20000000J9RF"><input type="hidden" name="lAgentVersion" value=""><input type="hidden" name="lAgentService" value="5738d000000odab"><input type="hidden" name="lAgentSales" value=""><input type="hidden" name="lAgentWeb" value=""><input type="hidden" name="lAgentTechnical" value="573w00000008QRK"><input type="hidden" name="lAgentButton" value="Live Agent"><input type="hidden" name="email_href" value="https://farnellelement14.secure.force.com/LiveAgent/LA_Web2_Case_UK"><input type="hidden" name="feedback_href" value="https://farnellelement14.secure.force.com/LiveAgent/Feedback_UK"><input type="hidden" name="feedback_txt" value="General Feedback"><input type="hidden" name="report_bug_href" value="https://c.eu12.visual.force.com/apex/Report_Bug_UK"><input type="hidden" name="report_bug_txt" value="Report a bug"><input type="hidden" name="error_info_href" value="https://c.eu12.visual.force.com/apex/Incorrect_Product_Info_UK"><input type="hidden" name="error_info_txt" value="Report incorrect information"/></input></input></input></input></input></input></input></input></input></input></input></input></input></input></input></input></fieldset><fieldset name="sudo"><input id="sudoVersion" type="hidden" name="semver" value="r2017.8.2"/><input type="hidden" name="mobile" value="false"/></fieldset></form></DIV>
+            </div>
+        
+		</section>
+	<!-- End /Snippets/Marketing/ContentAreaESpot.jsp -->
+
+<div id="_DT_info" class="displayNone">
+	<div id="_DT_omniturePageName">Shopping Cart:Shopping Cart</div>
+</div>
+
+
+			<script src="https://se.farnell.com/wcsstore/ExtendedSitesCatalogAssetStore/cms/asset/js/europe/lib/mk_referrers.js?26102016"></script><link type="text/css" rel="stylesheet" href="https://se.farnell.com/wcsstore/ExtendedSitesCatalogAssetStore/cms/asset/css/europe/mk_product_detail.css"/>
+    <!-- this is the locale globalTags container -->  <DIV></DIV><DIV><form id="sudoTagFragments" style="display:none"><fieldset name="cjunction"><input type="hidden" name="CID" value=""/><input type="hidden" name="TYPE" value=""/><input type="hidden" name="CURRENCY" value=""/><input type="hidden" name="containerTagId" value=""/><input type="hidden" name="iFrameId" value=""/></fieldset><fieldset name="usrzoom"><input type="hidden" name="url" value=""/></fieldset><fieldset name="sudo"><input type="hidden" name="semver" value="r2017.8.2"/></fieldset></form></DIV>   <!-- end locale globalTags container -->  
+	 	
+				
+		<script>
+		
+	
+			
+			
+			function constructDownloadPDFUrl(){
+				const shippingChargeValue = document.getElementById("shippingChargeValue").value;
+				if(document.getElementById("isNewarkRegion") && !document.getElementById("isPunchoutUser")){
+					
+					document.getElementById("pdfDownload").href= shippingChargeValue +"&shippingCharge=" + document.getElementById("basicShippingCharge_price").innerHTML.trim().replace('\n', '');
+				} else {
+					document.getElementById("pdfDownload").href= shippingChargeValue;
+				}
+	    
+	    
+			}
+  			constructDownloadPDFUrl();
+		</script>
+</html>
