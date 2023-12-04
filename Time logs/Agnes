@@ -14,6 +14,28 @@
 ✔ Check frequency of sensor system and ev. add LPF for reading through microcotrollers.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                WEEK 49 
+
+- Tune the new ATtiny circuit to our original CatFlap.
+- Read the analogue input data from ATtiny (for tuning).
+- Finish final code to start and communicate to our Raspberry Pi Pico, read photodiodes values and power the sensor circuit in intervals. 
+- Add when to stop the antenna and start searching again for the next cat with the IR sensors.
+- Write report.
+✔ Send in final circuit/pinout for the new PCB.
+
+Monday
+- Sick. Could not join meeting.
+- Planned the week.
+- Sent in final PCB circuit.
+- Checked up on the 1 st ATtiny85 and 1st ATtiny84 via Anders for the final sensor (only tested on the PCB version I got to borrow).
+- ATtiny84 in case we get problem with any pin and need extra since we have to use all.
+
+Tuesday
+- Hopefully better so I can join group meeting 10:15.
+- Do more testing on current ATtiny (try to make soldered Pin 6 work).
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 48 
 ✔ Write code for 3.3V ATtiny85 (without USB board)
 ✔ Adjust backup code for 5V to ATtiny, 3.3V to sensor system.
