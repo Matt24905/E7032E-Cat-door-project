@@ -2,6 +2,7 @@ from machine import Pin, Timer, ADC, PWM
 import time
 import math
 
+
 def BatteryMonitor(BatteryCapacity, AverageCurrent):
         BAT_MON_EN = Pin(22, Pin.OUT)
         BAT_MON = ADC(Pin(26))
@@ -26,28 +27,36 @@ def BatteryMonitor(BatteryCapacity, AverageCurrent):
         else:
             BatteryLOW = 0
             Warning_lamp.duty_u16(0)
-        
-        BatteryVoltage = BatteryValue*3.3*560000/(65536*220000) # Change to 560000 to compensate, now the voltage is more accurate
-        BatteryPercentage = (BatteryVoltage-3.6)/.0276 # Vmax=4*1.59=6.36 Vmin=0.9*4=3.6 0.0276=(Vmax-VMin)/100 	LINEAR.. :(
+            
+        BatteryOFFSET = -0.05	# Added a offset in order to more accurately measure the Battery voltage with known reference.
+        BatteryVoltage = BatteryValue*3.3*560000/(65536*220000)+BatteryOFFSET # Change to 560000 to compensate, now the voltage is more accurate
+        BatteryPercentageLINEAR = (BatteryVoltage-3.28)/.0308 # Vmax=4*1.59=6.36 Vmin=0.9*4=3.6 0.0276=(Vmax-VMin)/100 	LINEAR.. :(
+    
+        # Using a equation f(x)=p*x/q*x etc, to calculate the estimated Battery percent instead of using a linear model. p1-p4 and q1 to q3 are coefficiets and we 
+        p1=259.291623686
+        p2=-4844.455062260468
+        p3=30262.19145141232
+        p4=-63241.93146893339
+        q1=-732.3769255750084
+        q2=7335.8999937
+        q3=-19022.75869819
+        # The return we get after the equation is in AmpHours left that we convert to Battery percentage using the formula below.
+        AmpLeft =(p1*math.pow(BatteryVoltage,3)+p2*math.pow(BatteryVoltage,2)+p3*math.pow(BatteryVoltage,1)+p4)/(math.pow(BatteryVoltage,3)+q1*math.pow(BatteryVoltage,2)+q2*math.pow(BatteryVoltage,1)+q3)
+        BatteryPercentage=100*(((2.5-AmpLeft)/2.5))
         
         # Claming max and min percentage if battery is to high or to low.
         if BatteryPercentage < 0:		
             BatteryPercentage = 0
         if BatteryPercentage > 100:
             BatteryPercentage = 100
-
-
-        BV = BatteryVoltage
-        #BatteryPercentageNEW =-0.2027*math.pow(BV,7)+1.8740*math.pow(BV,6)-7.2717*math.pow(BV,5)+15.1045*math.pow(BV,4)-18.0211*math.pow(BV,3)+12.4596*math.pow(BV,2)-5.2252*BV+6.3595
-        BatteryPercentageNEW = -0.1029*math.pow(BV,2)-0.6416*BV+5.9508
-        # BatteryPercentageNEW =math.pow(BatteryVoltage,7)
-        BatteryValue = BatteryValue
-        BatteryLOW = BatteryLOW
+    
+        # Calculating an estimate on how many days of battery we have left if we draw a AverageCurrent and have a BatteryCapacity that we set as input argument.
         BatteryDays = BatteryCapacity*BatteryPercentage*0.01/(AverageCurrent*24)
+  
         
-        return BatteryVoltage, BatteryPercentage, BatteryPercentageNEW, BatteryValue, BatteryLOW, BatteryDays
+        return BatteryVoltage, BatteryPercentage, BatteryPercentageLINEAR, BatteryValue, BatteryLOW, BatteryDays
 
-#BatteryVoltage, BatteryPercentage, BatteryPercentageNEW, BatteryValue, BatteryLOW, BatteryDays = BatteryMonitor()
+#BatteryVoltage, BatteryPercentage, BatteryPercentageLINEAR, BatteryValue, BatteryLOW, BatteryDays = BatteryMonitor()
 
 #print(BatteryVoltage)
 #print(BatteryPercentage)
