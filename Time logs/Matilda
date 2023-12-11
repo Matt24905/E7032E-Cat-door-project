@@ -1,3 +1,16 @@
+WEEK 49
+- Tested the software with the catflap, it works wireless (yay)
+- Worked a bit on the IR sensors, tested a few circuits and different resistor values. Found one that works using just 
+  the raspberry, so it should also work with the ATTiny. 
+- Worked with Nabaz on trying to integrate the app and the catflap.
+- Researched and googled a whole lot, but not a lot to show or any decisions, will have to test things, but also make a 
+  priority list.
+  - Started researching how to decode the signals from the antenna.
+  - Looked into some sort of temporary memory in the raspberry to store chip numbers, since it might take too long for 
+    the database response. Or something's up with my find function, I don't know yet 
+  - Read a bit about bluetooth on the pico w, might be a viable option for wifi credentials, but have to look into it a bit 
+    more. 
+
 WEEK 48
 - Meeting with Jan
 - Been on a software mission to clean up the code and merge files. Also adding comments and helpful print statements 
