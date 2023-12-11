@@ -35,3 +35,36 @@ Week 43:
 Made major progress on the antenna circuits after simulating and discussing with Johan Borg. At the moment we now have in simulation a fully functional antenna driving circuit, from driving the coils to sending digital signals to the microcontrollers.
 I suggested adding a passive notch filter before the comparator to help remove more of the 125kHz carrier wave which worked well. Considering swapping it for an active notch filter with some gain, will experiment more with this later. 
 Did some minor testing/coding with the Raspberry Pi Pico to test its signal generating capabilities and found that it was fast enough to generate a 125kHz signal. 
+
+Week 44:
+
+
+
+Week 45: 
+
+Ordered a couple components that we needed, such as high voltage capacitors, opamps etc. Also did some further tweaks on the circuitry containing the filters and comparator.
+
+Week 46:
+
+Had a PCB manufactured on campus to test the current iteration of our circuitry, containing the filter section, comparator and antenna resonator. 
+However once everything was on we could not get it to work and did not have much time this week to find out why.
+
+Week 47: 
+
+Worked on the PCB to identify issues, such as misplaced components, wrong footprints and short circuits. Fixed enough problems to get part of the PCB to function. 
+The antenna resonator ciruit works, however it gets unreasonably hot. There's something wrong with the circuitry around an opamp that we cant idetify.
+
+
+Week 48: 
+
+We decided to move away from the PCB and onto a breadboard since we felt that we had gotten everything out of the previous PCB that we could. So we designed a new board that's just an adapter for the 
+surface mount components. Once that was designed and milled we started rebuilding the entire circuit on a breadboard to limited success. We managed to get the filter and resonator section to work separately, but not together.
+
+Week 49: 
+After discussions with Johan it was discovered that much of our issues were down to interferences on the breadboard, so we designed a third PCB that just held the resonator section so we could isolate it. We milled and soldered the components onto it and found that it worked fairly well.
+I missed most of the progress on the circuit this week as my parents were visiting for Av4ningen. 
+
+Week 50:
+
+
+
