@@ -1,3 +1,19 @@
+WEEK 50:
+  Monday:
+    Meeting with Jan.
+  
+
+WEEK 49:
+  Monday:
+    Meeting with Jan.
+    Did the last part of worked on simulating a more accurate % of the battery.
+  Other days:
+    Checked out Matildas code and did some planning.
+    Helped with IR and attiny circuit.
+    Arvid and I manage to decode some part of the EM4100 transponder with Arvid and Jakobs antenna.
+    Update the schematic on the PCB
+    Resolder some part on the PCB to test attiny circuit.
+
 WEEK 48:
   Monday:
     Meeting with Jan.
@@ -5,6 +21,7 @@ WEEK 48:
     Fixed the stuff on the PCB that where detected during the first rev of the PCB.
     Talked to Jan on how to use the Proxmark :D
     Did some programming on how to make seperate python files and call them from main file, aswell as worked on the BatteryMonitor that me and Matilda worked on before.
+    Worked on simulating a more accurate % of the battery.
     
 
 WEEK 47:
