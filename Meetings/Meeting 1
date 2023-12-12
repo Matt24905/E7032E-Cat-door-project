@@ -1,13 +1,39 @@
+Meeting 13
+Time, date: 12/12 10:15
+Attending: Everyone! 
+
+Diskussionspunkter:
+- Anders uppdaterade Jan om vad Agnes gjorde förra veckan. 
+- Näst sista mötet, yay! 
+- Problem 
+  - Få klart kattluckan. Arvid och Jakob är tveksamma på läsning av den lilla taggen.
+  - Agnes har kod kvar till sina IR-sensorer, så det är lugnt på den fronten. Låt raspberryn 
+    vara på i typ 30 sekunder. 
+  - Ingen ny PCB. Agnes kanske får bygga på breadboard, eller göra ett litet man kan fräsa på skolan.
+- Rapport! Lol. 
+  - Den ska vara klar nästa vecka enligt GANTT-chart. Jobba på! 
+  - Vi skjuter gärna upp det. Till vecka 52.
+  - Gör en färdig test-setup innan vi skriver rapport. 
+      - Läsa litet chip. Om inte det går, göra ett kretskort för filterdelen
+      - Agnes har kvar kod. Testa, tunea lite. Testa utomhus också. Testa med hela koden för resten
+          av kattluckan. Kommer katten inifrån eller utifrån?
+      - Nabaz har kvar att bygga backend-app-pico. Flask och pico. Löses det, lägga in wifi och öppna/stänga
+        luckan via appen. 
+      - Matilda har kvar att testa med Agnes. Kolla på permanent minne till raspberryn så katten inte behöver vänta.
+        Antennkod.
+      - Anders har kvar antennkod och att skriva tester. Hjälpa Nabaz med test av motorn. 
+- Clean up git - Matilda löser! 
+
 Meeting 12
 Time, date: 29/11
-Attending: Anders, Agens, Jakob, Nebez
+Attending: Anders, Agnes, Jakob, Nebez
 
 - Diskussionspunkter:
   - Statusuppdatering för de olika personerna.
     - Nebez matar på och Anders gör inte så mycket.
     - Agnes och Jakob ska fixa lite tills på fredag för uppdatering av PCBn.
   - Kolla ifall GANTT-chart fortfarande håller och siktar på att få klart den slutgiltiga PCBn på fredag, annars så början på nästa vecka men då mindre tid för felsökning innan jul.
-  - Hur många katter kan få plats i kattluckan innan dom börjar mjaoua?
+  - Hur många katter kan få plats i kattluckan innan dom börjar mjaua?
   - Arvid och Jakob ska fräsa en ny PCB för att testa de olika delarna av antennen lättare. Ska även försöka få till en mätning med Johan för att kunna mäta en transponder.
 
 
@@ -31,7 +57,6 @@ Attending: Everyone!
 - Nebez, presentationer har varit oklara. Jan verkar lite annoyed. Har gjort en cool powerpoint för bättre struktur!
   Alla tycker det är bra, let's go. Nebez frågade vad han vill ha, presentera det vi jobbat med, förstår någon vad 
   du pratar om? Försöka förklara som att du förklarar åt dina föräldrar.
-- 
 
 - Nebez behöver lösenord (URI-key) till databas. Matilda löser så fort hon hittar den. 
 
