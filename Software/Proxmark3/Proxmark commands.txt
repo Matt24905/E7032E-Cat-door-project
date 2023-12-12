@@ -28,7 +28,7 @@ data plot
 data timescale --sr 134 -u ms
 data grid -x 64
 
-lf config --134
+lf config --134lf 
 
 lf em 410x reader
 	After trim.
