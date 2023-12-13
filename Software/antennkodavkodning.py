@@ -138,24 +138,87 @@ def EM410Protocol(output_array):
     else:
         return "Header pattern not found", ''
 
+from machine import Pin
+import utime
+
+from machine import Pin
+import utime
+
+def read_after_starting_sequence(pin, starting_sequence, sample_rate_us):
+    BUFFER_SIZE = 2048  # Define the buffer size based on memory constraints
+
+    buffer = bytearray(BUFFER_SIZE)  # Initialize a bytearray buffer
+    buffer_pos = 0  # Pointer to keep track of the buffer position
+    started_reading = False  # Flag to indicate when to start reading data
+
+    while True:
+        value = pin.value()  # Read the pin value (0 or 1)
+        buffer[buffer_pos] = value  # Store the value in the buffer
+        buffer_pos = (buffer_pos + 1) % BUFFER_SIZE  # Move the buffer pointer
+
+        # Check if the starting sequence is present in the buffer
+        if buffer.startswith(starting_sequence):
+            # Perform actions once the starting sequence is detected
+            print("Starting sequence detected!")
+            started_reading = True  # Set flag to start reading
+            buffer_pos = 0  # Reset buffer position
+
+        if started_reading:
+            # Process or handle the data after the starting sequence is detected
+            # Here, you can add your logic to read or process the incoming data
+            # For example, print the data or trigger specific actions
+
+            # For demonstration, print the buffer content after starting sequence detection
+            print("Data after starting sequence:", buffer[buffer_pos:])
+            # Add your logic here to process or use the data
+            data_list = buffer[buffer_pos:]
+            transition_indices = find_transition_indices(data_list)
+            transitions_1_to_0 = find_1_to_0_transitions(data_list)
+            
+            delbit, delbitkoord, transition_indices = process_data(data_list, transition_indices, transitions_1_to_0)
+            
+            #print("Delbit:", delbit)
+            #print("Delbitkoord:", delbitkoord)
+            #print("Transition indices:", transition_indices)
+            
+            mes = decode_manchester_signal(delbit)
+            print(mes)
+            avkok = EM410Protocol(mes)
+            print(avkok)
+            
+
+        utime.sleep_us(sample_rate_us)  # Introduce delay to control sample rate
 
 
 def main():
-    filename = "EMBINARY.txt"
-    data_list = read_file(filename)
-    transition_indices = find_transition_indices(data_list)
-    transitions_1_to_0 = find_1_to_0_transitions(data_list)
-    
-    delbit, delbitkoord, transition_indices = process_data(data_list, transition_indices, transitions_1_to_0)
-    
-    print("Delbit:", delbit)
-    print("Delbitkoord:", delbitkoord)
-    print("Transition indices:", transition_indices)
-    
-    mes = decode_manchester_signal(delbit)
-    print(mes)
-    avkok = EM410Protocol(mes)
-    print(avkok)
+#     filename = "EMBINARY.txt"
+#     data_list = read_file(filename)
+#     transition_indices = find_transition_indices(data_list)
+#     transitions_1_to_0 = find_1_to_0_transitions(data_list)
+#     
+#     delbit, delbitkoord, transition_indices = process_data(data_list, transition_indices, transitions_1_to_0)
+#     
+#     print("Delbit:", delbit)
+#     print("Delbitkoord:", delbitkoord)
+#     print("Transition indices:", transition_indices)
+#     
+#     mes = decode_manchester_signal(delbit)
+#     print(mes)
+#     avkok = EM410Protocol(mes)
+#     print(avkok)
+#     
+        # Example usage:
+    # Replace 'your_pin_number', 'your_starting_sequence', and 'your_sample_rate_us' with actual values
+    # Configure the pin appropriately (input pin, pull-up/down, etc.)
+    pin_number = 5  # Replace with your actual pin number
+    starting_sequence = b'\x11\x01\x01\x01\x01\x01\x01\x01\x01'  # Replace with your starting sequence (bytes)
+    sample_rate_us = 16  # Replace with your desired sample rate in microseconds
+
+    pin = Pin(pin_number, Pin.IN)  # Initialize the pin as an input
+
+    # Read data into buffer until the starting sequence is detected with the specified sample rate
+    read_with_sample_rate(pin, starting_sequence, sample_rate_us)
+
 
 if __name__ == "__main__":
     main()
