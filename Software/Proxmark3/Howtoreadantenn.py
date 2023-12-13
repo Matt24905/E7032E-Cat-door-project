@@ -1,27 +1,30 @@
-from machine import Pin
+import machine
 import utime
 
-button1 = Pin(0, Pin.IN, Pin.PULL_UP)
+# Define the GPIO pin you want to measure
+gpio_pin = machine.Pin(0, machine.Pin.IN)  # Change 14 to the GPIO pin you're using
 
-readings = []
+# Create a list to store measured values
+measurements = []
 
-# Function to measure values and append them to the readings list
-def measure(pin):
-    value = pin.value()
-    readings.append(value)
+# Perform 32 measurements within 500us timeframe
+start_time = utime.ticks_us()
 
-# Set up the approximate interval in microseconds (0.05ms = 50 microseconds)
-interval_micros = 50
+for _ in range(8000):
+    # Read the GPIO pin value and store it
+    pin_value = gpio_pin.value()
+    measurements.append(pin_value)
+    utime.sleep_us(1)  # Adjust this delay as needed based on measurement requirements
 
-# Measure values at the specified interval until 8000 readings are obtained
-while len(readings) < 8000:
-    start_time = utime.ticks_us()  # Get the current time in microseconds
-    measure(button1)
-    # Wait to approximate the desired interval
-    while utime.ticks_diff(utime.ticks_us(), start_time) < interval_micros:
-        pass
+end_time = utime.ticks_us()
 
-# Save readings to a file
-with open('readings.txt', 'w') as file:
-    for reading in readings:
-        file.write(str(reading) + '\n')
+# Calculate the actual time taken
+elapsed_time = utime.ticks_diff(end_time, start_time)
+
+# Save the measurements to a file
+em = 'em.txt'
+with open(em, 'w') as file:
+    for value in measurements:
+        file.write(str(value) + '\n')
+
+print("Measurement complete. Data saved to", em)
