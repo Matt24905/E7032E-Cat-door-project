@@ -89,15 +89,19 @@ def find_start_of_pattern(signal, pattern):
         return start_index + len(pattern_str)
     else:
         return -1  # Return -1 if the pattern is not found
+def flip_bits_list(bit_list):
+    flipped_list = [1 if bit == 0 else 0 for bit in bit_list]
+    return flipped_list
 
 def decode_manchester_signal(signal):
+    #signal = flip_bits_list(signal)
     pattern = [1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]  # Define the pattern to search for
     start_index = find_start_of_pattern(signal, pattern)
-    print(start_index)
+    #print(start_index)
     start_index = start_index - 18
     
     if start_index != -1:
-        print('start found')
+        #print('start found')
         encoded_signal = signal[start_index:len(signal)]
         
     decoded_binary = []  # Initialize an empty list to store the decoded binary sequence
@@ -162,7 +166,7 @@ def EM410Protocol(output_array):
         return "Header pattern not found", ''
     
 def turn_off_antenna(pwm_object, pin_number):
-    print('Turning off antenna')
+    #print('Turning off antenna')
     # Stop the PWM signal
     pwm_object.deinit()
     
@@ -178,7 +182,7 @@ def read_tag(pin_number, num_measurements, delay_between_measurements_us,antenna
     pwm = generate_125kHz_pwm(antenna_pin)    
     try:
         result = measure_pin_with_delay(pin_number, num_measurements, delay_between_measurements_us)
-        print("Measured values:", result)
+        #print("Measured values:", result)
 
         data_list = result
         transition_indices = find_transition_indices(data_list)
@@ -187,8 +191,8 @@ def read_tag(pin_number, num_measurements, delay_between_measurements_us,antenna
         delbit, delbitkoord, transition_indices = process_data(data_list, transition_indices, transitions_1_to_0)
 
         print("Delbit:", delbit)
-        print("Delbitkoord:", delbitkoord)
-        print("Transition indices:", transition_indices)
+        #print("Delbitkoord:", delbitkoord)
+        #print("Transition indices:", transition_indices)
 
         mes = decode_manchester_signal(delbit)
         print("binart:", mes)
@@ -204,7 +208,7 @@ def read_tag(pin_number, num_measurements, delay_between_measurements_us,antenna
             return True
 
     except Exception as e:
-        print("Error occurred while processing signal:", e)
+        #print("Error occurred while processing signal:", e)
         turn_off_antenna(pwm, pin_number)
         return False
 
