@@ -1,9 +1,7 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 TO DO
 
-- Learn how to save data to ATtiny85 to then read and make graphs
-- Measure and add capacitors to circuit to make response more stable.
-- Find 3 test-furballs in different shades of grey to test on final flap.
+- Fix flickering IR diode!
 
 ✔ Order new ATtiny85.
 ✔ Test original CatFlap diodes on gray objects
@@ -18,8 +16,8 @@
 
 - Try to fix the flickering IR led  
 - Otherwise possible to rebuild and swap out the component? (Will try to make it after exam before leaving)
-- Report writing after that
-- Might not get much done around xmas weekend..
+- Report writing
+- Might not get much done around xmas weekend.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 51
