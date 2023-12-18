@@ -14,6 +14,30 @@
 ✔ Check frequency of sensor system and ev. add LPF for reading through microcotrollers.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                THIS WEEK: 52
+
+- Try to fix the flickering IR led  
+- Otherwise possible to rebuild and swap out the component? (Will try to make it after exam before leaving)
+- Report writing after that
+- Might not get much done around xmas weekend..
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                WEEK 51
+
+- Been bad at time logging
+- Mostly updating circuit and adjusting gains for new components
+- Wrote script to and from ATtiny to Raspberry 
+- Researched the RESET pin and it is better if we skip it..
+- Tested the original component that we will use and one of the IR leds is flickering
+  ...annoying since this means the system won't work on that side because of it..
+- It's also located under the antenna so have to look into it if we also need to 3D print a chip to make it fit ><
+- Much now with 5 reports and one exam.
+- Adjusted the gains differently for the amplifiers since the gain was different on the inside of cat flap vs outside We want the bias to be around 1-1.5 V on both sides since the amplifiers saturates around 1.9 V,
+    assuming it is because we feed it only with +3V VCC and 0V instead of +-3V. 
+- Decided with group that we will put the system on a set hold duraton for the time it takes for cat to be registrerd and the info to be sent out via WiFi before the ATtiny shuts down the Raspberry and IR sensors starts searcing.
+- And we've now merged all parts of cat door with group!
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
                                 WEEK 49 
 
 - Tune the new ATtiny circuit to our original CatFlap.
