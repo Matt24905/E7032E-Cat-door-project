@@ -12,7 +12,7 @@ Jakob Ekvall, jakekv-9@student.ltu.se <br>
 
 Link to report: [https://www.overleaf.com/read/vsyjcxfwmcch](https://www.overleaf.com/read/vsyjcxfwmcch) <br>
 
-Link to presentation: https://docs.google.com/presentation/d/1p9kWSuaHXYsVZVB-tmY74hluppNEt00xy20KJxMcVXU/edit#slide=id.g29d5b1598b2_0_412
+Link to presentation: https://docs.google.com/presentation/d/1uJuHqVPSid_aY_8UZ3XwjzQQK3nhx3rkxRstLh7R2MM/edit?usp=sharing
 
 Link to WBS/project plan: https://docs.google.com/spreadsheets/d/1j_RC8x2nzi24WwkHtlm5jIMLNItzt1e427vKWdE4rbc/edit?usp=sharing <br>
 
