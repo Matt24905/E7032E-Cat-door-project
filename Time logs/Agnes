@@ -2,7 +2,6 @@
                                 TO DO
 
 - Fix flickering IR diode!
-
 ✔ Order new ATtiny85.
 ✔ Test original CatFlap diodes on gray objects
 ✔ Simulate switches for powering diodes PSpice
@@ -10,17 +9,33 @@
 ✔ "Wake up" Raspberry with switch --> Start a LED and read input (OUT/IN)
 ✔ Update when away for xmas (~23 dec)
 ✔ Check frequency of sensor system and ev. add LPF for reading through microcotrollers.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                WEEK: 2
+- Prepare and practice presentation.
+- Group meetings.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                THIS WEEK: 52
-
-- Try to fix the flickering IR led  
-- Otherwise possible to rebuild and swap out the component? (Will try to make it after exam before leaving)
-- Report writing
-- Might not get much done around xmas weekend.
+                                WEEK: 1
+- Finish report
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                WEEK 51
+                                WEEK: 52
+- Write report.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                WEEK: 51
+
+- Monday meeting
+- Group meeting
+- Lived evenings in project room after exam.
+- Adjusted gains and bias a bit more.
+- Cut three fingers trying to get the original IR led out. 
+- Ended up building a temporary, separate one if we want to do a demonstration of all functionalities.
+- Programmed ATtiny to work from both sides for demonstration.
+- Tested programming the ATtiny84 (more pins) the same way as ATtiny85 but didn't work. Might need another setup. We have pins enough though.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                WEEK 50
 
 - Been bad at time logging
 - Mostly updating circuit and adjusting gains for new components
