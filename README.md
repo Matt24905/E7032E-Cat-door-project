@@ -10,6 +10,8 @@ Agnes Lindsten, agelin-7@student.ltu.se <br>
 Arvid Mattsson, arvmat-9@student.ltu.se <br>
 Jakob Ekvall, jakekv-9@student.ltu.se <br>
 
+Report to do list (to do list is in process): https://docs.google.com/spreadsheets/d/1z1Jb6kbTAtdWHH0EG9lIYJ78wvPaeEFzT7mHL56cxgM/edit?usp=sharing
+
 Link to report: [https://www.overleaf.com/read/vsyjcxfwmcch](https://www.overleaf.com/read/vsyjcxfwmcch) <br>
 
 Link to presentation: https://docs.google.com/presentation/d/1uJuHqVPSid_aY_8UZ3XwjzQQK3nhx3rkxRstLh7R2MM/edit?usp=sharing
