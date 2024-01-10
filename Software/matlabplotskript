@@ -1,0 +1,55 @@
+function createLatexReadyFigure(titleText, xAxisText, yAxisText, filename, legendLabels, varargin)
+% createLatexReadyFigure('Title', 'X Axis', 'Y Axis', 'MyCustomName.pdf', {'Legend1', 'Legend2'}, x1, y1, x2, y2, ...)
+
+    % Set default interpreter to LaTeX
+    set(0, 'defaultTextInterpreter', 'latex');
+    set(0, 'defaultLegendInterpreter', 'latex');
+
+    % Create a new figure
+    figure;
+
+    % Set default line width
+    set(0, 'defaultLineLineWidth', 2); % Adjust line width as needed
+
+    % Hold the current axes to plot multiple lines
+    hold on;
+
+    % Plot the data and add legend entries
+    % Iterate over pairs of (X, Y) data sets in varargin
+    legendEntries = {};
+    for i = 1:2:length(varargin)
+        X = varargin{i};
+        Y = varargin{i + 1};
+        plot(X, Y, 'LineWidth', 3); % Plot each pair
+        legendEntries{end+1} = legendLabels{(i+1)/2}; % Add legend label
+    end
+
+    % Release the hold on the current axes
+    hold off;
+
+    % Add legend if legend labels are provided
+    if ~isempty(legendEntries)
+        legend(legendEntries, 'Location', 'northeast');
+    end
+
+    % Set the size of the figure
+    fig = gcf;
+    fig.Units = 'Inches';
+    fig.Position = [0, 0, 6, 4];
+    fig.PaperPositionMode = 'auto'; % Adjust the paper size to the figure
+
+    % Set fonts to LaTeX compatible font, e.g., Times New Roman
+    set(gca, 'FontSize', 14); % Adjust font size as needed
+
+    % Set title and axis labels with larger fonts
+    title(titleText, 'FontSize', 15);
+    xlabel(xAxisText, 'FontSize', 14);
+    ylabel(yAxisText, 'FontSize', 14);
+
+    % Improve plot aesthetics and visibility
+    grid on;
+    box on;
+    
+    % Export the figure using exportgraphics
+    exportgraphics(fig, filename, 'ContentType', 'vector');
+end
