@@ -1,6 +1,4 @@
 function createLatexReadyFigure(titleText, xAxisText, yAxisText, filename, legendLabels, varargin)
-% createLatexReadyFigure('Title', 'X Axis', 'Y Axis', 'MyCustomName.pdf', {'Legend1', 'Legend2'}, x1, y1, x2, y2, ...)
-
     % Set default interpreter to LaTeX
     set(0, 'defaultTextInterpreter', 'latex');
     set(0, 'defaultLegendInterpreter', 'latex');
@@ -15,20 +13,23 @@ function createLatexReadyFigure(titleText, xAxisText, yAxisText, filename, legen
     hold on;
 
     % Plot the data and add legend entries
-    % Iterate over pairs of (X, Y) data sets in varargin
     legendEntries = {};
     for i = 1:2:length(varargin)
-        X = varargin{i};
-        Y = varargin{i + 1};
-        plot(X, Y, 'LineWidth', 3); % Plot each pair
-        legendEntries{end+1} = legendLabels{(i+1)/2}; % Add legend label
+        if (i+1) <= length(varargin)
+            X = varargin{i};
+            Y = varargin{i + 1};
+            plot(X, Y, 'LineWidth', 3); % Plot each pair
+            if (i+1)/2 <= length(legendLabels)
+                legendEntries{end+1} = legendLabels{(i+1)/2}; % Add legend label
+            end
+        end
     end
 
     % Release the hold on the current axes
     hold off;
 
-    % Add legend if legend labels are provided
-    if ~isempty(legendEntries)
+    % Add legend only if there is more than one dataset
+    if length(legendEntries) > 1
         legend(legendEntries, 'Location', 'northeast');
     end
 
